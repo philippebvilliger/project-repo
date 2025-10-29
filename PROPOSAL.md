@@ -1,34 +1,24 @@
 # Project Proposal
 
 ## Project Title:
- The Relationship between Massive Transfer Spending in Football and Improved Team Performance
+Predicting Football Player Performance Based on Transfer Fees
 
 ## Category:
-Data Analysis & Visualization ; Sports Analytics Tool: Calculate player/team statistics and performance metrics
+Sports Analytics & Machine Learning
 
 ## Problem statement or motivation:
-Over the past two decades, as football has skyrocketed in popularity, it has evolved into a highly commercialized sport, attracting ever-growing investment through international wealth and sponsorships. 
-This surge in financial resources has led clubs to spend exorbitant sums in the transfer market to acquire their sought-after players. 
-This, then, raises an important question: has the rise of massive transfer spending in football actually translated into improved team performance?
+In recent decades, clubs have been spending exorbitant sums of money in the transfer market, but high fees haven't always guaranteed high performance. Some expensive signings drastically underperform while cheaper signings excel. The question therefore is: Can we predict a player's future performance based on their transfer fee and historical data?
 
 ## Planned approach and technologies:
- I will use OOP to structure the components of the project. E.g., creating classes like Season and Player to store financial and performance data. 
- Functions can be used for data compilation, cleaning, and statistical analysis. E.g., t-test between high-spending teams and low-spending teams. 
- Datasets can be imported, loaded, read and managed using JSON and CSV. 
- Python modules will be utilized to import specific built-in functions relevant to data handling and statistical operations. 
- Data libraries such as NumPy, Pandas, and Matplotlib will be crucial to analyze and visualize data effectively without having to build complex functionalities from scratch. 
- Finally, statistical methods such as regression, difference-in-differences, correlation analysis… will evaluate the impact of massive spending on team performance.
+I will be collecting transfer fee data from Transfermarkt and performance statistics from FBref. I will focus on approximately 700-1,000 attacker and midfielder transfers from 2017-2024 with transfer fees of €5 million or above in the top 5 European leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1). I will only be focusing on attackers and midfielders, using goals and assists per 90 minutes as my performance metric, given the different priorities different positions have e.g., a defender is focused on defending while an attacker is focused on scoring goals and passing. Predictor variables will include inflation-adjusted transfer fee, age, position, and previous season performance… The data will be split using an 80/20 train/test validation approach, training on 2017-2022 transfers and testing on 2023-2024 transfers to ensure the model is evaluating unseen, new data. I will be using Linear Regression to test whether expensive players perform proportionally to their transfer fee. Random Forest will allow me to capture non-linear patterns, e.g., diminishing returns where a €20M signing may only perform 1.3x better than a €10M player instead of 2x. Finally, I will be using Gradient Boosting to provide predictions by building trees that focus on correcting previous mistakes, e.g., accounting for subtle patterns such as how league quality interacts with transfer fee. I will be using statistical metrics such as R² to evaluate the efficacy of these ML models. Libraries such as pandas will be used for data management and matplotlib for graphs and diagrams.
 
  ## Expected challenges and how you’ll address them:
- This is how I will address my struggles. For python I will use the lectures, I will practice coding on my own to acquire experience, I will regularly test my code and use the debugging system. 
- I will use forums  e.g., stack overflow but also the official python documentation. I can contact the assistants. I can also use AI cautiously as a last resort. 
- In regards to the statistical methods, I will be consulting the lectures of the statistical courses that I was enrolled in during previous years.
+A first challenge may be the lack of present data. Some transfers may have missing or incomplete performance data due to injuries or limited playing time. I can address this by filtering for players with a minimum of, e.g., 500 minutes played in their first season and reporting those excluded. Another challenge is transfer fee inflation, given that transfer fees have dramatically increased from 2017 to 2024, making unaccounted-for comparisons is misleading. I will have to adjust all fees for inflation using appropriate indices and create relative spending features that compare each transfer fee to the league average for that specific season. Finally, the limited sample size for extreme values may heavily skew my findings, i.e., few transfers exceed €80 million, potentially leading to poor predictions for the highest-fee players. I will address this by ensuring the model doesn't overfit to the few expensive transfers and separately evaluating predictions for high-fee players to assess reliability.
+
 
  ## Success criteria (how will you know it’s working?):
-  I will verify the sources, I want to gather correct and factual data. Football is a very well reported sport, finding data should be easy. 
-  I can corroborate my findings with other reports on the issue as it’s surely already been heavily commented on given the relevance of the issue. 
-  I will regularly test my code and debug it in order to eliminate all errors. Furthermore, I can compute additional statistics to help verify that my output is coherent. 
-  Charts and graphs will help visualize these empirical results clearly.. I will also apply the code to other datasets to confirm it works generally, not just an outlier in this case.
+ These are the success criteria: I successfully collect 700-1,000 attacker and midfielder transfers for the dataset. All three ML models train successfully without errors and generate predictions on the test set that don't overfit the training sample. The gap between training and test set performance is small (within 0.10 R² difference), confirming the model generalizes to new data rather than overfitting. The models achieve a test set R² above 0.30 for goals+assists per 90 minutes, demonstrating meaningful predictive power. I identify which features actually predict performance, i.e., transfer fee or previous season performance. I understand the relationship between the features and performance; whether it is linear or has diminishing returns. The code is coherent, legible, and correct, conforming to PEP 8 standards. Finally, I am able to highlight players who overperformed and underperformed relative to their fee-based predictions, demonstrating that the model has practical real-world value.
+
 
   ## Stretch goals:
-   If time permits, I can add my own algorithm where for instance, you can input the name of a given player and see how he performs relative to his market value.
+  If time permits, I will analyze whether transfer performance improves in the second season, testing if players need an adaptation period before delivering full value.
