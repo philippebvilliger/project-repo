@@ -1,43 +1,39 @@
 Player,Age,Nationality,Position,Market_Value,Previous_Club,Transfer_Fee
-Martin Ødegaard,22,,Attacking Midfield,40000000,Real Madrid,35000000
-Emiliano Buendía,24,,Attacking Midfield,35000000,Norwich,38400000
-Leon Bailey,23,,Right Wing,35000000,Leverkusen,32000000
-Danny Ings,29,,Centre-Forward,22000000,Southampton,29400000
-Enock Mwepu,23,,Central Midfield,13000000,Salzburg,23000000
-Abdallah Sima,20,,Left Wing,11000000,Slavia Praha,8000000
-Deniz Undav,25,,Centre-Forward,5000000,Union SG,7000000
-Kaoru Mitoma,24,,Left Wing,1800000,Kawasaki Frontale,3000000
-Wout Weghorst,29,,Centre-Forward,20000000,Wolfsburg,17500000
-Maxwel Cornet,24,,Left Wing,12000000,Lyon,15000000
-Romelu Lukaku,28,,Centre-Forward,100000000,Inter,113000000
-Odsonne Édouard,23,,Centre-Forward,17000000,Celtic,16300000
-Jean-Philippe Mateta,24,,Centre-Forward,5000000,Mainz,11000000
-Michael Olise,19,,Right Wing,15000000,Reading,9300000
-Will Hughes,26,,Central Midfield,7000000,Watford,7000000
-Demarai Gray,25,,Left Wing,8000000,Leverkusen,2000000
-Dele Alli,25,,Attacking Midfield,25000000,Tottenham,0
-Patson Daka,22,,Centre-Forward,22000000,Salzburg,30000000
-Luis Diaz,25,,Left Wing,40000000,Porto,49000000
-Julián Alvarez,22,,Centre-Forward,20000000,River Plate,21400000
-Jack Grealish,25,,Left Wing,65000000,Aston Villa,117500000
-Jadon Sancho,21,,Left Wing,100000000,Dortmund,85000000
-Cristiano Ronaldo,36,,Centre-Forward,45000000,Juventus,17000000
-Bruno Guimarães,24,,Central Midfield,30000000,Lyon,42100000
-Joe Willock,21,,Central Midfield,16000000,Arsenal,29400000
-Milot Rashica,25,,Right Wing,9000000,Werder Bremen,11000000
-Christos Tzolis,19,,Left Wing,12000000,PAOK,11000000
-Josh Sargent,21,,Centre-Forward,8000000,Werder Bremen,9500000
-Adam Armstrong,24,,Centre-Forward,18000000,Blackburn,17700000
-Bryan Gil,20,,Left Wing,30000000,Sevilla FC,25000000
-Rodrigo Bentancur,24,,Central Midfield,25000000,Juventus,19000000
-Pape Matar Sarr,18,,Central Midfield,10000000,FC Metz,16900000
-Imrân Louza,22,,Central Midfield,12000000,FC Nantes,10000000
-Emmanuel Dennis,23,,Centre-Forward,5000000,Club Brugge,4000000
-Moussa Sissoko,32,,Central Midfield,10000000,Tottenham,3500000
-Samuel Kalu,24,,Right Wing,5500000,Girondins Bordeaux,3000000
-Yáser Asprilla,18,,Right Wing,500000,Envigado,3000000
-Joshua King,29,,Centre-Forward,8000000,Everton,0
-Nikola Vlašić,23,,Attacking Midfield,30000000,CSKA Moscow,30000000
-Chiquinho,21,,Left Wing,1000000,Estoril,3500000
-Sang-bin Jeong,19,,Centre-Forward,850000,Suwon Bluewings,1200000
-Hayao Kawabe,26,,Central Midfield,1300000,Grasshoppers,600000
+Martin Ødegaard,22,Norway,Attacking Midfield,40000000,Real Madrid,35000000
+Emiliano Buendía,24,Argentina,Attacking Midfield,35000000,Norwich,38400000
+Leon Bailey,23,Jamaica,Right Wing,35000000,Leverkusen,32000000
+Danny Ings,29,England,Centre-Forward,22000000,Southampton,29400000
+Enock Mwepu,23,Zambia,Central Midfield,13000000,Salzburg,23000000
+Abdallah Sima,20,Senegal,Left Wing,11000000,Slavia Praha,8000000
+Deniz Undav,25,Germany,Centre-Forward,5000000,Union SG,7000000
+Wout Weghorst,29,Netherlands,Centre-Forward,20000000,Wolfsburg,17500000
+Maxwel Cornet,24,Ivory Coast,Left Wing,12000000,Lyon,15000000
+Romelu Lukaku,28,Belgium,Centre-Forward,100000000,Inter,113000000
+Odsonne Édouard,23,France,Centre-Forward,17000000,Celtic,16300000
+Jean-Philippe Mateta,24,France,Centre-Forward,5000000,Mainz,11000000
+Michael Olise,19,England,Right Wing,15000000,Reading,9300000
+Will Hughes,26,England,Central Midfield,7000000,Watford,7000000
+Patson Daka,22,Zambia,Centre-Forward,22000000,Salzburg,30000000
+Luis Diaz,25,Colombia,Left Wing,40000000,Porto,49000000
+Julián Alvarez,22,Argentina,Centre-Forward,20000000,River Plate,21400000
+Jack Grealish,25,England,Left Wing,65000000,Aston Villa,117500000
+Jadon Sancho,21,England,Left Wing,100000000,Dortmund,85000000
+Cristiano Ronaldo,36,Portugal,Centre-Forward,45000000,Juventus,17000000
+Bruno Guimarães,24,Brazil,Central Midfield,30000000,Lyon,42100000
+Joe Willock,21,England,Central Midfield,16000000,Arsenal,29400000
+Milot Rashica,25,Kosovo,Right Wing,9000000,Werder Bremen,11000000
+Christos Tzolis,19,Greece,Left Wing,12000000,PAOK,11000000
+Josh Sargent,21,USA,Centre-Forward,8000000,Werder Bremen,9500000
+Adam Armstrong,24,England,Centre-Forward,18000000,Blackburn,17700000
+Bryan Gil,20,Spain,Left Wing,30000000,Sevilla FC,25000000
+Rodrigo Bentancur,24,Uruguay,Central Midfield,25000000,Juventus,19000000
+Pape Matar Sarr,18,Senegal,Central Midfield,10000000,FC Metz,16900000
+Imrân Louza,22,Morocco,Central Midfield,12000000,FC Nantes,10000000
+Emmanuel Dennis,23,Nigeria,Centre-Forward,5000000,Club Brugge,4000000
+Moussa Sissoko,32,France,Central Midfield,10000000,Tottenham,3500000
+Samuel Kalu,24,Nigeria,Right Wing,5500000,Girondins Bordeaux,3000000
+Yáser Asprilla,18,Colombia,Right Wing,500000,Envigado,3000000
+Nikola Vlašić,23,Croatia,Attacking Midfield,30000000,CSKA Moscow,30000000
+Chiquinho,21,Portugal,Left Wing,1000000,Estoril,3500000
+Sang-bin Jeong,19,South Korea,Centre-Forward,850000,Suwon Bluewings,1200000
+Hayao Kawabe,26,Japan,Central Midfield,1300000,Grasshoppers,600000
