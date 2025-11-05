@@ -1,0 +1,34 @@
+Player,Age,Nationality,Position,Market_Value,Previous_Club,Transfer_Fee,Club
+Thorgan Hazard,26,Belgium,Attacking Midfield,38000000,Borussia Mönchengladbach,25500000,Borussia Dortmund
+Julian Brandt,23,Germany,Attacking Midfield,50000000,Bayer Leverkusen,25000000,Borussia Dortmund
+Paco Alcácer,25,Spain,Centre-Forward,37000000,Barcelona,21000000,Borussia Dortmund
+Erling Haaland,19,Norway,Centre-Forward,45000000,Red Bull Salzburg,20000000,Borussia Dortmund
+Dani Olmo,21,Spain,Attacking Midfield,35000000,Dinamo Zagreb,34200000,RB Leipzig
+Christopher Nkunku,21,France,Centre-Forward,12000000,PSG,19500000,RB Leipzig
+Ademola Lookman,21,England,Second Striker,20000000,Everton,18000000,RB Leipzig
+Hannes Wolf,20,Austria,Right Winger,12000000,Red Bull Salzburg,12000000,RB Leipzig
+Kerem Demirbay,25,Germany,Central Midfield,32000000,TSG Hoffenheim,32000000,Bayer Leverkusen
+Exequiel Palacios,21,Argentina,Central Midfield,25000000,River Plate,17000000,Bayer Leverkusen
+Moussa Diaby,19,France,Right Winger,12000000,PSG,15000000,Bayer Leverkusen
+Nadiem Amiri,22,Germany,Central Midfield,17000000,TSG Hoffenheim,10500000,Bayer Leverkusen
+Breel Embolo,22,Switzerland,Centre-Forward,14000000,FC Schalke 04,11000000,Borussia Mönchengladbach
+Marcus Thuram,21,France,Centre-Forward,9000000,Guingamp,9000000,Borussia Mönchengladbach
+Xaver Schlager,21,Austria,Central Midfield,15000000,Red Bull Salzburg,12000000,VfL Wolfsburg
+Luka Jović,21,Serbia,Centre-Forward,60000000,Benfica,22340000,Eintracht Frankfurt
+Djibril Sow,22,Switzerland,Central Midfield,9000000,Young Boys,14000000,Eintracht Frankfurt
+Bas Dost,30,Netherlands,Centre-Forward,17000000,Sporting CP,7000000,Eintracht Frankfurt
+Filip Kostić,26,Serbia,Left Midfield,22000000,Hamburger SV,6300000,Eintracht Frankfurt
+Niclas Füllkrug,26,Germany,Centre-Forward,8000000,Hannover 96,6500000,SV Werder Bremen
+Munas Dabbur,27,Israel,Centre-Forward,10000000,Sevilla FC,12000000,TSG Hoffenheim
+Robert Skov,23,Denmark,Left Midfield,13000000,FC Copenhagen,10000000,TSG Hoffenheim
+Ihlas Bebou,25,Togo,Centre-Forward,12000000,Hannover 96,9000000,TSG Hoffenheim
+Jacob Bruun Larsen,21,Denmark,Left Winger,12000000,Borussia Dortmund,9000000,TSG Hoffenheim
+Lucas Tousart,22,France,Central Midfield,20000000,Olympique Lyon,25000000,Hertha BSC
+Krzysztof Piątek,24,Poland,Centre-Forward,32000000,AC Milan,24000000,Hertha BSC
+Dodi Lukebakio,21,Belgium,Right Winger,18000000,Watford,20000000,Hertha BSC
+Matheus Cunha,20,Brazil,Second Striker,13000000,RB Leipzig,18000000,Hertha BSC
+Edward Löwen,22,Germany,Central Midfield,7000000,1.FC Nuremberg,7000000,Hertha BSC
+Vincenzo Grifo,26,Italy,Left Winger,9000000,TSG Hoffenheim,7000000,SC Freiburg
+David Kownacki,22,Poland,Centre-Forward,7500000,Sampdoria,6750000,Fortuna Düsseldorf
+Benito Raman,24,Belgium,Centre-Forward,12000000,Fortuna Düsseldorf,10000000,FC Schalke 04
+Michael Cuisance,20,France,Central Midfield,5000000,Borussia Mönchengladbach,8000000,Bayern Munich
