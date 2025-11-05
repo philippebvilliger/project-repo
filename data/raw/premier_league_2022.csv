@@ -1,4 +1,4 @@
-﻿Player,Age,Nationality,Position,MarketValue,FromClub,Transfer Fee
+﻿Player,Age,Nationality,Position,Market_Value,Previous_Club,Transfer_Fee
 Gabriel Jesus,25,Brazil,Centre-Forward,50000000,Manchester City,52200000
 Fábio Vieira,22,Portugal,Attacking Midfield,25000000,FC Porto,35000000
 Leandro Trossard,28,Belgium,Left Winger,30000000,Brighton & Hove Albion,24000000
@@ -54,3 +54,4 @@ Gonçalo Guedes,25,Portugal,Left Winger,40000000,Valencia CF,32600000
 João Gomes,21,Brazil,Central Midfield,15000000,CR Flamengo,18700000
 Sasa Kalajdzic,25,Austria,Centre-Forward,25000000,VfB Stuttgart,18000000
 Hee-chan Hwang,26,Korea South,Centre-Forward,16000000,RB Leipzig,16700000
+
