@@ -59,7 +59,7 @@ for season in seasons: # We loop through each season starting from 2016-2017
         
         
         # Construct the URL for this specific league and season.
-        url = f'https://fbref.com/en/comps/{league_id}/{season}/{season}-{league_name}-Stats'
+        url = f'https://fbref.com/en/comps/{league_id}/{season}/stats/players/{season}-{league_name}-Stats'
         # This URL gets the main league page which has player statistics, not team aggregates.
         
         try: # We use try-except to handle any errors that may occur during data fetching e.g., network issues, invalid URLs...
