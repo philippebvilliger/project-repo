@@ -1,565 +1,565 @@
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-1;Patrick van Aanholt;nl NED;DF;Crystal Palace;25;1990;11;8;714;07.sept;2;0;2;2;0;0;1;0;0.25;0.00;0.25;0.25;0.25
-2;Patrick van Aanholt;nl NED;DF;Sunderland;25;1990;21;20;1,784;19.août;3;1;4;3;0;0;2;0;0.15;0.05;0.20;0.15;0.20
-3;Charlie Adam;sct SCO;MF;Stoke City;30;1985;24;17;1,491;16.juin;1;3;4;0;1;1;7;0;0.06;0.18;0.24;0.00;0.18
-4;Albert Adomah;gh GHA;DF,FW;Middlesbrough;28;1987;2;1;122;01.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-5;Adrián;es ESP;GK;West Ham;29;1987;16;16;1,44;16.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-6;Ibrahim Afellay;nl NED;FW,MF;Stoke City;30;1986;12;3;384;04.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-7;Benik Afobe;cd COD;FW;Bournemouth;23;1993;31;14;1,461;16.févr;6;3;9;6;0;1;1;0;0.37;0.18;0.55;0.37;0.55
-8;Sergio Agüero;ar ARG;FW;Manchester City;28;1988;31;25;2,403;26.juil;20;4;24;16;4;5;4;1;0.75;0.15;0.90;0.60;0.75
-9;Dan Agyei;eng ENG;FW,MF;Burnley;19;1997;3;0;25;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-10;Ola Aina;ng NGA;DF,MF;Chelsea;19;1996;3;0;26;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-11;Nathan Aké;nl NED;DF,MF;Bournemouth;21;1995;10;8;735;08.févr;3;0;3;3;0;0;0;0;0.37;0.00;0.37;0.37;0.37
-12;Nathan Aké;nl NED;DF,MF;Chelsea;21;1995;2;1;99;01.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-13;Marc Albrighton;eng ENG;DF,FW;Leicester City;26;1989;33;29;2,411;26.août;2;6;8;2;0;0;5;0;0.07;0.22;0.30;0.07;0.30
-14;Toby Alderweireld;be BEL;DF;Tottenham;27;1989;30;30;2,601;28.sept;1;0;1;1;0;0;1;0;0.03;0.00;0.03;0.03;0.03
-15;Trent Alexander-Arnold;eng ENG;DF;Liverpool;17;1998;7;2;167;01.sept;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-16;Joe Allen;wls WAL;MF;Stoke City;26;1990;36;34;2,93;32.6;6;2;8;6;0;0;9;0;0.18;0.06;0.25;0.18;0.25
-17;Dele Alli;eng ENG;FW,MF;Tottenham;20;1996;37;35;3,034;33.7;18;7;25;17;1;1;4;0;0.53;0.21;0.74;0.50;0.71
-18;Ryan Allsop;eng ENG;GK;Bournemouth;24;1992;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-19;Marcos Alonso;es ESP;DF,MF;Chelsea;25;1990;31;30;2,693;29.sept;6;3;9;6;0;0;2;0;0.20;0.10;0.30;0.20;0.30
-20;Daniel Amartey;gh GHA;DF,MF;Leicester City;21;1994;24;17;1,673;18.juin;1;1;2;1;0;0;3;0;0.05;0.05;0.11;0.05;0.11
-21;Jordi Amat;id IDN;DF;Swansea City;24;1992;17;15;1,409;15.juil;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
-22;Nordin Amrabat;ma MAR;FW,MF;Watford;29;1987;29;25;2,091;23.févr;0;3;3;0;0;0;4;0;0.00;0.13;0.13;0.00;0.13
-23;Victor Anichebe;ng NGA;FW;Sunderland;28;1988;18;14;1,219;13.mai;3;0;3;3;0;0;2;0;0.22;0.00;0.22;0.22;0.22
-24;Michail Antonio;jm JAM;FW,MF;West Ham;26;1990;29;29;2,433;27.0;9;3;12;9;0;0;6;2;0.33;0.11;0.44;0.33;0.44
-25;Ikechi Anya;sct SCO;FW,MF;Watford;28;1988;1;0;10;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-26;Álvaro Arbeloa;es ESP;DF;West Ham;33;1983;3;1;258;02.sept;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-27;Scott Arfield;ca CAN;MF;Burnley;27;1988;31;23;2,102;23.avr;1;1;2;1;0;0;3;0;0.04;0.04;0.09;0.04;0.09
-28;Marko Arnautović;at AUT;FW,MF;Stoke City;27;1989;32;32;2,714;30.2;6;5;11;6;0;1;9;1;0.20;0.17;0.36;0.20;0.36
-29;Harry Arter;ie IRL;MF;Bournemouth;26;1989;35;33;2,957;32.9;1;3;4;1;0;1;13;1;0.03;0.09;0.12;0.03;0.12
-30;Joel Asoro;se SWE;FW,MF;Sunderland;17;1999;1;0;10;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-31;Charlie Austin;eng ENG;FW;Southampton;27;1989;15;11;934;10.avr;6;1;7;4;2;2;1;0;0.58;0.10;0.67;0.39;0.48
-32;Daniel Ayala;es ESP;DF;Middlesbrough;25;1990;14;11;918;10.févr;1;0;1;1;0;0;3;0;0.10;0.00;0.10;0.10;0.10
-33;André Ayew;gh GHA;FW,MF;West Ham;26;1989;25;16;1,438;16.0;6;3;9;6;0;0;1;0;0.38;0.19;0.56;0.38;0.56
-34;Jordan Ayew;gh GHA;FW,MF;Swansea City;24;1991;14;9;866;09.juin;1;2;3;1;0;0;1;0;0.10;0.21;0.31;0.10;0.31
-35;César Azpilicueta;es ESP;DF,MF;Chelsea;26;1989;38;38;3,42;38.0;1;4;5;1;0;0;4;0;0.03;0.11;0.13;0.03;0.13
-36;Eric Bailly;ci CIV;DF;Manchester Utd;22;1994;25;24;2,058;22.sept;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
-37;Leighton Baines;eng ENG;DF;Everton;31;1984;32;32;2,819;31.mars;2;3;5;0;2;3;4;0;0.06;0.10;0.16;0.00;0.10
-38;Patrick Bamford;eng ENG;FW,MF;Middlesbrough;22;1993;8;2;287;03.févr;1;0;1;1;0;0;1;0;0.31;0.00;0.31;0.31;0.31
-39;Patrick Bamford;eng ENG;FW,MF;Burnley;22;1993;6;0;39;0.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-40;Phil Bardsley;sct SCO;DF;Stoke City;31;1985;15;14;1,167;13.0;0;0;0;0;0;0;6;2;0.00;0.00;0.00;0.00;0.00
-41;Ross Barkley;eng ENG;MF;Everton;22;1993;36;32;2,899;32.2;5;8;13;5;0;0;5;0;0.16;0.25;0.40;0.16;0.40
-42;Ashley Barnes;eng ENG;FW,MF;Burnley;26;1989;28;20;1,771;19.juil;6;2;8;4;2;2;8;2;0.30;0.10;0.41;0.20;0.30
-43;Antonio Barragán;es ESP;DF,MF;Middlesbrough;29;1987;26;26;2,193;24.avr;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
-44;Modou Barrow;gm GAM;FW,MF;Swansea City;23;1992;18;12;1,145;12.juil;0;2;2;0;0;0;1;0;0.00;0.16;0.16;0.00;0.16
-45;Gareth Barry;eng ENG;MF;Everton;35;1981;33;23;2,108;23.avr;2;1;3;2;0;0;10;0;0.09;0.04;0.13;0.09;0.13
-46;Joey Barton;eng ENG;MF;Burnley;33;1982;14;12;1,105;12.mars;1;0;1;1;0;0;4;0;0.08;0.00;0.08;0.08;0.08
-47;Borja Bastón;es ESP;FW;Swansea City;23;1992;18;4;561;06.févr;1;0;1;1;0;0;0;0;0.16;0.00;0.16;0.16;0.16
-48;Michy Batshuayi;be BEL;FW;Chelsea;22;1993;20;1;254;02.août;5;1;6;5;0;0;0;0;janv.77;0.35;févr.13;janv.77;févr.13
-49;Asmir Begović;ba BIH;GK;Chelsea;29;1987;2;2;180;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-50;Valon Behrami;ch SUI;DF,MF;Watford;31;1985;27;26;2,03;22.juin;0;2;2;0;0;0;7;0;0.00;0.09;0.09;0.00;0.09
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-51;Héctor Bellerín;es ESP;DF,MF;Arsenal;21;1995;33;27;2,503;27.août;1;4;5;1;0;0;4;0;0.04;0.14;0.18;0.04;0.18
-52;Yohan Benalouane;tn TUN;DF;Leicester City;29;1987;11;11;917;10.févr;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
-53;Christian Benteke;be BEL;FW;Crystal Palace;25;1990;36;36;3,131;34.8;15;2;17;13;2;4;10;0;0.43;0.06;0.49;0.37;0.43
-54;Jonathan Benteke;be BEL;FW;Crystal Palace;21;1995;1;0;7;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-55;Saido Berahino;bi BDI;FW,MF;Stoke City;22;1993;13;8;720;8.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-56;Saido Berahino;bi BDI;FW,MF;West Brom;22;1993;4;3;243;02.juil;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-57;Jóhann Berg Guðmundsson;is ISL;FW,MF;Burnley;25;1990;20;10;998;11.janv;1;2;3;1;0;0;1;0;0.09;0.18;0.27;0.09;0.27
-58;Ryan Bertrand;eng ENG;DF,MF;Southampton;26;1989;28;28;2,507;27.sept;2;3;5;2;0;0;3;0;0.07;0.11;0.18;0.07;0.18
-59;Mame Biram Diouf;sn SEN;FW,MF;Stoke City;28;1987;27;15;1,385;15.avr;1;2;3;1;0;0;3;0;0.06;0.13;0.19;0.06;0.19
-60;Daley Blind;nl NED;DF,MF;Manchester Utd;26;1990;23;20;1,83;20.mars;1;2;3;1;0;0;2;0;0.05;0.10;0.15;0.05;0.15
-61;Yannick Bolasie;cd COD;FW,MF;Crystal Palace;27;1989;1;0;25;0.3;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-62;Yannick Bolasie;cd COD;FW,MF;Everton;27;1989;13;12;1,023;11.avr;1;4;5;1;0;0;2;0;0.09;0.35;0.44;0.09;0.44
-63;Wilfried Bony;ci CIV;FW;Stoke City;27;1988;10;9;684;07.juin;2;0;2;2;0;0;1;0;0.26;0.00;0.26;0.26;0.26
-64;Fabio Borini;it ITA;FW,MF;Sunderland;25;1991;24;19;1,741;19.mars;2;0;2;2;0;0;5;0;0.10;0.00;0.10;0.10;0.10
-65;Artur Boruc;pl POL;GK;Bournemouth;36;1980;35;35;3,15;35.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-66;Sofiane Boufal;ma MAR;FW,MF;Southampton;22;1993;24;12;1,104;12.mars;1;1;2;1;0;0;5;0;0.08;0.08;0.16;0.08;0.16
-67;Jarrod Bowen;eng ENG;FW,MF;Hull City;19;1996;7;1;181;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-68;George Boyd;sct SCO;FW,MF;Burnley;30;1985;36;33;2,836;31.mai;2;1;3;2;0;0;3;0;0.06;0.03;0.10;0.06;0.10
-69;Robbie Brady;ie IRL;DF,FW;Burnley;24;1992;14;7;719;8.0;1;2;3;1;0;0;1;0;0.13;0.25;0.38;0.13;0.38
-70;Claudio Bravo;cl CHI;GK;Manchester City;33;1983;22;22;1,968;21.sept;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-71;Miguel Britos;uy URU;DF;Watford;31;1985;27;27;2,282;25.avr;1;2;3;1;0;0;10;2;0.04;0.08;0.12;0.04;0.12
-72;Leon Britton;eng ENG;MF;Swansea City;33;1982;16;16;1,163;12.sept;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-73;Chris Brunt;nir NIR;DF,MF;West Brom;31;1984;31;27;2,477;27.mai;3;4;7;3;0;0;5;0;0.11;0.15;0.25;0.11;0.25
-74;Jack Butland;eng ENG;GK;Stoke City;23;1993;5;5;450;5.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-75;Sam Byram;eng ENG;DF,MF;West Ham;22;1993;18;13;1,249;13.sept;0;1;1;0;0;0;7;1;0.00;0.07;0.07;0.00;0.07
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-76;Willy Caballero;ar ARG;GK;Manchester City;34;1981;17;16;1,452;16.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-77;Yohan Cabaye;fr FRA;MF;Crystal Palace;30;1986;32;25;2,125;23.juin;4;2;6;4;0;1;7;0;0.17;0.08;0.25;0.17;0.25
-78;Martín Cáceres;uy URU;DF;Southampton;29;1987;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-79;Gary Cahill;eng ENG;DF;Chelsea;30;1985;37;36;3,296;36.6;6;0;6;6;0;0;5;0;0.16;0.00;0.16;0.16;0.16
-80;Jonathan Calleri;ar ARG;FW;West Ham;22;1993;16;4;540;6.0;1;0;1;1;0;0;0;0;0.17;0.00;0.17;0.17;0.17
-81;Dominic Calvert-Lewin;eng ENG;FW,MF;Everton;19;1997;11;5;347;03.sept;1;0;1;1;0;0;1;0;0.26;0.00;0.26;0.26;0.26
-82;Geoff Cameron;us USA;DF,MF;Stoke City;31;1985;19;18;1,629;18.janv;0;2;2;0;0;0;1;0;0.00;0.11;0.11;0.00;0.11
-83;Fraizer Campbell;eng ENG;FW;Crystal Palace;28;1987;12;0;165;01.août;1;0;1;1;0;0;0;0;0.55;0.00;0.55;0.55;0.55
-84;Emre Can;de GER;DF,MF;Liverpool;22;1994;32;26;2,371;26.mars;5;2;7;5;0;0;6;0;0.19;0.08;0.27;0.19;0.27
-85;Étienne Capoue;fr FRA;MF;Watford;28;1988;37;37;3,203;35.6;7;1;8;7;0;0;5;0;0.20;0.03;0.22;0.20;0.22
-86;Baily Cargill;eng ENG;DF;Bournemouth;21;1995;1;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-87;Michael Carrick;eng ENG;MF;Manchester Utd;35;1981;23;18;1,6;17.août;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-88;Andy Carroll;eng ENG;FW;West Ham;27;1989;18;15;1,311;14.juin;7;1;8;7;0;0;3;0;0.48;0.07;0.55;0.48;0.55
-89;Tom Carroll;eng ENG;MF;Tottenham;24;1992;1;0;1;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-90;Tom Carroll;eng ENG;MF;Swansea City;24;1992;17;16;1,387;15.avr;1;2;3;1;0;0;1;0;0.06;0.13;0.19;0.06;0.19
-91;Joel Castro Pereira;pt POR;GK;Manchester Utd;20;1996;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-92;Craig Cathcart;nir NIR;DF;Watford;27;1989;15;13;1,162;12.sept;0;1;1;0;0;0;3;0;0.00;0.08;0.08;0.00;0.08
-93;Lee Cattermole;eng ENG;MF;Sunderland;28;1988;8;8;633;7.0;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
-94;Santi Cazorla;es ESP;MF;Arsenal;31;1984;8;7;618;06.sept;2;1;3;0;2;2;2;0;0.29;0.15;0.44;0.00;0.15
-95;Petr Čech;cz CZE;GK;Arsenal;34;1982;35;35;3,097;34.4;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-96;Nacer Chadli;be BEL;FW,MF;West Brom;26;1989;31;27;2,134;23.juil;5;4;9;4;1;1;2;0;0.21;0.17;0.38;0.17;0.34
-97;Nathaniel Chalobah;eng ENG;DF,MF;Chelsea;21;1994;10;1;167;01.sept;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-98;Calum Chambers;eng ENG;DF,MF;Arsenal;21;1995;1;1;90;1.0;1;0;1;1;0;0;0;0;1.00;0.00;1.00;1.00;1.00
-99;Calum Chambers;eng ENG;DF,MF;Middlesbrough;21;1995;24;24;2,16;24.0;1;1;2;1;0;0;4;0;0.04;0.04;0.08;0.04;0.08
-100;Ben Chilwell;eng ENG;DF,MF;Leicester City;19;1996;12;7;699;07.août;1;0;1;1;0;0;2;0;0.13;0.00;0.13;0.13;0.13
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-101;Lee Chung-yong;kr KOR;FW,MF;Crystal Palace;28;1988;15;4;471;05.févr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-102;Jordy Clasie;nl NED;MF;Southampton;25;1991;16;12;1,021;11.mars;1;1;2;1;0;0;3;0;0.09;0.09;0.18;0.09;0.18
-103;Adam Clayton;eng ENG;MF;Middlesbrough;27;1989;34;32;2,804;31.2;0;2;2;0;0;0;10;0;0.00;0.06;0.06;0.00;0.06
-104;Tom Cleverley;eng ENG;MF;Watford;26;1989;17;16;1,441;16.0;0;2;2;0;0;0;3;0;0.00;0.12;0.12;0.00;0.12
-105;Tom Cleverley;eng ENG;MF;Everton;26;1989;10;4;406;04.mai;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-106;Gaël Clichy;fr FRA;DF;Manchester City;31;1985;25;24;2,123;23.juin;1;0;1;1;0;0;2;0;0.04;0.00;0.04;0.04;0.04
-107;Sam Clucas;eng ENG;MF;Hull City;25;1990;37;36;3,185;35.4;3;1;4;3;0;0;9;1;0.08;0.03;0.11;0.08;0.11
-108;Nathaniel Clyne;eng ENG;DF;Liverpool;25;1991;37;37;3,323;36.9;0;2;2;0;0;0;0;0;0.00;0.05;0.05;0.00;0.05
-109;Séamus Coleman;ie IRL;DF,MF;Everton;27;1988;26;26;2,316;25.juil;4;3;7;4;0;0;3;0;0.16;0.12;0.27;0.16;0.27
-110;James Collins;wls WAL;DF;West Ham;32;1983;22;19;1,655;18.avr;2;0;2;2;0;0;3;0;0.11;0.00;0.11;0.11;0.11
-111;Lewis Cook;eng ENG;MF;Bournemouth;19;1997;6;4;432;04.août;0;1;1;0;0;0;1;0;0.00;0.21;0.21;0.00;0.21
-112;Steve Cook;eng ENG;DF,MF;Bournemouth;25;1991;38;38;3,42;38.0;2;0;2;2;0;0;5;0;0.05;0.00;0.05;0.05;0.05
-113;Francis Coquelin;fr FRA;DF,MF;Arsenal;25;1991;29;22;1,779;19.août;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
-114;Jack Cork;eng ENG;DF,MF;Swansea City;27;1989;30;25;2,232;24.août;0;0;0;0;0;0;7;0;0.00;0.00;0.00;0.00;0.00
-115;Diego Costa;es ESP;FW;Chelsea;27;1988;35;35;3,082;34.2;20;7;27;20;0;1;10;0;0.58;0.20;0.79;0.58;0.79
-116;Thibaut Courtois;be BEL;GK;Chelsea;24;1992;36;36;3,24;36.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-117;Philippe Coutinho;br BRA;FW,MF;Liverpool;24;1992;31;28;2,227;24.juil;13;8;21;13;0;0;2;0;0.53;0.32;0.85;0.53;0.85
-118;Aaron Cresswell;eng ENG;DF,MF;West Ham;26;1989;26;24;2,116;23.mai;0;2;2;0;0;0;4;2;0.00;0.09;0.09;0.00;0.09
-119;Peter Crouch;eng ENG;FW;Stoke City;35;1981;27;13;1,343;14.sept;7;2;9;7;0;0;3;0;0.47;0.13;0.60;0.47;0.60
-120;Charlie Daniels;eng ENG;DF,MF;Bournemouth;29;1986;34;34;3,06;34.0;4;3;7;4;0;0;1;0;0.12;0.09;0.21;0.12;0.21
-121;Scott Dann;eng ENG;DF;Crystal Palace;29;1987;23;19;1,746;19.avr;3;1;4;3;0;0;2;0;0.15;0.05;0.21;0.15;0.21
-122;Matteo Darmian;it ITA;DF,MF;Manchester Utd;26;1989;18;15;1,333;14.août;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-123;Ben Davies;wls WAL;DF,MF;Tottenham;23;1993;23;18;1,739;19.mars;1;3;4;1;0;0;1;0;0.05;0.16;0.21;0.05;0.21
-124;Curtis Davies;sl SLE;DF;Hull City;31;1985;26;25;2,135;23.juil;0;2;2;0;0;0;4;0;0.00;0.08;0.08;0.00;0.08
-125;Tom Davies;eng ENG;MF;Everton;18;1998;24;18;1,544;17.févr;2;3;5;2;0;0;4;0;0.12;0.17;0.29;0.12;0.29
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-126;Steven Davis;nir NIR;MF;Southampton;31;1985;32;29;2,643;29.avr;0;3;3;0;0;0;3;0;0.00;0.10;0.10;0.00;0.10
-127;Craig Dawson;eng ENG;DF;West Brom;26;1990;37;37;3,276;36.4;4;0;4;4;0;0;10;0;0.11;0.00;0.11;0.11;0.11
-128;Michael Dawson;eng ENG;DF;Hull City;32;1983;22;19;1,722;19.janv;3;0;3;3;0;0;4;0;0.16;0.00;0.16;0.16;0.16
-129;Kevin De Bruyne;be BEL;FW,MF;Manchester City;25;1991;36;33;2,877;32.0;6;17;23;6;0;1;4;0;0.19;0.53;0.72;0.19;0.72
-130;Mathieu Debuchy;fr FRA;DF;Arsenal;31;1985;1;1;15;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-131;Troy Deeney;eng ENG;FW;Watford;28;1988;37;31;2,944;32.7;10;4;14;7;3;3;7;0;0.31;0.12;0.43;0.21;0.34
-132;Jermain Defoe;eng ENG;FW;Sunderland;33;1982;37;37;3,321;36.9;15;2;17;10;5;5;1;0;0.41;0.05;0.46;0.27;0.33
-133;Steven Defour;be BEL;MF;Burnley;28;1988;21;16;1,068;11.sept;1;3;4;1;0;0;1;0;0.08;0.25;0.34;0.08;0.34
-134;Damien Delaney;ie IRL;DF;Crystal Palace;35;1981;30;21;2,014;22.avr;0;2;2;0;0;0;8;0;0.00;0.09;0.09;0.00;0.09
-135;Fabian Delph;eng ENG;DF,MF;Manchester City;26;1989;7;2;224;02.mai;1;0;1;1;0;0;1;0;0.40;0.00;0.40;0.40;0.40
-136;Mousa Dembélé;be BEL;MF;Tottenham;29;1987;30;24;2,056;22.août;1;1;2;1;0;0;5;0;0.04;0.04;0.09;0.04;0.09
-137;Jason Denayer;be BEL;DF;Sunderland;21;1995;24;22;1,877;20.sept;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-138;Mike van der Hoorn;nl NED;DF;Swansea City;23;1992;8;7;662;07.avr;1;0;1;1;0;0;1;0;0.14;0.00;0.14;0.14;0.14
-139;Gerard Deulofeu;es ESP;FW,MF;Everton;22;1994;11;4;460;05.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-140;Eric Dier;eng ENG;DF,MF;Tottenham;22;1994;36;34;3,043;33.8;2;1;3;2;0;0;6;0;0.06;0.03;0.09;0.06;0.09
-141;Adama Diomande;no NOR;FW;Hull City;26;1990;22;13;1,171;13.0;2;0;2;2;0;0;1;0;0.15;0.00;0.15;0.15;0.15
-142;Papy Djilobodji;sn SEN;DF;Sunderland;27;1988;18;17;1,578;17.mai;0;0;0;0;0;0;6;1;0.00;0.00;0.00;0.00;0.00
-143;Abdoulaye Doucouré;ml MLI;FW,MF;Watford;23;1993;20;14;1,361;15.janv;1;0;1;1;0;0;4;0;0.07;0.00;0.07;0.07;0.07
-144;Stewart Downing;eng ENG;FW,MF;Middlesbrough;32;1984;30;24;2,214;24.juin;1;3;4;1;0;0;1;0;0.04;0.12;0.16;0.04;0.16
-145;Danny Drinkwater;eng ENG;MF;Leicester City;26;1990;29;27;2,466;27.avr;1;2;3;1;0;0;6;0;0.04;0.07;0.11;0.04;0.11
-146;Nathan Dyer;eng ENG;FW,MF;Swansea City;28;1987;8;3;214;02.avr;0;1;1;0;0;0;0;0;0.00;0.42;0.42;0.00;0.42
-147;Ovie Ejaria;eng ENG;FW,MF;Liverpool;18;1997;2;0;8;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-148;Omar Elabdellaoui;no NOR;DF,MF;Hull City;24;1991;8;7;615;06.août;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-149;Andrew Eleftheriou;eng ENG;DF;Watford;18;1997;1;0;52;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-150;Ahmed Elmohamady;eg EGY;DF,MF;Hull City;28;1987;33;28;2,524;28.0;0;2;2;0;0;0;3;1;0.00;0.07;0.07;0.00;0.07
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-151;Mohamed Elneny;eg EGY;MF;Arsenal;24;1992;14;8;694;07.juil;0;1;1;0;0;0;1;0;0.00;0.13;0.13;0.00;0.13
-152;Christian Eriksen;dk DEN;FW,MF;Tottenham;24;1992;36;36;3,157;35.1;8;15;23;8;0;0;0;0;0.23;0.43;0.66;0.23;0.66
-153;Bernardo Espinosa;co COL;DF;Middlesbrough;27;1989;11;10;975;10.août;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-154;Jonny Evans;nir NIR;DF;West Brom;28;1988;31;30;2,637;29.mars;2;2;4;2;0;0;8;0;0.07;0.07;0.14;0.07;0.14
-155;Łukasz Fabiański;pl POL;GK;Swansea City;31;1985;37;37;3,33;37.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-156;Fábio;br BRA;DF;Middlesbrough;26;1990;24;21;1,847;20.mai;0;0;0;0;0;0;8;0;0.00;0.00;0.00;0.00;0.00
-157;Cesc Fàbregas;es ESP;FW,MF;Chelsea;29;1987;29;13;1,339;14.sept;5;12;17;5;0;0;8;0;0.34;0.81;janv.14;0.34;janv.14
-158;Adam Federici;au AUS;GK;Bournemouth;31;1985;2;2;180;2.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-159;Sofiane Feghouli;dz ALG;FW,MF;West Ham;26;1989;21;11;1,041;11.juin;3;2;5;3;0;0;1;1;0.26;0.17;0.43;0.26;0.43
-160;Marouane Fellaini;be BEL;MF;Manchester Utd;28;1987;28;18;1,605;17.août;1;0;1;1;0;0;9;1;0.06;0.00;0.06;0.06;0.06
-161;Leroy Fer;nl NED;MF;Swansea City;26;1990;34;27;2,404;26.juil;6;2;8;6;0;0;9;0;0.22;0.07;0.30;0.22;0.30
-162;Edimilson Fernandes;ch SUI;DF,MF;West Ham;20;1996;28;8;1,001;11.janv;0;1;1;0;0;0;4;0;0.00;0.09;0.09;0.00;0.09
-163;Federico Fernández;ar ARG;DF;Swansea City;27;1989;27;27;2,43;27.0;0;2;2;0;0;0;7;0;0.00;0.07;0.07;0.00;0.07
-164;Fernandinho;br BRA;DF,MF;Manchester City;31;1985;32;31;2,756;30.juin;2;1;3;2;0;0;4;2;0.07;0.03;0.10;0.07;0.10
-165;Fernando;br BRA;DF,MF;Manchester City;29;1987;15;5;568;06.mars;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-166;Sam Field;eng ENG;MF;West Brom;18;1998;8;4;275;03.janv;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-167;Roberto Firmino;br BRA;FW,MF;Liverpool;24;1991;35;34;3,062;34.0;11;7;18;11;0;0;5;0;0.32;0.21;0.53;0.32;0.53
-168;Viktor Fischer;dk DEN;FW,MF;Middlesbrough;22;1994;13;6;438;04.sept;0;3;3;0;0;0;0;0;0.00;0.62;0.62;0.00;0.62
-169;Mathieu Flamini;fr FRA;MF;Crystal Palace;32;1984;10;3;274;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-170;Jon Flanagan;eng ENG;DF;Burnley;23;1993;6;3;360;4.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-171;Ashley Fletcher;eng ENG;FW;West Ham;20;1995;16;2;367;04.janv;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-172;Darren Fletcher;sct SCO;MF;West Brom;32;1984;38;37;3,231;35.9;2;3;5;2;0;0;0;0;0.06;0.08;0.14;0.06;0.14
-173;Michael Folivi;eng ENG;FW;Watford;18;1998;1;0;10;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-174;José Fonte;pt POR;DF;Southampton;32;1983;17;17;1,53;17.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-175;José Fonte;pt POR;DF;West Ham;32;1983;16;16;1,404;15.juin;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-176;Adam Forshaw;eng ENG;MF;Middlesbrough;24;1991;34;30;2,695;29.sept;0;1;1;0;0;0;4;0;0.00;0.03;0.03;0.00;0.03
-177;Fraser Forster;eng ENG;GK;Southampton;28;1988;38;38;3,42;38.0;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-178;Ben Foster;eng ENG;GK;West Brom;33;1983;38;38;3,42;38.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-179;Timothy Fosu-Mensah;nl NED;DF;Manchester Utd;18;1998;4;1;97;01.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-180;Simon Francis;eng ENG;DF;Bournemouth;31;1985;34;34;2,939;32.7;0;1;1;0;0;0;4;1;0.00;0.03;0.03;0.00;0.03
-181;Ryan Fraser;sct SCO;FW,MF;Bournemouth;22;1994;28;19;1,764;19.juin;3;5;8;3;0;0;3;0;0.15;0.26;0.41;0.15;0.41
-182;George Friend;eng ENG;DF,MF;Middlesbrough;28;1987;24;20;1,964;21.août;0;2;2;0;0;0;4;0;0.00;0.09;0.09;0.00;0.09
-183;Zeki Fryers;eng ENG;DF;Crystal Palace;23;1992;8;0;188;02.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-184;Christian Fuchs;at AUT;DF,MF;Leicester City;30;1986;36;35;3,103;34.5;2;3;5;2;0;0;10;0;0.06;0.09;0.15;0.06;0.15
-185;Jay Fulton;sct SCO;MF;Swansea City;22;1994;11;9;690;07.juil;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-186;Ramiro Funes Mori;ar ARG;DF;Everton;25;1991;23;16;1,543;17.janv;0;1;1;0;0;0;0;0;0.00;0.06;0.06;0.00;0.06
-187;Manolo Gabbiadini;it ITA;FW;Southampton;24;1991;11;10;724;8.0;4;0;4;4;0;1;1;0;0.50;0.00;0.50;0.50;0.50
-188;Brendan Galloway;zw ZIM;DF;West Brom;20;1996;3;3;247;02.juil;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-189;Idrissa Gana Gueye;sn SEN;MF;Everton;26;1989;33;32;2,681;29.août;1;1;2;1;0;0;11;0;0.03;0.03;0.07;0.03;0.07
-190;Aleix García;es ESP;MF;Manchester City;19;1997;4;1;77;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-191;Craig Gardner;eng ENG;MF;West Brom;29;1986;9;2;218;02.avr;0;1;1;0;0;0;1;0;0.00;0.41;0.41;0.00;0.41
-192;David de Gea;es ESP;GK;Manchester Utd;25;1990;35;35;3,15;35.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-193;Rudy Gestede;bj BEN;FW;Middlesbrough;27;1988;16;4;533;05.sept;1;0;1;1;0;0;3;0;0.17;0.00;0.17;0.17;0.17
-194;Kieran Gibbs;eng ENG;DF,MF;Arsenal;26;1989;11;8;702;07.août;0;1;1;0;0;0;3;0;0.00;0.13;0.13;0.00;0.13
-195;Ben Gibson;eng ENG;DF;Middlesbrough;23;1993;38;38;3,42;38.0;1;1;2;1;0;0;4;0;0.03;0.03;0.05;0.03;0.05
-196;Darron Gibson;ie IRL;MF;Sunderland;28;1987;12;7;640;07.janv;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
-197;Olivier Giroud;fr FRA;FW;Arsenal;29;1986;29;11;1,206;13.avr;12;3;15;12;0;0;2;0;0.90;0.22;01.déc;0.90;01.déc
-198;Shay Given;ie IRL;GK;Stoke City;40;1976;5;5;450;5.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-199;Evandro Goebel;br BRA;MF;Hull City;29;1986;11;7;576;06.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-200;Angel Gomes;eng ENG;FW,MF;Manchester Utd;15;2000;1;0;3;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-201;Heurelho Gomes;br BRA;GK;Watford;35;1981;38;38;3,337;37.1;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-202;Lynden Gooch;us USA;DF,FW;Sunderland;20;1995;11;4;366;04.janv;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-203;Dan Gosling;eng ENG;DF,MF;Bournemouth;26;1990;27;14;1,366;15.févr;2;0;2;2;0;0;6;0;0.13;0.00;0.13;0.13;0.13
-204;Lewis Grabban;eng ENG;FW,MF;Bournemouth;28;1988;3;0;60;0.7;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-205;Max Gradel;ci CIV;FW,MF;Bournemouth;28;1987;11;0;134;01.mai;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-206;Lee Grant;eng ENG;GK;Stoke City;33;1983;28;28;2,52;28.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-207;Andre Gray;jm JAM;FW;Burnley;25;1991;32;26;2,259;25.janv;9;3;12;7;2;2;2;0;0.36;0.12;0.48;0.28;0.40
-208;Demarai Gray;jm JAM;FW,MF;Leicester City;20;1996;30;9;1,049;11.juil;1;3;4;1;0;0;2;0;0.09;0.26;0.34;0.09;0.34
-209;Kamil Grosicki;pl POL;FW,MF;Hull City;28;1988;15;12;1,143;12.juil;0;3;3;0;0;0;1;0;0.00;0.24;0.24;0.00;0.24
-210;Marko Grujić;rs SRB;MF;Liverpool;20;1996;5;0;43;0.5;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-211;Adlène Guedioura;dz ALG;MF;Watford;30;1985;12;9;721;8.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-212;Adlène Guedioura;dz ALG;MF;Middlesbrough;30;1985;5;0;140;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-213;İlkay Gündoğan;de GER;MF;Manchester City;25;1990;10;9;704;07.août;3;1;4;3;0;0;0;0;0.38;0.13;0.51;0.38;0.51
-214;Brad Guzan;us USA;GK;Middlesbrough;31;1984;10;10;900;10.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-215;Josh Harrop;eng ENG;MF;Manchester Utd;20;1995;1;1;90;1.0;1;0;1;1;0;0;0;0;1.00;0.00;1.00;1.00;1.00
-216;Eden Hazard;be BEL;FW,MF;Chelsea;25;1991;36;36;2,982;33.1;16;5;21;14;2;3;3;0;0.48;0.15;0.63;0.42;0.57
-217;Tom Heaton;eng ENG;GK;Burnley;30;1986;35;35;3,15;35.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-218;Jordan Henderson;eng ENG;MF;Liverpool;26;1990;24;24;2,116;23.mai;1;4;5;1;0;0;8;0;0.04;0.17;0.21;0.04;0.21
-219;Jeff Hendrick;ie IRL;FW,MF;Burnley;24;1992;32;31;2,692;29.sept;2;1;3;2;0;0;6;1;0.07;0.03;0.10;0.07;0.10
-220;Wayne Hennessey;wls WAL;GK;Crystal Palace;29;1987;29;29;2,61;29.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-221;Markus Henriksen;no NOR;DF,MF;Hull City;24;1992;15;6;638;07.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-222;Abel Hernández;uy URU;FW;Hull City;25;1990;24;16;1,425;15.août;4;3;7;4;0;0;0;0;0.25;0.19;0.44;0.25;0.44
-223;Luis Hernández;es ESP;DF;Leicester City;27;1989;4;3;327;03.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-224;Ander Herrera;es ESP;MF;Manchester Utd;26;1989;31;27;2,464;27.avr;1;5;6;1;0;0;7;1;0.04;0.18;0.22;0.04;0.22
-225;Son Heung-min;kr KOR;FW,MF;Tottenham;24;1992;34;23;2,062;22.sept;14;6;20;14;0;0;2;0;0.61;0.26;0.87;0.61;0.87
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-226;Rob Holding;eng ENG;DF;Arsenal;20;1995;9;9;810;9.0;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-227;José Holebas;gr GRE;DF,MF;Watford;32;1984;33;33;2,905;32.3;2;4;6;2;0;0;14;0;0.06;0.12;0.19;0.06;0.19
-228;Mason Holgate;jm JAM;DF;Everton;19;1996;18;16;1,372;15.févr;0;1;1;0;0;0;2;0;0.00;0.07;0.07;0.00;0.07
-229;George Honeyman;eng ENG;FW,MF;Sunderland;21;1994;5;2;235;02.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-230;Tom Huddlestone;eng ENG;MF;Hull City;29;1986;31;23;2,026;22.mai;1;0;1;0;1;1;5;1;0.04;0.00;0.04;0.00;0.00
-231;James Husband;eng ENG;DF;Middlesbrough;22;1994;1;1;58;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-232;Robert Huth;de GER;DF;Leicester City;31;1984;33;33;2,926;32.5;2;1;3;2;0;0;9;0;0.06;0.03;0.09;0.06;0.09
-233;Pierre Højbjerg;dk DEN;MF;Southampton;20;1995;22;14;1,301;14.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-234;Jordon Ibe;eng ENG;FW,MF;Bournemouth;20;1995;25;13;1,055;11.juil;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-235;Didier Ibrahim Ndong;ga GAB;DF,MF;Sunderland;22;1994;31;27;2,52;28.0;1;0;1;1;0;0;5;0;0.04;0.00;0.04;0.04;0.04
-236;Zlatan Ibrahimović;se SWE;FW;Manchester Utd;34;1981;28;27;2,438;27.janv;17;5;22;15;2;3;7;0;0.63;0.18;0.81;0.55;0.74
-237;Odion Ighalo;ng NGA;FW;Watford;27;1989;18;14;1,291;14.mars;1;0;1;1;0;0;1;0;0.07;0.00;0.07;0.07;0.07
-238;Kelechi Iheanacho;ng NGA;FW,MF;Manchester City;19;1996;20;5;537;6.0;4;3;7;4;0;0;0;0;0.67;0.50;janv.17;0.67;janv.17
-239;Giannelli Imbula;cd COD;MF;Stoke City;23;1992;12;9;796;08.août;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-240;Branislav Ivanović;rs SRB;DF;Chelsea;32;1984;13;6;589;06.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-241;Alex Iwobi;ng NGA;FW,MF;Arsenal;20;1996;26;18;1,456;16.févr;3;4;7;3;0;0;1;0;0.19;0.25;0.43;0.19;0.43
-242;Phil Jagielka;eng ENG;DF,MF;Everton;33;1982;27;25;2,249;25.0;3;2;5;3;0;0;6;2;0.12;0.08;0.20;0.12;0.20
-243;Eldin Jakupović;ch SUI;GK;Hull City;31;1984;22;22;1,98;22.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-244;Matty James;eng ENG;MF;Leicester City;25;1991;1;0;1;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-245;Daryl Janmaat;nl NED;DF;Watford;27;1989;27;18;1,617;18.0;2;1;3;2;0;0;2;0;0.11;0.06;0.17;0.11;0.17
-246;Vincent Janssen;nl NED;FW;Tottenham;22;1994;27;7;845;09.avr;2;2;4;1;1;1;0;0;0.21;0.21;0.43;0.11;0.32
-247;Adnan Januzaj;be BEL;FW,MF;Sunderland;21;1995;25;18;1,629;18.janv;0;2;2;0;0;0;5;1;0.00;0.11;0.11;0.00;0.11
-248;Mile Jedinak;au AUS;MF;Crystal Palace;31;1984;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-249;Carl Jenkinson;eng ENG;DF;Arsenal;24;1992;1;1;82;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-250;Gabriel Jesus;br BRA;FW,MF;Manchester City;19;1997;10;8;650;07.févr;7;4;11;6;1;1;2;0;0.97;0.55;janv.52;0.83;janv.38
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-251;Glen Johnson;eng ENG;DF;Stoke City;31;1984;23;21;1,957;21.juil;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-252;Billy Jones;eng ENG;DF;Sunderland;29;1987;27;25;2,27;25.févr;1;0;1;1;0;0;8;0;0.04;0.00;0.04;0.04;0.04
-253;David Jones;eng ENG;MF;Burnley;31;1984;1;1;86;1.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-254;Phil Jones;eng ENG;DF,MF;Manchester Utd;24;1992;18;18;1,584;17.juin;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-255;Lukas Jutkiewicz;eng ENG;FW;Burnley;27;1989;2;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-256;Christian Kabasele;be BEL;DF;Watford;25;1991;16;7;771;08.juin;2;0;2;2;0;0;1;0;0.23;0.00;0.23;0.23;0.23
-257;Younès Kaboul;fr FRA;DF;Watford;30;1986;22;22;1,82;20.févr;2;0;2;2;0;0;2;0;0.10;0.00;0.10;0.10;0.10
-258;Younès Kaboul;fr FRA;DF;Sunderland;30;1986;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-259;Sullay Kaikai;sl SLE;FW,MF;Crystal Palace;20;1995;1;0;24;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-260;Harry Kane;eng ENG;FW;Tottenham;23;1993;30;29;2,521;28.0;29;5;34;24;5;6;3;0;01.avr;0.18;janv.21;0.86;01.avr
-261;N'Golo Kanté;fr FRA;MF;Chelsea;25;1991;35;35;3,138;34.9;1;1;2;1;0;0;9;0;0.03;0.03;0.06;0.03;0.06
-262;Loris Karius;de GER;GK;Liverpool;23;1993;10;10;900;10.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-263;Michael Keane;eng ENG;DF;Burnley;23;1993;35;35;3,15;35.0;2;1;3;2;0;0;4;0;0.06;0.03;0.09;0.06;0.09
-264;Will Keane;ie IRL;FW,MF;Hull City;23;1993;5;4;280;03.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-265;Martin Kelly;eng ENG;DF,MF;Crystal Palace;26;1990;29;25;2,123;23.juin;0;2;2;0;0;0;4;0;0.00;0.08;0.08;0.00;0.08
-266;Kenedy;br BRA;FW,MF;Watford;20;1996;1;0;16;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-267;Kenedy;br BRA;FW,MF;Chelsea;20;1996;1;1;74;0.8;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-268;Jonjoe Kenny;eng ENG;DF,FW;Everton;19;1997;1;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-269;Wahbi Khazri;tn TUN;FW,MF;Sunderland;25;1991;21;7;849;09.avr;1;0;1;1;0;0;6;0;0.11;0.00;0.11;0.11;0.11
-270;Michael Kightly;eng ENG;FW,MF;Burnley;30;1986;5;1;104;01.févr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-271;Andy King;wls WAL;MF;Leicester City;27;1988;23;15;1,446;16.janv;1;0;1;1;0;0;4;0;0.06;0.00;0.06;0.06;0.06
-272;Joshua King;no NOR;FW,MF;Bournemouth;24;1992;36;31;2,713;30.janv;16;2;18;14;2;3;1;0;0.53;0.07;0.60;0.46;0.53
-273;Stephen Kingsley;sct SCO;DF;Swansea City;22;1994;13;12;1,036;11.mai;0;1;1;0;0;0;0;0;0.00;0.09;0.09;0.00;0.09
-274;Jan Kirchhoff;de GER;DF,MF;Sunderland;25;1990;7;5;433;04.août;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-275;Ragnar Klavan;ee EST;DF;Liverpool;30;1985;20;15;1,41;15.juil;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-276;Aleksandar Kolarov;rs SRB;DF;Manchester City;30;1985;29;27;2,535;28.févr;1;2;3;1;0;0;6;0;0.04;0.07;0.11;0.04;0.11
-277;Vincent Kompany;be BEL;DF;Manchester City;30;1986;11;10;820;09.janv;3;0;3;3;0;0;5;0;0.33;0.00;0.33;0.33;0.33
-278;Arouna Koné;ci CIV;FW;Everton;32;1983;5;0;70;0.8;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-279;Lamine Koné;ci CIV;DF;Sunderland;27;1989;30;29;2,545;28.mars;1;0;1;1;0;0;4;0;0.04;0.00;0.04;0.04;0.04
-280;Laurent Koscielny;fr FRA;DF;Arsenal;30;1985;33;33;2,822;31.4;2;0;2;2;0;0;4;1;0.06;0.00;0.06;0.06;0.06
-281;Cheikhou Kouyaté;sn SEN;DF,MF;West Ham;26;1989;31;31;2,723;30.mars;1;0;1;1;0;0;3;0;0.03;0.00;0.03;0.03;0.03
-282;Bojan Krkić;es ESP;FW,MF;Stoke City;25;1990;9;5;475;05.mars;3;0;3;1;2;3;1;0;0.57;0.00;0.57;0.19;0.19
-283;Adam Lallana;eng ENG;FW,MF;Liverpool;28;1988;31;27;2,336;26.0;8;6;14;8;0;0;3;0;0.31;0.23;0.54;0.31;0.54
-284;Rickie Lambert;eng ENG;FW;West Brom;34;1982;1;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-285;Érik Lamela;ar ARG;FW,MF;Tottenham;24;1992;9;6;594;06.juin;1;3;4;1;0;1;1;0;0.15;0.45;0.61;0.15;0.61
-286;Manuel Lanzini;ar ARG;FW,MF;West Ham;23;1993;35;31;2,706;30.janv;8;2;10;6;2;2;9;0;0.27;0.07;0.33;0.20;0.27
-287;Sebastian Larsson;se SWE;MF;Sunderland;31;1985;21;17;1,469;16.mars;0;1;1;0;0;0;4;1;0.00;0.06;0.06;0.00;0.06
-288;Grant Leadbitter;eng ENG;MF;Middlesbrough;30;1986;13;7;710;07.sept;1;0;1;1;0;0;1;0;0.13;0.00;0.13;0.13;0.13
-289;Joe Ledley;wls WAL;MF;Crystal Palace;29;1987;18;13;1,16;12.sept;1;1;2;1;0;0;1;0;0.08;0.08;0.16;0.08;0.16
-290;Lucas Leiva;br BRA;MF;Liverpool;29;1987;24;12;1,112;12.avr;0;2;2;0;0;0;4;0;0.00;0.16;0.16;0.00;0.16
-291;Jonathan Leko;eng ENG;FW,MF;West Brom;17;1999;9;0;181;2.0;0;1;1;0;0;0;0;0;0.00;0.50;0.50;0.00;0.50
-292;Aaron Lennon;eng ENG;FW,MF;Everton;29;1987;11;6;509;05.juil;0;1;1;0;0;0;0;0;0.00;0.18;0.18;0.00;0.18
-293;Jeremain Lens;nl NED;FW,MF;Sunderland;28;1987;2;0;69;0.8;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-294;Joleon Lescott;eng ENG;DF;Sunderland;33;1982;2;1;124;01.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-295;Filip Lesniak;sk SVK;MF;Tottenham;20;1996;1;0;5;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-296;Jesse Lingard;eng ENG;FW,MF;Manchester Utd;23;1992;25;18;1,36;15.janv;1;1;2;1;0;0;3;0;0.07;0.07;0.13;0.07;0.13
-297;Jake Livermore;eng ENG;MF;West Brom;26;1989;16;15;1,301;14.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-298;Jake Livermore;eng ENG;MF;Hull City;26;1989;21;20;1,67;18.juin;1;0;1;1;0;0;3;1;0.05;0.00;0.05;0.05;0.05
-299;Fernando Llorente;es ESP;FW;Swansea City;31;1985;33;28;2,442;27.janv;15;1;16;15;0;0;2;0;0.55;0.04;0.59;0.55;0.59
-300;Hugo Lloris;fr FRA;GK;Tottenham;29;1986;34;34;3,004;33.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-301;Ruben Loftus-Cheek;eng ENG;MF;Chelsea;20;1996;6;0;35;0.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-302;Kevin Long;ie IRL;DF;Burnley;25;1990;3;3;270;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-303;Shane Long;ie IRL;FW;Southampton;29;1987;32;10;1,261;14.0;3;2;5;3;0;1;2;0;0.21;0.14;0.36;0.21;0.36
-304;Ademola Lookman;ng NGA;FW,MF;Everton;18;1997;8;3;289;03.févr;1;0;1;1;0;0;0;0;0.31;0.00;0.31;0.31;0.31
-305;Donald Love;sct SCO;DF,MF;Sunderland;21;1994;12;6;611;06.août;0;1;1;0;0;0;1;0;0.00;0.15;0.15;0.00;0.15
-306;Dejan Lovren;hr CRO;DF;Liverpool;27;1989;29;29;2,553;28.avr;2;1;3;2;0;0;6;0;0.07;0.04;0.11;0.07;0.11
-307;Matthew Lowton;eng ENG;DF;Burnley;27;1989;36;36;3,24;36.0;0;2;2;0;0;0;9;0;0.00;0.06;0.06;0.00;0.06
-308;David Luiz;br BRA;DF,MF;Chelsea;29;1987;33;33;2,954;32.8;1;0;1;1;0;0;6;0;0.03;0.00;0.03;0.03;0.03
-309;Romelu Lukaku;be BEL;FW;Everton;23;1993;37;36;3,266;36.3;25;6;31;24;1;1;3;0;0.69;0.17;0.85;0.66;0.83
-310;Harry Maguire;eng ENG;DF;Hull City;23;1993;29;25;2,307;25.juin;2;1;3;2;0;0;5;0;0.08;0.04;0.12;0.08;0.12
-311;Riyad Mahrez;dz ALG;FW,MF;Leicester City;25;1991;36;33;2,825;31.4;6;4;10;3;3;5;4;0;0.19;0.13;0.32;0.10;0.22
-312;Ainsley Maitland-Niles;eng ENG;DF,FW;Arsenal;18;1997;1;0;2;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-313;Shaun Maloney;sct SCO;FW,MF;Hull City;33;1983;9;2;283;03.janv;1;2;3;1;0;0;0;0;0.32;0.64;0.95;0.32;0.95
-314;Steve Mandanda;fr FRA;GK;Crystal Palace;31;1985;9;9;810;9.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-315;Sadio Mané;sn SEN;FW,MF;Liverpool;24;1992;27;26;2,235;24.août;13;5;18;13;0;0;4;0;0.52;0.20;0.72;0.52;0.72
-316;Vito Mannone;it ITA;GK;Sunderland;28;1988;9;9;810;9.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-317;Javier Manquillo;es ESP;DF;Sunderland;22;1994;20;15;1,43;15.sept;1;0;1;1;0;0;2;0;0.06;0.00;0.06;0.06;0.06
-318;Adrian Mariappa;jm JAM;DF;Watford;29;1986;7;6;562;06.févr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-319;Lazar Marković;rs SRB;FW,MF;Hull City;22;1994;12;12;1,005;11.févr;2;0;2;2;0;0;4;0;0.18;0.00;0.18;0.18;0.18
-320;Dean Marney;eng ENG;MF;Burnley;32;1984;21;21;1,764;19.juin;1;2;3;1;0;0;7;0;0.05;0.10;0.15;0.05;0.15
-321;David Marshall;sct SCO;GK;Hull City;31;1985;16;16;1,44;16.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-322;Anthony Martial;fr FRA;FW,MF;Manchester Utd;20;1995;25;18;1,554;17.mars;4;5;9;4;0;0;2;0;0.23;0.29;0.52;0.23;0.52
-323;Cuco Martina;cw CUW;DF,MF;Southampton;26;1989;9;6;592;06.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-324;Emiliano Martínez;ar ARG;GK;Arsenal;23;1992;2;2;180;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-325;Bruno Martins Indi;nl NED;DF;Stoke City;24;1992;35;35;3,146;35.0;1;0;1;1;0;0;4;0;0.03;0.00;0.03;0.03;0.03
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-326;Brandon Mason;eng ENG;DF,MF;Watford;18;1997;2;1;113;01.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-327;Ryan Mason;eng ENG;MF;Hull City;25;1991;16;11;927;10.mars;1;1;2;1;0;0;4;0;0.10;0.10;0.19;0.10;0.19
-328;Arthur Masuaku;cd COD;DF,MF;West Ham;22;1993;13;11;972;10.août;0;1;1;0;0;0;1;0;0.00;0.09;0.09;0.00;0.09
-329;Juan Mata;es ESP;FW,MF;Manchester Utd;28;1988;25;19;1,614;17.sept;6;3;9;6;0;0;3;0;0.33;0.17;0.50;0.33;0.50
-330;Nemanja Matić;rs SRB;MF;Chelsea;27;1988;35;30;2,694;29.sept;1;7;8;1;0;0;4;0;0.03;0.23;0.27;0.03;0.27
-331;Joël Matip;cm CMR;DF,MF;Liverpool;24;1991;29;27;2,457;27.mars;1;0;1;1;0;0;3;0;0.04;0.00;0.04;0.04;0.04
-332;Alfie Mawson;eng ENG;DF;Swansea City;22;1994;27;27;2,43;27.0;4;0;4;4;0;0;1;0;0.15;0.00;0.15;0.15;0.15
-333;Dieumerci Mbokani;cd COD;FW;Hull City;30;1985;12;8;764;08.mai;0;1;1;0;0;0;0;0;0.00;0.12;0.12;0.00;0.12
-334;James McArthur;sct SCO;MF;Crystal Palace;28;1987;29;24;1,999;22.févr;5;3;8;5;0;0;5;0;0.23;0.14;0.36;0.23;0.36
-335;Gareth McAuley;nir NIR;DF;West Brom;36;1979;36;36;3,14;34.9;6;1;7;6;0;0;5;0;0.17;0.03;0.20;0.17;0.20
-336;Oliver McBurnie;sct SCO;FW;Swansea City;20;1996;5;0;82;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-337;James McCarthy;ie IRL;MF;Everton;25;1990;12;7;613;06.août;1;1;2;1;0;0;2;0;0.15;0.15;0.29;0.15;0.29
-338;James McClean;ie IRL;DF,FW;West Brom;27;1989;34;13;1,477;16.avr;1;2;3;1;0;0;9;0;0.06;0.12;0.18;0.06;0.18
-339;Paddy McNair;nir NIR;DF,MF;Sunderland;21;1995;9;5;353;03.sept;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-340;Sam McQueen;eng ENG;MF;Southampton;21;1995;13;5;616;06.août;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-341;Scott McTominay;sct SCO;MF;Manchester Utd;19;1996;2;1;97;01.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-342;Ben Mee;eng ENG;DF;Burnley;26;1989;34;34;3,015;33.5;1;0;1;1;0;0;5;0;0.03;0.00;0.03;0.03;0.03
-343;Memphis;nl NED;FW,MF;Manchester Utd;22;1994;4;0;24;0.3;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-344;Nampalys Mendy;sn SEN;MF;Leicester City;24;1992;4;4;269;3.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-345;Per Mertesacker;de GER;DF;Arsenal;31;1984;1;0;38;0.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-346;David Meyler;ie IRL;MF;Hull City;27;1989;20;9;962;10.juil;1;1;2;1;0;0;2;0;0.09;0.09;0.19;0.09;0.19
-347;Simon Mignolet;be BEL;GK;Liverpool;28;1988;28;28;2,52;28.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-348;Luka Milivojević;rs SRB;MF;Crystal Palace;25;1991;14;14;1,224;13.juin;2;1;3;0;2;2;4;0;0.15;0.07;0.22;0.00;0.07
-349;James Milner;eng ENG;DF,MF;Liverpool;30;1986;36;36;3,154;35.0;7;3;10;0;7;8;5;0;0.20;0.09;0.29;0.00;0.09
-350;Tyrone Mings;eng ENG;DF;Bournemouth;23;1993;7;5;506;05.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-351;Kevin Mirallas;be BEL;FW,MF;Everton;28;1987;35;23;2,074;23.0;4;7;11;4;0;0;2;0;0.17;0.30;0.48;0.17;0.48
-352;Demetri Mitchell;eng ENG;DF,MF;Manchester Utd;19;1997;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-353;Henrikh Mkhitaryan;am ARM;FW,MF;Manchester Utd;27;1989;24;15;1,348;15.0;4;1;5;4;0;0;1;0;0.27;0.07;0.33;0.27;0.33
-354;Nacho Monreal;es ESP;DF;Arsenal;30;1986;36;35;3,153;35.0;0;2;2;0;0;0;5;0;0.00;0.06;0.06;0.00;0.06
-355;Jefferson Montero;ec ECU;FW,MF;Swansea City;26;1989;13;2;489;05.avr;0;1;1;0;0;0;0;0;0.00;0.18;0.18;0.00;0.18
-356;Alberto Moreno;es ESP;DF,MF;Liverpool;24;1992;12;2;305;03.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-357;Wes Morgan;jm JAM;DF;Leicester City;32;1984;27;27;2,43;27.0;1;0;1;1;0;0;3;0;0.04;0.00;0.04;0.04;0.04
-358;James Morrison;sct SCO;FW,MF;West Brom;30;1986;31;17;1,74;19.mars;5;2;7;5;0;0;3;0;0.26;0.10;0.36;0.26;0.36
-359;Victor Moses;ng NGA;DF,FW;Chelsea;25;1990;34;29;2,483;27.juin;3;2;5;3;0;0;4;0;0.11;0.07;0.18;0.11;0.18
-360;Lys Mousset;fr FRA;FW,MF;Bournemouth;20;1996;11;3;270;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-361;Marc Muniesa;es ESP;DF,MF;Stoke City;24;1992;10;7;650;07.févr;1;0;1;1;0;0;2;0;0.14;0.00;0.14;0.14;0.14
-362;Ahmed Musa;ng NGA;FW,MF;Leicester City;23;1992;21;7;761;08.mai;2;1;3;2;0;0;1;0;0.24;0.12;0.35;0.24;0.35
-363;Shkodran Mustafi;de GER;DF;Arsenal;24;1992;26;26;2,274;25.mars;2;2;4;2;0;0;11;0;0.08;0.08;0.16;0.08;0.16
-364;Jordon Mutch;eng ENG;MF;Crystal Palace;24;1991;4;0;53;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-365;Alfred N'Diaye;sn SEN;DF,MF;Hull City;26;1990;15;15;1,273;14.janv;1;0;1;1;0;0;7;0;0.07;0.00;0.07;0.07;0.07
-366;Georges-Kévin N'Koudou;cm CMR;FW,MF;Tottenham;21;1995;8;0;54;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-367;Luciano Narsingh;nl NED;FW,MF;Swansea City;25;1990;13;3;416;04.juin;0;2;2;0;0;0;0;0;0.00;0.43;0.43;0.00;0.43
-368;Samir Nasri;fr FRA;FW,MF;Manchester City;29;1987;1;0;16;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-369;Kyle Naughton;eng ENG;DF;Swansea City;27;1988;31;31;2,714;30.2;1;0;1;1;0;0;5;0;0.03;0.00;0.03;0.03;0.03
-370;Jesús Navas;es ESP;DF,FW;Manchester City;30;1985;24;12;1,064;11.août;0;1;1;0;0;0;2;0;0.00;0.08;0.08;0.00;0.08
-371;Wilfred Ndidi;ng NGA;DF,MF;Leicester City;19;1996;17;17;1,521;16.sept;2;1;3;2;0;0;0;0;0.12;0.06;0.18;0.12;0.18
-372;Álvaro Negredo;es ESP;FW;Middlesbrough;30;1985;36;33;2,87;31.9;9;5;14;7;2;2;5;0;0.28;0.16;0.44;0.22;0.38
-373;Julien Ngoy;be BEL;FW,MF;Stoke City;18;1997;5;0;49;0.5;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-374;M'Baye Niang;sn SEN;FW,MF;Watford;21;1994;16;15;1,246;13.août;2;2;4;2;0;0;2;0;0.14;0.14;0.29;0.14;0.29
-375;Oumar Niasse;sn SEN;FW,MF;Hull City;26;1990;17;12;1,097;12.févr;4;1;5;4;0;0;3;1;0.33;0.08;0.41;0.33;0.41
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-376;Mark Noble;eng ENG;MF;West Ham;29;1987;30;29;2,389;26.mai;3;0;3;2;1;2;10;0;0.11;0.00;0.11;0.08;0.08
-377;Nolito;es ESP;FW,MF;Manchester City;29;1986;19;9;778;08.juin;4;2;6;4;0;0;3;1;0.46;0.23;0.69;0.46;0.69
-378;Kristoffer Nordfeldt;se SWE;GK;Swansea City;27;1989;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-379;Håvard Nordtveit;no NOR;DF,MF;West Ham;26;1990;16;11;957;10.juin;0;1;1;0;0;0;2;0;0.00;0.09;0.09;0.00;0.09
-380;Emilio Nsue;gq EQG;DF,FW;Middlesbrough;26;1989;4;4;320;03.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-381;David Nugent;eng ENG;FW;Middlesbrough;31;1985;4;0;43;0.5;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-382;Allan Nyom;cm CMR;DF,MF;West Brom;28;1988;32;29;2,638;29.mars;0;1;1;0;0;0;8;0;0.00;0.03;0.03;0.00;0.03
-383;Aiden O'Neill;au AUS;MF;Burnley;18;1998;3;0;85;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-384;John O'Shea;ie IRL;DF,MF;Sunderland;35;1981;28;26;2,158;24.0;0;1;1;0;0;0;5;0;0.00;0.04;0.04;0.00;0.04
-385;Pedro Obiang;gq EQG;MF;West Ham;24;1992;22;21;1,763;19.juin;1;1;2;1;0;0;7;0;0.05;0.05;0.10;0.05;0.10
-386;Angelo Ogbonna;it ITA;DF;West Ham;28;1988;20;20;1,755;19.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-387;Stefano Okaka;it ITA;FW;Watford;26;1989;19;10;958;10.juin;4;1;5;4;0;0;5;0;0.38;0.09;0.47;0.38;0.47
-388;Shinji Okazaki;jp JPN;FW,MF;Leicester City;30;1986;30;21;1,565;17.avr;3;1;4;3;0;0;1;0;0.17;0.06;0.23;0.17;0.23
-389;Jonas Olsson;se SWE;DF;West Brom;33;1983;7;7;590;06.juin;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-390;Martin Olsson;se SWE;DF,MF;Swansea City;28;1988;15;14;1,252;13.sept;2;0;2;2;0;0;2;0;0.14;0.00;0.14;0.14;0.14
-391;Josh Onomah;eng ENG;FW,MF;Tottenham;19;1997;5;0;22;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-392;Divock Origi;be BEL;FW,MF;Liverpool;21;1995;34;14;1,468;16.mars;7;3;10;7;0;0;0;0;0.43;0.18;0.61;0.43;0.61
-393;Oscar;br BRA;FW,MF;Chelsea;24;1991;9;5;455;05.janv;0;1;1;0;0;0;1;0;0.00;0.20;0.20;0.00;0.20
-394;David Ospina;co COL;GK;Arsenal;27;1988;2;1;143;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-395;Nicolás Otamendi;ar ARG;DF;Manchester City;28;1988;30;29;2,592;28.août;1;0;1;1;0;0;9;0;0.03;0.00;0.03;0.03;0.03
-396;Bryan Oviedo;cr CRC;DF,MF;Sunderland;26;1990;10;10;848;09.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-397;Bryan Oviedo;cr CRC;DF,MF;Everton;26;1990;6;6;475;05.mars;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-398;Alex Oxlade-Chamberlain;eng ENG;FW,MF;Arsenal;22;1993;29;16;1,564;17.avr;2;7;9;2;0;0;1;0;0.12;0.40;0.52;0.12;0.52
-399;Mesut Özil;de GER;MF;Arsenal;27;1988;33;32;2,841;31.6;8;10;18;8;0;0;2;0;0.25;0.32;0.57;0.25;0.57
-400;Costel Pantilimon;ro ROU;GK;Watford;29;1987;2;0;83;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-401;Gabriel Paulista;br BRA;DF;Arsenal;25;1990;19;15;1,517;16.sept;0;0;0;0;0;0;6;0;0.00;0.00;0.00;0.00;0.00
-402;Dimitri Payet;fr FRA;FW,MF;West Ham;29;1987;18;17;1,511;16.août;2;6;8;2;0;0;2;0;0.12;0.36;0.48;0.12;0.48
-403;Pedro;es ESP;FW,MF;Chelsea;29;1987;35;26;2,14;23.août;9;9;18;9;0;0;6;0;0.38;0.38;0.76;0.38;0.76
-404;Matthew Pennington;eng ENG;DF;Everton;21;1994;3;2;180;2.0;1;0;1;1;0;0;0;0;0.50;0.00;0.50;0.50;0.50
-405;Dion Pereira;ag ATG;MF;Watford;17;1999;2;0;25;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-406;Roberto Pereyra;ar ARG;DF,FW;Watford;25;1991;13;12;1,037;11.mai;2;2;4;2;0;0;2;1;0.17;0.17;0.35;0.17;0.35
-407;Lucas Pérez;es ESP;FW,MF;Arsenal;27;1988;11;2;272;3.0;1;0;1;1;0;0;0;0;0.33;0.00;0.33;0.33;0.33
-408;Matt Phillips;sct SCO;DF,FW;West Brom;25;1991;27;26;2,181;24.févr;4;8;12;4;0;0;2;0;0.17;0.33;0.50;0.17;0.50
-409;Jordan Pickford;eng ENG;GK;Sunderland;22;1994;29;29;2,61;29.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-410;Jérémy Pied;fr FRA;DF,FW;Southampton;27;1989;4;1;129;01.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-411;Steven Pienaar;za RSA;MF;Sunderland;34;1982;15;10;802;08.sept;0;0;0;0;0;0;7;1;0.00;0.00;0.00;0.00;0.00
-412;Erik Pieters;nl NED;DF,MF;Stoke City;27;1988;36;35;3,151;35.0;0;1;1;0;0;0;5;0;0.00;0.03;0.03;0.00;0.03
-413;Paul Pogba;fr FRA;MF;Manchester Utd;23;1993;30;29;2,608;29.0;5;4;9;5;0;0;7;0;0.17;0.14;0.31;0.17;0.31
-414;Sebastian Prödl;at AUT;DF,MF;Watford;29;1987;33;32;2,769;30.août;1;1;2;1;0;0;12;1;0.03;0.03;0.07;0.03;0.07
-415;Marc Pugh;eng ENG;FW,MF;Bournemouth;29;1987;21;16;1,328;14.août;2;2;4;2;0;0;1;0;0.14;0.14;0.27;0.14;0.27
-416;Jason Puncheon;eng ENG;MF;Crystal Palace;30;1986;36;35;3,091;34.3;0;5;5;0;0;0;9;0;0.00;0.15;0.15;0.00;0.15
-417;Gastón Ramírez;uy URU;FW,MF;Middlesbrough;25;1990;24;20;1,54;17.janv;2;3;5;2;0;0;10;1;0.12;0.18;0.29;0.12;0.29
-418;Aaron Ramsey;wls WAL;MF;Arsenal;25;1990;23;13;1,236;13.juil;1;4;5;1;0;0;3;0;0.07;0.29;0.36;0.07;0.36
-419;Darren Randolph;ie IRL;GK;West Ham;29;1987;22;22;1,98;22.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-420;Àngel Rangel;es ESP;DF;Swansea City;33;1982;18;8;831;09.févr;1;0;1;1;0;0;1;0;0.11;0.00;0.11;0.11;0.11
-421;Andrea Ranocchia;it ITA;DF;Hull City;28;1988;16;15;1,33;14.août;2;2;4;2;0;0;2;0;0.14;0.14;0.27;0.14;0.27
-422;Marcus Rashford;eng ENG;FW,MF;Manchester Utd;18;1997;32;16;1,71;19.0;5;1;6;5;0;0;3;0;0.26;0.05;0.32;0.26;0.32
-423;Nathan Redmond;eng ENG;FW,MF;Southampton;22;1994;37;32;2,899;32.2;7;1;8;7;0;0;2;1;0.22;0.03;0.25;0.22;0.25
-424;Harrison Reed;eng ENG;MF;Southampton;21;1995;3;1;64;0.7;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-425;Winston Reid;nz NZL;DF;West Ham;28;1988;30;30;2,587;28.juil;2;1;3;2;0;0;10;1;0.07;0.03;0.10;0.07;0.10
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-426;Loïc Rémy;fr FRA;FW;Crystal Palace;29;1987;5;1;134;01.mai;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-427;Jordan Rhodes;sct SCO;FW;Middlesbrough;26;1990;6;2;211;02.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-428;Declan Rice;eng ENG;DF,MF;West Ham;17;1999;1;0;1;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-429;Andrew Robertson;sct SCO;DF,MF;Hull City;22;1994;33;31;2,736;30.avr;1;2;3;1;0;0;5;0;0.03;0.07;0.10;0.03;0.10
-430;Paul Robinson;eng ENG;GK;Burnley;36;1979;3;3;270;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-431;Joel Robles;es ESP;GK;Everton;26;1990;20;19;1,737;19.mars;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-432;Hal Robson-Kanu;wls WAL;FW,MF;West Brom;27;1989;29;5;701;07.août;3;2;5;3;0;0;3;0;0.39;0.26;0.64;0.39;0.64
-433;Jay Rodriguez;eng ENG;FW,MF;Southampton;27;1989;24;9;892;09.sept;5;2;7;5;0;0;0;0;0.50;0.20;0.71;0.50;0.71
-434;Jack Rodwell;eng ENG;DF,MF;Sunderland;25;1991;20;17;1,492;16.juin;0;1;1;0;0;0;4;0;0.00;0.06;0.06;0.00;0.06
-435;Marcos Rojo;ar ARG;DF;Manchester Utd;26;1990;21;18;1,663;18.mai;1;0;1;1;0;0;5;0;0.05;0.00;0.05;0.05;0.05
-436;Sergio Romero;ar ARG;GK;Manchester Utd;29;1987;2;2;180;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-437;Oriol Romeu;es ESP;MF;Southampton;24;1991;35;35;3,071;34.1;1;0;1;1;0;0;11;0;0.03;0.00;0.03;0.03;0.03
-438;Salomón Rondón;ve VEN;FW;West Brom;26;1989;38;32;2,891;32.1;8;2;10;8;0;0;2;0;0.25;0.06;0.31;0.25;0.31
-439;Marten de Roon;nl NED;DF,MF;Middlesbrough;25;1991;33;32;2,773;30.août;4;0;4;4;0;0;8;0;0.13;0.00;0.13;0.13;0.13
-440;Wayne Rooney;eng ENG;FW,MF;Manchester Utd;30;1985;25;15;1,539;17.janv;5;5;10;4;1;1;8;0;0.29;0.29;0.58;0.23;0.53
-441;Danny Rose;eng ENG;DF,MF;Tottenham;26;1990;18;18;1,53;17.0;2;2;4;2;0;0;8;0;0.12;0.12;0.24;0.12;0.24
-442;Wayne Routledge;eng ENG;FW,MF;Swansea City;31;1985;27;24;1,922;21.avr;3;1;4;3;0;0;1;0;0.14;0.05;0.19;0.14;0.19
-443;Bacary Sagna;fr FRA;DF;Manchester City;33;1983;17;14;1,346;15.0;0;1;1;0;0;0;2;0;0.00;0.07;0.07;0.00;0.07
-444;Diafra Sakho;sn SEN;FW;West Ham;26;1989;4;2;181;2.0;1;0;1;1;0;0;0;0;0.50;0.00;0.50;0.50;0.50
-445;Mamadou Sakho;fr FRA;DF;Crystal Palace;26;1990;8;8;686;07.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-446;Bakary Sako;ml MLI;FW,MF;Crystal Palace;28;1988;7;0;142;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-447;Alexis Sánchez;cl CHI;FW,MF;Arsenal;27;1988;38;36;3,217;35.7;24;10;34;22;2;3;6;0;0.67;0.28;0.95;0.62;0.90
-448;Leroy Sané;de GER;FW,MF;Manchester City;20;1996;26;20;1,781;19.août;5;2;7;5;0;0;4;0;0.25;0.10;0.35;0.25;0.35
-449;Jeffrey Schlupp;gh GHA;DF,FW;Crystal Palace;23;1992;15;11;998;11.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-450;Jeffrey Schlupp;gh GHA;DF,FW;Leicester City;23;1992;4;1;141;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-451;Kasper Schmeichel;dk DEN;GK;Leicester City;29;1986;30;30;2,666;29.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-452;Morgan Schneiderlin;fr FRA;MF;Manchester Utd;26;1989;3;0;14;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-453;Morgan Schneiderlin;fr FRA;MF;Everton;26;1989;14;12;1,059;11.août;1;0;1;1;0;0;2;0;0.08;0.00;0.08;0.08;0.08
-454;Xherdan Shaqiri;ch SUI;FW,MF;Stoke City;24;1991;21;21;1,698;18.sept;4;2;6;4;0;0;2;0;0.21;0.11;0.32;0.21;0.32
-455;Luke Shaw;eng ENG;DF,MF;Manchester Utd;21;1995;11;9;688;07.juin;0;1;1;0;0;0;1;0;0.00;0.13;0.13;0.00;0.13
-456;Ryan Shawcross;eng ENG;DF;Stoke City;28;1987;35;35;3,15;35.0;1;1;2;1;0;0;6;0;0.03;0.03;0.06;0.03;0.06
-457;Gylfi Sigurðsson;is ISL;FW,MF;Swansea City;26;1989;38;37;3,327;37.0;9;13;22;6;3;3;2;0;0.24;0.35;0.60;0.16;0.51
-458;David Silva;es ESP;FW,MF;Manchester City;30;1986;34;31;2,759;30.juil;4;7;11;4;0;0;6;0;0.13;0.23;0.36;0.13;0.36
-459;Danny Simpson;eng ENG;DF;Leicester City;29;1987;35;34;2,988;33.2;0;1;1;0;0;0;12;0;0.00;0.03;0.03;0.00;0.03
-460;Josh Sims;eng ENG;FW,MF;Southampton;19;1997;7;1;211;02.mars;0;1;1;0;0;0;0;0;0.00;0.43;0.43;0.00;0.43
-461;Jerome Sinclair;eng ENG;FW;Watford;19;1996;5;1;116;01.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-462;Moussa Sissoko;fr FRA;FW,MF;Tottenham;26;1989;25;8;911;10.janv;0;2;2;0;0;0;3;0;0.00;0.20;0.20;0.00;0.20
-463;Islam Slimani;dz ALG;FW;Leicester City;28;1988;23;13;1,281;14.févr;7;4;11;6;1;1;1;0;0.49;0.28;0.77;0.42;0.70
-464;Chris Smalling;eng ENG;DF;Manchester Utd;26;1989;18;13;1,217;13.mai;1;0;1;1;0;0;0;0;0.07;0.00;0.07;0.07;0.07
-465;Adam Smith;eng ENG;DF,MF;Bournemouth;25;1991;36;34;3,101;34.5;1;5;6;1;0;0;6;0;0.03;0.15;0.17;0.03;0.17
-466;Brad Smith;au AUS;DF,MF;Bournemouth;22;1994;5;3;291;03.févr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-467;Robert Snodgrass;sct SCO;FW,MF;West Ham;28;1987;15;8;838;09.mars;0;2;2;0;0;0;0;0;0.00;0.21;0.21;0.00;0.21
-468;Robert Snodgrass;sct SCO;FW,MF;Hull City;28;1987;20;19;1,71;19.0;7;2;9;5;2;2;2;0;0.37;0.11;0.47;0.26;0.37
-469;Cédric Soares;pt POR;DF,MF;Southampton;24;1991;30;30;2,515;27.sept;0;3;3;0;0;0;7;0;0.00;0.11;0.11;0.00;0.11
-470;Ramadan Sobhi;eg EGY;MF;Stoke City;19;1997;17;8;854;09.mai;0;1;1;0;0;0;2;0;0.00;0.11;0.11;0.00;0.11
-471;Pape Souaré;sn SEN;DF;Crystal Palace;26;1990;3;3;269;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-472;Junior Stanislas;eng ENG;FW,MF;Bournemouth;26;1989;21;18;1,467;16.mars;7;5;12;5;2;2;1;0;0.43;0.31;0.74;0.31;0.61
-473;Maarten Stekelenburg;nl NED;GK;Everton;33;1982;19;19;1,683;18.juil;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-474;Jack Stephens;eng ENG;DF;Southampton;22;1994;17;15;1,471;16.mars;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-475;Raheem Sterling;eng ENG;FW,MF;Manchester City;21;1994;33;29;2,508;27.sept;7;8;15;7;0;0;7;0;0.25;0.29;0.54;0.25;0.54
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-476;Kevin Stewart;jm JAM;DF,MF;Liverpool;22;1993;4;0;20;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-477;John Stones;eng ENG;DF;Manchester City;22;1994;27;23;2,014;22.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-478;Cristhian Stuani;uy URU;FW,MF;Middlesbrough;29;1986;23;16;1,354;15.0;4;0;4;4;0;0;4;0;0.27;0.00;0.27;0.27;0.27
-479;Daniel Sturridge;eng ENG;FW,MF;Liverpool;26;1989;20;7;775;08.juin;3;1;4;3;0;0;1;0;0.35;0.12;0.46;0.35;0.46
-480;Isaac Success;ng NGA;FW,MF;Watford;20;1996;19;2;519;05.août;1;1;2;1;0;0;2;0;0.17;0.17;0.35;0.17;0.35
-481;Ki Sung-yueng;kr KOR;MF;Swansea City;27;1989;23;13;1,291;14.mars;0;1;1;0;0;0;3;0;0.00;0.07;0.07;0.00;0.07
-482;Andrew Surman;eng ENG;MF;Bournemouth;29;1986;22;21;1,801;20.0;0;1;1;0;0;0;3;1;0.00;0.05;0.05;0.00;0.05
-483;Dušan Tadić;rs SRB;FW,MF;Southampton;27;1988;33;30;2,411;26.août;3;5;8;2;1;2;4;0;0.11;0.19;0.30;0.07;0.26
-484;Matt Targett;eng ENG;DF,MF;Southampton;20;1995;5;5;373;04.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-485;James Tarkowski;eng ENG;DF;Burnley;23;1992;19;4;568;06.mars;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-486;Neil Taylor;wls WAL;DF,MF;Swansea City;27;1989;11;11;920;10.févr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-487;John Terry;eng ENG;DF;Chelsea;35;1980;9;6;496;05.mai;1;0;1;1;0;0;1;0;0.18;0.00;0.18;0.18;0.18
-488;James Tomkins;eng ENG;DF,MF;Crystal Palace;27;1989;24;23;1,974;21.sept;3;0;3;3;0;0;4;0;0.14;0.00;0.14;0.14;0.14
-489;Gökhan Töre;tr TUR;FW,MF;West Ham;24;1992;5;3;240;02.juil;0;1;1;0;0;0;0;0;0.00;0.37;0.37;0.00;0.37
-490;Yaya Touré;ci CIV;MF;Manchester City;33;1983;25;22;1,941;21.juin;5;0;5;3;2;2;4;0;0.23;0.00;0.23;0.14;0.14
-491;Andros Townsend;eng ENG;FW,MF;Crystal Palace;25;1991;36;30;2,519;28.0;3;4;7;3;0;0;4;0;0.11;0.14;0.25;0.11;0.25
-492;Adama Traoré;es ESP;FW,MF;Middlesbrough;20;1996;27;16;1,541;17.janv;0;1;1;0;0;0;1;0;0.00;0.06;0.06;0.00;0.06
-493;Kieran Trippier;eng ENG;DF,MF;Tottenham;25;1990;12;6;568;06.mars;0;5;5;0;0;0;1;0;0.00;0.79;0.79;0.00;0.79
-494;Axel Tuanzebe;cd COD;DF;Manchester Utd;18;1997;4;4;303;03.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-495;Josh Tymon;eng ENG;DF,MF;Hull City;17;1999;5;4;322;03.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-496;Leonardo Ulloa;ar ARG;FW;Leicester City;30;1986;16;3;447;5.0;1;0;1;1;0;0;0;0;0.20;0.00;0.20;0.20;0.20
-497;Víctor Valdés;es ESP;GK;Middlesbrough;34;1982;28;28;2,52;28.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-498;Antonio Valencia;ec ECU;DF,MF;Manchester Utd;30;1985;28;27;2,483;27.juin;1;3;4;1;0;0;5;0;0.04;0.11;0.14;0.04;0.14
-499;Enner Valencia;ec ECU;FW,MF;West Ham;26;1989;3;3;211;02.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-500;Enner Valencia;ec ECU;FW,MF;Everton;26;1989;21;5;716;8.0;3;1;4;3;0;0;1;0;0.38;0.13;0.50;0.38;0.50
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-501;Virgil van Dijk;nl NED;DF;Southampton;25;1991;21;21;1,853;20.juin;1;0;1;1;0;0;5;2;0.05;0.00;0.05;0.05;0.05
-502;Jamie Vardy;eng ENG;FW;Leicester City;29;1987;35;33;2,802;31.janv;13;4;17;13;0;0;2;1;0.42;0.13;0.55;0.42;0.55
-503;Jan Vertonghen;be BEL;DF;Tottenham;29;1987;33;33;2,894;32.2;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
-504;Sam Vokes;wls WAL;FW;Burnley;26;1989;37;21;2,064;22.sept;10;3;13;8;2;2;0;0;0.44;0.13;0.57;0.35;0.48
-505;Michel Vorm;nl NED;GK;Tottenham;32;1983;5;4;416;04.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-506;Matěj Vydra;cz CZE;FW,MF;Watford;24;1992;1;0;3;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-507;Theo Walcott;eng ENG;FW,MF;Arsenal;27;1989;28;23;1,916;21.mars;10;2;12;10;0;1;1;0;0.47;0.09;0.56;0.47;0.56
-508;Kyle Walker;eng ENG;DF,MF;Tottenham;26;1990;33;31;2,701;30.0;0;5;5;0;0;0;8;0;0.00;0.17;0.17;0.00;0.17
-509;Jonathan Walters;ie IRL;FW,MF;Stoke City;32;1983;23;13;1,304;14.mai;4;2;6;3;1;1;1;0;0.28;0.14;0.41;0.21;0.35
-510;Victor Wanyama;ke KEN;MF;Tottenham;25;1991;36;35;3,012;33.5;4;1;5;4;0;0;10;0;0.12;0.03;0.15;0.12;0.15
-511;Joel Ward;eng ENG;DF,MF;Crystal Palace;26;1989;38;38;3,417;38.0;0;1;1;0;0;0;7;0;0.00;0.03;0.03;0.00;0.03
-512;Stephen Ward;ie IRL;DF,FW;Burnley;30;1985;37;37;3,23;35.9;1;1;2;1;0;0;5;0;0.03;0.03;0.06;0.03;0.06
-513;James Ward-Prowse;eng ENG;MF;Southampton;21;1994;30;22;1,883;20.sept;4;4;8;4;0;0;4;0;0.19;0.19;0.38;0.19;0.38
-514;Marcin Wasilewski;pl POL;DF;Leicester City;36;1980;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-515;Duncan Watmore;eng ENG;FW,MF;Sunderland;22;1994;14;11;1,024;11.avr;0;2;2;0;0;0;1;0;0.00;0.18;0.18;0.00;0.18
-516;Ben Watson;eng ENG;MF;Watford;31;1985;4;0;54;0.6;0;0;0;0;0;0;0;1;0.00;0.00;0.00;0.00;0.00
-517;Danny Welbeck;eng ENG;FW,MF;Arsenal;25;1990;16;8;748;08.mars;2;2;4;2;0;0;0;0;0.24;0.24;0.48;0.24;0.48
-518;Ashley Westwood;eng ENG;MF;Burnley;26;1990;9;6;551;06.janv;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-519;Glenn Whelan;ie IRL;MF;Stoke City;32;1984;30;26;2,275;25.mars;0;1;1;0;0;0;5;0;0.00;0.04;0.04;0.00;0.04
-520;Connor Wickham;eng ENG;FW,MF;Crystal Palace;23;1993;8;4;412;04.juin;2;0;2;2;0;0;1;0;0.44;0.00;0.44;0.44;0.44
-521;Georginio Wijnaldum;nl NED;FW,MF;Liverpool;25;1990;36;33;2,972;33.0;6;8;14;6;0;0;2;0;0.18;0.24;0.42;0.18;0.42
-522;Ashley Williams;wls WAL;DF;Everton;31;1984;36;35;3,16;35.1;1;2;3;1;0;0;7;1;0.03;0.06;0.09;0.03;0.09
-523;Willian;br BRA;FW,MF;Chelsea;27;1988;34;15;1,534;17.0;8;2;10;8;0;0;3;0;0.47;0.12;0.59;0.47;0.59
-524;Jack Wilshere;eng ENG;MF;Arsenal;24;1992;2;0;39;0.4;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-525;Jack Wilshere;eng ENG;MF;Bournemouth;24;1992;27;22;1,91;21.févr;0;2;2;0;0;0;3;0;0.00;0.09;0.09;0.00;0.09
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
-526;Callum Wilson;eng ENG;FW;Bournemouth;24;1992;20;16;1,356;15.janv;6;0;6;3;3;3;0;0;0.40;0.00;0.40;0.20;0.20
-527;Marc Wilson;ie IRL;DF,MF;West Brom;28;1987;4;3;254;02.août;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-528;Kevin Wimmer;at AUT;DF;Tottenham;23;1992;5;4;357;4.0;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
-529;Harry Winks;eng ENG;MF;Tottenham;20;1996;21;3;493;05.mai;1;1;2;1;0;0;1;0;0.18;0.18;0.37;0.18;0.37
-530;Philipp Wollscheid;de GER;DF;Stoke City;27;1989;2;2;180;2.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
-531;Ben Woodburn;wls WAL;FW,MF;Liverpool;16;1999;5;1;86;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-532;Matt Worthington;eng ENG;DF,MF;Bournemouth;18;1997;1;0;17;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-533;Granit Xhaka;ch SUI;MF;Arsenal;23;1992;32;28;2,485;27.juin;2;2;4;2;0;0;5;2;0.07;0.07;0.14;0.07;0.14
-534;Claudio Yacob;ar ARG;MF;West Brom;29;1987;33;27;2,418;26.sept;0;0;0;0;0;0;9;0;0.00;0.00;0.00;0.00;0.00
-535;Maya Yoshida;jp JPN;DF;Southampton;27;1988;23;23;2,07;23.0;1;0;1;1;0;0;2;0;0.04;0.00;0.04;0.04;0.04
-536;Ashley Young;eng ENG;DF,FW;Manchester Utd;31;1985;12;8;758;08.avr;0;1;1;0;0;0;2;0;0.00;0.12;0.12;0.00;0.12
-537;Pablo Zabaleta;ar ARG;DF,MF;Manchester City;31;1985;20;11;1,065;11.août;1;1;2;1;0;0;2;0;0.08;0.08;0.17;0.08;0.17
-538;Wilfried Zaha;ci CIV;FW,MF;Crystal Palace;23;1992;35;34;3,019;33.5;7;8;15;7;0;0;8;0;0.21;0.24;0.45;0.21;0.45
-539;Mauro Zárate;ar ARG;FW,MF;Watford;29;1987;3;3;203;02.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-540;Simone Zaza;it ITA;FW;West Ham;25;1991;8;5;459;05.janv;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
-541;Ron-Robert Zieler;de GER;GK;Leicester City;27;1989;9;8;754;08.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-542;Kurt Zouma;fr FRA;DF;Chelsea;21;1994;9;3;250;02.août;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
-543;Juan Zúñiga;co COL;DF,MF;Watford;30;1985;21;6;825;09.févr;1;0;1;1;0;0;1;0;0.11;0.00;0.11;0.11;0.11
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Patrick van Aanholt;nl NED;DF;Crystal Palace;25;1990;11;8;714;07.sept;2;0;2;2;0;0;1;0;0.25;0.00;0.25;0.25;0.25
+Patrick van Aanholt;nl NED;DF;Sunderland;25;1990;21;20;1,784;19.août;3;1;4;3;0;0;2;0;0.15;0.05;0.20;0.15;0.20
+Charlie Adam;sct SCO;MF;Stoke City;30;1985;24;17;1,491;16.juin;1;3;4;0;1;1;7;0;0.06;0.18;0.24;0.00;0.18
+Albert Adomah;gh GHA;DF,FW;Middlesbrough;28;1987;2;1;122;01.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Adrián;es ESP;GK;West Ham;29;1987;16;16;1,44;16.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Ibrahim Afellay;nl NED;FW,MF;Stoke City;30;1986;12;3;384;04.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Benik Afobe;cd COD;FW;Bournemouth;23;1993;31;14;1,461;16.févr;6;3;9;6;0;1;1;0;0.37;0.18;0.55;0.37;0.55
+Sergio Agüero;ar ARG;FW;Manchester City;28;1988;31;25;2,403;26.juil;20;4;24;16;4;5;4;1;0.75;0.15;0.90;0.60;0.75
+Dan Agyei;eng ENG;FW,MF;Burnley;19;1997;3;0;25;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Ola Aina;ng NGA;DF,MF;Chelsea;19;1996;3;0;26;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Nathan Aké;nl NED;DF,MF;Bournemouth;21;1995;10;8;735;08.févr;3;0;3;3;0;0;0;0;0.37;0.00;0.37;0.37;0.37
+Nathan Aké;nl NED;DF,MF;Chelsea;21;1995;2;1;99;01.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Marc Albrighton;eng ENG;DF,FW;Leicester City;26;1989;33;29;2,411;26.août;2;6;8;2;0;0;5;0;0.07;0.22;0.30;0.07;0.30
+Toby Alderweireld;be BEL;DF;Tottenham;27;1989;30;30;2,601;28.sept;1;0;1;1;0;0;1;0;0.03;0.00;0.03;0.03;0.03
+Trent Alexander-Arnold;eng ENG;DF;Liverpool;17;1998;7;2;167;01.sept;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Joe Allen;wls WAL;MF;Stoke City;26;1990;36;34;2,93;32.6;6;2;8;6;0;0;9;0;0.18;0.06;0.25;0.18;0.25
+Dele Alli;eng ENG;FW,MF;Tottenham;20;1996;37;35;3,034;33.7;18;7;25;17;1;1;4;0;0.53;0.21;0.74;0.50;0.71
+Ryan Allsop;eng ENG;GK;Bournemouth;24;1992;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Marcos Alonso;es ESP;DF,MF;Chelsea;25;1990;31;30;2,693;29.sept;6;3;9;6;0;0;2;0;0.20;0.10;0.30;0.20;0.30
+Daniel Amartey;gh GHA;DF,MF;Leicester City;21;1994;24;17;1,673;18.juin;1;1;2;1;0;0;3;0;0.05;0.05;0.11;0.05;0.11
+Jordi Amat;id IDN;DF;Swansea City;24;1992;17;15;1,409;15.juil;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
+Nordin Amrabat;ma MAR;FW,MF;Watford;29;1987;29;25;2,091;23.févr;0;3;3;0;0;0;4;0;0.00;0.13;0.13;0.00;0.13
+Victor Anichebe;ng NGA;FW;Sunderland;28;1988;18;14;1,219;13.mai;3;0;3;3;0;0;2;0;0.22;0.00;0.22;0.22;0.22
+Michail Antonio;jm JAM;FW,MF;West Ham;26;1990;29;29;2,433;27.0;9;3;12;9;0;0;6;2;0.33;0.11;0.44;0.33;0.44
+Ikechi Anya;sct SCO;FW,MF;Watford;28;1988;1;0;10;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Álvaro Arbeloa;es ESP;DF;West Ham;33;1983;3;1;258;02.sept;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Scott Arfield;ca CAN;MF;Burnley;27;1988;31;23;2,102;23.avr;1;1;2;1;0;0;3;0;0.04;0.04;0.09;0.04;0.09
+Marko Arnautović;at AUT;FW,MF;Stoke City;27;1989;32;32;2,714;30.2;6;5;11;6;0;1;9;1;0.20;0.17;0.36;0.20;0.36
+Harry Arter;ie IRL;MF;Bournemouth;26;1989;35;33;2,957;32.9;1;3;4;1;0;1;13;1;0.03;0.09;0.12;0.03;0.12
+Joel Asoro;se SWE;FW,MF;Sunderland;17;1999;1;0;10;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Charlie Austin;eng ENG;FW;Southampton;27;1989;15;11;934;10.avr;6;1;7;4;2;2;1;0;0.58;0.10;0.67;0.39;0.48
+Daniel Ayala;es ESP;DF;Middlesbrough;25;1990;14;11;918;10.févr;1;0;1;1;0;0;3;0;0.10;0.00;0.10;0.10;0.10
+André Ayew;gh GHA;FW,MF;West Ham;26;1989;25;16;1,438;16.0;6;3;9;6;0;0;1;0;0.38;0.19;0.56;0.38;0.56
+Jordan Ayew;gh GHA;FW,MF;Swansea City;24;1991;14;9;866;09.juin;1;2;3;1;0;0;1;0;0.10;0.21;0.31;0.10;0.31
+César Azpilicueta;es ESP;DF,MF;Chelsea;26;1989;38;38;3,42;38.0;1;4;5;1;0;0;4;0;0.03;0.11;0.13;0.03;0.13
+Eric Bailly;ci CIV;DF;Manchester Utd;22;1994;25;24;2,058;22.sept;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
+Leighton Baines;eng ENG;DF;Everton;31;1984;32;32;2,819;31.mars;2;3;5;0;2;3;4;0;0.06;0.10;0.16;0.00;0.10
+Patrick Bamford;eng ENG;FW,MF;Middlesbrough;22;1993;8;2;287;03.févr;1;0;1;1;0;0;1;0;0.31;0.00;0.31;0.31;0.31
+Patrick Bamford;eng ENG;FW,MF;Burnley;22;1993;6;0;39;0.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Phil Bardsley;sct SCO;DF;Stoke City;31;1985;15;14;1,167;13.0;0;0;0;0;0;0;6;2;0.00;0.00;0.00;0.00;0.00
+Ross Barkley;eng ENG;MF;Everton;22;1993;36;32;2,899;32.2;5;8;13;5;0;0;5;0;0.16;0.25;0.40;0.16;0.40
+Ashley Barnes;eng ENG;FW,MF;Burnley;26;1989;28;20;1,771;19.juil;6;2;8;4;2;2;8;2;0.30;0.10;0.41;0.20;0.30
+Antonio Barragán;es ESP;DF,MF;Middlesbrough;29;1987;26;26;2,193;24.avr;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
+Modou Barrow;gm GAM;FW,MF;Swansea City;23;1992;18;12;1,145;12.juil;0;2;2;0;0;0;1;0;0.00;0.16;0.16;0.00;0.16
+Gareth Barry;eng ENG;MF;Everton;35;1981;33;23;2,108;23.avr;2;1;3;2;0;0;10;0;0.09;0.04;0.13;0.09;0.13
+Joey Barton;eng ENG;MF;Burnley;33;1982;14;12;1,105;12.mars;1;0;1;1;0;0;4;0;0.08;0.00;0.08;0.08;0.08
+Borja Bastón;es ESP;FW;Swansea City;23;1992;18;4;561;06.févr;1;0;1;1;0;0;0;0;0.16;0.00;0.16;0.16;0.16
+Michy Batshuayi;be BEL;FW;Chelsea;22;1993;20;1;254;02.août;5;1;6;5;0;0;0;0;janv.77;0.35;févr.13;janv.77;févr.13
+Asmir Begović;ba BIH;GK;Chelsea;29;1987;2;2;180;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Valon Behrami;ch SUI;DF,MF;Watford;31;1985;27;26;2,03;22.juin;0;2;2;0;0;0;7;0;0.00;0.09;0.09;0.00;0.09
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Héctor Bellerín;es ESP;DF,MF;Arsenal;21;1995;33;27;2,503;27.août;1;4;5;1;0;0;4;0;0.04;0.14;0.18;0.04;0.18
+Yohan Benalouane;tn TUN;DF;Leicester City;29;1987;11;11;917;10.févr;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
+Christian Benteke;be BEL;FW;Crystal Palace;25;1990;36;36;3,131;34.8;15;2;17;13;2;4;10;0;0.43;0.06;0.49;0.37;0.43
+Jonathan Benteke;be BEL;FW;Crystal Palace;21;1995;1;0;7;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Saido Berahino;bi BDI;FW,MF;Stoke City;22;1993;13;8;720;8.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Saido Berahino;bi BDI;FW,MF;West Brom;22;1993;4;3;243;02.juil;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Jóhann Berg Guðmundsson;is ISL;FW,MF;Burnley;25;1990;20;10;998;11.janv;1;2;3;1;0;0;1;0;0.09;0.18;0.27;0.09;0.27
+Ryan Bertrand;eng ENG;DF,MF;Southampton;26;1989;28;28;2,507;27.sept;2;3;5;2;0;0;3;0;0.07;0.11;0.18;0.07;0.18
+Mame Biram Diouf;sn SEN;FW,MF;Stoke City;28;1987;27;15;1,385;15.avr;1;2;3;1;0;0;3;0;0.06;0.13;0.19;0.06;0.19
+Daley Blind;nl NED;DF,MF;Manchester Utd;26;1990;23;20;1,83;20.mars;1;2;3;1;0;0;2;0;0.05;0.10;0.15;0.05;0.15
+Yannick Bolasie;cd COD;FW,MF;Crystal Palace;27;1989;1;0;25;0.3;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Yannick Bolasie;cd COD;FW,MF;Everton;27;1989;13;12;1,023;11.avr;1;4;5;1;0;0;2;0;0.09;0.35;0.44;0.09;0.44
+Wilfried Bony;ci CIV;FW;Stoke City;27;1988;10;9;684;07.juin;2;0;2;2;0;0;1;0;0.26;0.00;0.26;0.26;0.26
+Fabio Borini;it ITA;FW,MF;Sunderland;25;1991;24;19;1,741;19.mars;2;0;2;2;0;0;5;0;0.10;0.00;0.10;0.10;0.10
+Artur Boruc;pl POL;GK;Bournemouth;36;1980;35;35;3,15;35.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Sofiane Boufal;ma MAR;FW,MF;Southampton;22;1993;24;12;1,104;12.mars;1;1;2;1;0;0;5;0;0.08;0.08;0.16;0.08;0.16
+Jarrod Bowen;eng ENG;FW,MF;Hull City;19;1996;7;1;181;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+George Boyd;sct SCO;FW,MF;Burnley;30;1985;36;33;2,836;31.mai;2;1;3;2;0;0;3;0;0.06;0.03;0.10;0.06;0.10
+Robbie Brady;ie IRL;DF,FW;Burnley;24;1992;14;7;719;8.0;1;2;3;1;0;0;1;0;0.13;0.25;0.38;0.13;0.38
+Claudio Bravo;cl CHI;GK;Manchester City;33;1983;22;22;1,968;21.sept;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Miguel Britos;uy URU;DF;Watford;31;1985;27;27;2,282;25.avr;1;2;3;1;0;0;10;2;0.04;0.08;0.12;0.04;0.12
+Leon Britton;eng ENG;MF;Swansea City;33;1982;16;16;1,163;12.sept;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Chris Brunt;nir NIR;DF,MF;West Brom;31;1984;31;27;2,477;27.mai;3;4;7;3;0;0;5;0;0.11;0.15;0.25;0.11;0.25
+Jack Butland;eng ENG;GK;Stoke City;23;1993;5;5;450;5.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Sam Byram;eng ENG;DF,MF;West Ham;22;1993;18;13;1,249;13.sept;0;1;1;0;0;0;7;1;0.00;0.07;0.07;0.00;0.07
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Willy Caballero;ar ARG;GK;Manchester City;34;1981;17;16;1,452;16.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Yohan Cabaye;fr FRA;MF;Crystal Palace;30;1986;32;25;2,125;23.juin;4;2;6;4;0;1;7;0;0.17;0.08;0.25;0.17;0.25
+Martín Cáceres;uy URU;DF;Southampton;29;1987;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Gary Cahill;eng ENG;DF;Chelsea;30;1985;37;36;3,296;36.6;6;0;6;6;0;0;5;0;0.16;0.00;0.16;0.16;0.16
+Jonathan Calleri;ar ARG;FW;West Ham;22;1993;16;4;540;6.0;1;0;1;1;0;0;0;0;0.17;0.00;0.17;0.17;0.17
+Dominic Calvert-Lewin;eng ENG;FW,MF;Everton;19;1997;11;5;347;03.sept;1;0;1;1;0;0;1;0;0.26;0.00;0.26;0.26;0.26
+Geoff Cameron;us USA;DF,MF;Stoke City;31;1985;19;18;1,629;18.janv;0;2;2;0;0;0;1;0;0.00;0.11;0.11;0.00;0.11
+Fraizer Campbell;eng ENG;FW;Crystal Palace;28;1987;12;0;165;01.août;1;0;1;1;0;0;0;0;0.55;0.00;0.55;0.55;0.55
+Emre Can;de GER;DF,MF;Liverpool;22;1994;32;26;2,371;26.mars;5;2;7;5;0;0;6;0;0.19;0.08;0.27;0.19;0.27
+Étienne Capoue;fr FRA;MF;Watford;28;1988;37;37;3,203;35.6;7;1;8;7;0;0;5;0;0.20;0.03;0.22;0.20;0.22
+Baily Cargill;eng ENG;DF;Bournemouth;21;1995;1;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Michael Carrick;eng ENG;MF;Manchester Utd;35;1981;23;18;1,6;17.août;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Andy Carroll;eng ENG;FW;West Ham;27;1989;18;15;1,311;14.juin;7;1;8;7;0;0;3;0;0.48;0.07;0.55;0.48;0.55
+Tom Carroll;eng ENG;MF;Tottenham;24;1992;1;0;1;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Tom Carroll;eng ENG;MF;Swansea City;24;1992;17;16;1,387;15.avr;1;2;3;1;0;0;1;0;0.06;0.13;0.19;0.06;0.19
+Joel Castro Pereira;pt POR;GK;Manchester Utd;20;1996;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Craig Cathcart;nir NIR;DF;Watford;27;1989;15;13;1,162;12.sept;0;1;1;0;0;0;3;0;0.00;0.08;0.08;0.00;0.08
+Lee Cattermole;eng ENG;MF;Sunderland;28;1988;8;8;633;7.0;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
+Santi Cazorla;es ESP;MF;Arsenal;31;1984;8;7;618;06.sept;2;1;3;0;2;2;2;0;0.29;0.15;0.44;0.00;0.15
+Petr Čech;cz CZE;GK;Arsenal;34;1982;35;35;3,097;34.4;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Nacer Chadli;be BEL;FW,MF;West Brom;26;1989;31;27;2,134;23.juil;5;4;9;4;1;1;2;0;0.21;0.17;0.38;0.17;0.34
+Nathaniel Chalobah;eng ENG;DF,MF;Chelsea;21;1994;10;1;167;01.sept;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Calum Chambers;eng ENG;DF,MF;Arsenal;21;1995;1;1;90;1.0;1;0;1;1;0;0;0;0;1.00;0.00;1.00;1.00;1.00
+Calum Chambers;eng ENG;DF,MF;Middlesbrough;21;1995;24;24;2,16;24.0;1;1;2;1;0;0;4;0;0.04;0.04;0.08;0.04;0.08
+Ben Chilwell;eng ENG;DF,MF;Leicester City;19;1996;12;7;699;07.août;1;0;1;1;0;0;2;0;0.13;0.00;0.13;0.13;0.13
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Lee Chung-yong;kr KOR;FW,MF;Crystal Palace;28;1988;15;4;471;05.févr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jordy Clasie;nl NED;MF;Southampton;25;1991;16;12;1,021;11.mars;1;1;2;1;0;0;3;0;0.09;0.09;0.18;0.09;0.18
+Adam Clayton;eng ENG;MF;Middlesbrough;27;1989;34;32;2,804;31.2;0;2;2;0;0;0;10;0;0.00;0.06;0.06;0.00;0.06
+Tom Cleverley;eng ENG;MF;Watford;26;1989;17;16;1,441;16.0;0;2;2;0;0;0;3;0;0.00;0.12;0.12;0.00;0.12
+Tom Cleverley;eng ENG;MF;Everton;26;1989;10;4;406;04.mai;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Gaël Clichy;fr FRA;DF;Manchester City;31;1985;25;24;2,123;23.juin;1;0;1;1;0;0;2;0;0.04;0.00;0.04;0.04;0.04
+Sam Clucas;eng ENG;MF;Hull City;25;1990;37;36;3,185;35.4;3;1;4;3;0;0;9;1;0.08;0.03;0.11;0.08;0.11
+Nathaniel Clyne;eng ENG;DF;Liverpool;25;1991;37;37;3,323;36.9;0;2;2;0;0;0;0;0;0.00;0.05;0.05;0.00;0.05
+Séamus Coleman;ie IRL;DF,MF;Everton;27;1988;26;26;2,316;25.juil;4;3;7;4;0;0;3;0;0.16;0.12;0.27;0.16;0.27
+James Collins;wls WAL;DF;West Ham;32;1983;22;19;1,655;18.avr;2;0;2;2;0;0;3;0;0.11;0.00;0.11;0.11;0.11
+Lewis Cook;eng ENG;MF;Bournemouth;19;1997;6;4;432;04.août;0;1;1;0;0;0;1;0;0.00;0.21;0.21;0.00;0.21
+Steve Cook;eng ENG;DF,MF;Bournemouth;25;1991;38;38;3,42;38.0;2;0;2;2;0;0;5;0;0.05;0.00;0.05;0.05;0.05
+Francis Coquelin;fr FRA;DF,MF;Arsenal;25;1991;29;22;1,779;19.août;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
+Jack Cork;eng ENG;DF,MF;Swansea City;27;1989;30;25;2,232;24.août;0;0;0;0;0;0;7;0;0.00;0.00;0.00;0.00;0.00
+Diego Costa;es ESP;FW;Chelsea;27;1988;35;35;3,082;34.2;20;7;27;20;0;1;10;0;0.58;0.20;0.79;0.58;0.79
+Thibaut Courtois;be BEL;GK;Chelsea;24;1992;36;36;3,24;36.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Philippe Coutinho;br BRA;FW,MF;Liverpool;24;1992;31;28;2,227;24.juil;13;8;21;13;0;0;2;0;0.53;0.32;0.85;0.53;0.85
+Aaron Cresswell;eng ENG;DF,MF;West Ham;26;1989;26;24;2,116;23.mai;0;2;2;0;0;0;4;2;0.00;0.09;0.09;0.00;0.09
+Peter Crouch;eng ENG;FW;Stoke City;35;1981;27;13;1,343;14.sept;7;2;9;7;0;0;3;0;0.47;0.13;0.60;0.47;0.60
+Charlie Daniels;eng ENG;DF,MF;Bournemouth;29;1986;34;34;3,06;34.0;4;3;7;4;0;0;1;0;0.12;0.09;0.21;0.12;0.21
+Scott Dann;eng ENG;DF;Crystal Palace;29;1987;23;19;1,746;19.avr;3;1;4;3;0;0;2;0;0.15;0.05;0.21;0.15;0.21
+Matteo Darmian;it ITA;DF,MF;Manchester Utd;26;1989;18;15;1,333;14.août;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Ben Davies;wls WAL;DF,MF;Tottenham;23;1993;23;18;1,739;19.mars;1;3;4;1;0;0;1;0;0.05;0.16;0.21;0.05;0.21
+Curtis Davies;sl SLE;DF;Hull City;31;1985;26;25;2,135;23.juil;0;2;2;0;0;0;4;0;0.00;0.08;0.08;0.00;0.08
+Tom Davies;eng ENG;MF;Everton;18;1998;24;18;1,544;17.févr;2;3;5;2;0;0;4;0;0.12;0.17;0.29;0.12;0.29
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Steven Davis;nir NIR;MF;Southampton;31;1985;32;29;2,643;29.avr;0;3;3;0;0;0;3;0;0.00;0.10;0.10;0.00;0.10
+Craig Dawson;eng ENG;DF;West Brom;26;1990;37;37;3,276;36.4;4;0;4;4;0;0;10;0;0.11;0.00;0.11;0.11;0.11
+Michael Dawson;eng ENG;DF;Hull City;32;1983;22;19;1,722;19.janv;3;0;3;3;0;0;4;0;0.16;0.00;0.16;0.16;0.16
+Kevin De Bruyne;be BEL;FW,MF;Manchester City;25;1991;36;33;2,877;32.0;6;17;23;6;0;1;4;0;0.19;0.53;0.72;0.19;0.72
+Mathieu Debuchy;fr FRA;DF;Arsenal;31;1985;1;1;15;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Troy Deeney;eng ENG;FW;Watford;28;1988;37;31;2,944;32.7;10;4;14;7;3;3;7;0;0.31;0.12;0.43;0.21;0.34
+Jermain Defoe;eng ENG;FW;Sunderland;33;1982;37;37;3,321;36.9;15;2;17;10;5;5;1;0;0.41;0.05;0.46;0.27;0.33
+Steven Defour;be BEL;MF;Burnley;28;1988;21;16;1,068;11.sept;1;3;4;1;0;0;1;0;0.08;0.25;0.34;0.08;0.34
+Damien Delaney;ie IRL;DF;Crystal Palace;35;1981;30;21;2,014;22.avr;0;2;2;0;0;0;8;0;0.00;0.09;0.09;0.00;0.09
+Fabian Delph;eng ENG;DF,MF;Manchester City;26;1989;7;2;224;02.mai;1;0;1;1;0;0;1;0;0.40;0.00;0.40;0.40;0.40
+Mousa Dembélé;be BEL;MF;Tottenham;29;1987;30;24;2,056;22.août;1;1;2;1;0;0;5;0;0.04;0.04;0.09;0.04;0.09
+Jason Denayer;be BEL;DF;Sunderland;21;1995;24;22;1,877;20.sept;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Mike van der Hoorn;nl NED;DF;Swansea City;23;1992;8;7;662;07.avr;1;0;1;1;0;0;1;0;0.14;0.00;0.14;0.14;0.14
+Gerard Deulofeu;es ESP;FW,MF;Everton;22;1994;11;4;460;05.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Eric Dier;eng ENG;DF,MF;Tottenham;22;1994;36;34;3,043;33.8;2;1;3;2;0;0;6;0;0.06;0.03;0.09;0.06;0.09
+Adama Diomande;no NOR;FW;Hull City;26;1990;22;13;1,171;13.0;2;0;2;2;0;0;1;0;0.15;0.00;0.15;0.15;0.15
+Papy Djilobodji;sn SEN;DF;Sunderland;27;1988;18;17;1,578;17.mai;0;0;0;0;0;0;6;1;0.00;0.00;0.00;0.00;0.00
+Abdoulaye Doucouré;ml MLI;FW,MF;Watford;23;1993;20;14;1,361;15.janv;1;0;1;1;0;0;4;0;0.07;0.00;0.07;0.07;0.07
+Stewart Downing;eng ENG;FW,MF;Middlesbrough;32;1984;30;24;2,214;24.juin;1;3;4;1;0;0;1;0;0.04;0.12;0.16;0.04;0.16
+Danny Drinkwater;eng ENG;MF;Leicester City;26;1990;29;27;2,466;27.avr;1;2;3;1;0;0;6;0;0.04;0.07;0.11;0.04;0.11
+Nathan Dyer;eng ENG;FW,MF;Swansea City;28;1987;8;3;214;02.avr;0;1;1;0;0;0;0;0;0.00;0.42;0.42;0.00;0.42
+Ovie Ejaria;eng ENG;FW,MF;Liverpool;18;1997;2;0;8;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Omar Elabdellaoui;no NOR;DF,MF;Hull City;24;1991;8;7;615;06.août;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Andrew Eleftheriou;eng ENG;DF;Watford;18;1997;1;0;52;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Ahmed Elmohamady;eg EGY;DF,MF;Hull City;28;1987;33;28;2,524;28.0;0;2;2;0;0;0;3;1;0.00;0.07;0.07;0.00;0.07
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Mohamed Elneny;eg EGY;MF;Arsenal;24;1992;14;8;694;07.juil;0;1;1;0;0;0;1;0;0.00;0.13;0.13;0.00;0.13
+Christian Eriksen;dk DEN;FW,MF;Tottenham;24;1992;36;36;3,157;35.1;8;15;23;8;0;0;0;0;0.23;0.43;0.66;0.23;0.66
+Bernardo Espinosa;co COL;DF;Middlesbrough;27;1989;11;10;975;10.août;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Jonny Evans;nir NIR;DF;West Brom;28;1988;31;30;2,637;29.mars;2;2;4;2;0;0;8;0;0.07;0.07;0.14;0.07;0.14
+Łukasz Fabiański;pl POL;GK;Swansea City;31;1985;37;37;3,33;37.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Fábio;br BRA;DF;Middlesbrough;26;1990;24;21;1,847;20.mai;0;0;0;0;0;0;8;0;0.00;0.00;0.00;0.00;0.00
+Cesc Fàbregas;es ESP;FW,MF;Chelsea;29;1987;29;13;1,339;14.sept;5;12;17;5;0;0;8;0;0.34;0.81;janv.14;0.34;janv.14
+Adam Federici;au AUS;GK;Bournemouth;31;1985;2;2;180;2.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Sofiane Feghouli;dz ALG;FW,MF;West Ham;26;1989;21;11;1,041;11.juin;3;2;5;3;0;0;1;1;0.26;0.17;0.43;0.26;0.43
+Marouane Fellaini;be BEL;MF;Manchester Utd;28;1987;28;18;1,605;17.août;1;0;1;1;0;0;9;1;0.06;0.00;0.06;0.06;0.06
+Leroy Fer;nl NED;MF;Swansea City;26;1990;34;27;2,404;26.juil;6;2;8;6;0;0;9;0;0.22;0.07;0.30;0.22;0.30
+Edimilson Fernandes;ch SUI;DF,MF;West Ham;20;1996;28;8;1,001;11.janv;0;1;1;0;0;0;4;0;0.00;0.09;0.09;0.00;0.09
+Federico Fernández;ar ARG;DF;Swansea City;27;1989;27;27;2,43;27.0;0;2;2;0;0;0;7;0;0.00;0.07;0.07;0.00;0.07
+Fernandinho;br BRA;DF,MF;Manchester City;31;1985;32;31;2,756;30.juin;2;1;3;2;0;0;4;2;0.07;0.03;0.10;0.07;0.10
+Fernando;br BRA;DF,MF;Manchester City;29;1987;15;5;568;06.mars;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Sam Field;eng ENG;MF;West Brom;18;1998;8;4;275;03.janv;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Roberto Firmino;br BRA;FW,MF;Liverpool;24;1991;35;34;3,062;34.0;11;7;18;11;0;0;5;0;0.32;0.21;0.53;0.32;0.53
+Viktor Fischer;dk DEN;FW,MF;Middlesbrough;22;1994;13;6;438;04.sept;0;3;3;0;0;0;0;0;0.00;0.62;0.62;0.00;0.62
+Mathieu Flamini;fr FRA;MF;Crystal Palace;32;1984;10;3;274;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jon Flanagan;eng ENG;DF;Burnley;23;1993;6;3;360;4.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Ashley Fletcher;eng ENG;FW;West Ham;20;1995;16;2;367;04.janv;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Darren Fletcher;sct SCO;MF;West Brom;32;1984;38;37;3,231;35.9;2;3;5;2;0;0;0;0;0.06;0.08;0.14;0.06;0.14
+Michael Folivi;eng ENG;FW;Watford;18;1998;1;0;10;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+José Fonte;pt POR;DF;Southampton;32;1983;17;17;1,53;17.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+José Fonte;pt POR;DF;West Ham;32;1983;16;16;1,404;15.juin;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Adam Forshaw;eng ENG;MF;Middlesbrough;24;1991;34;30;2,695;29.sept;0;1;1;0;0;0;4;0;0.00;0.03;0.03;0.00;0.03
+Fraser Forster;eng ENG;GK;Southampton;28;1988;38;38;3,42;38.0;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Ben Foster;eng ENG;GK;West Brom;33;1983;38;38;3,42;38.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Timothy Fosu-Mensah;nl NED;DF;Manchester Utd;18;1998;4;1;97;01.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Simon Francis;eng ENG;DF;Bournemouth;31;1985;34;34;2,939;32.7;0;1;1;0;0;0;4;1;0.00;0.03;0.03;0.00;0.03
+Ryan Fraser;sct SCO;FW,MF;Bournemouth;22;1994;28;19;1,764;19.juin;3;5;8;3;0;0;3;0;0.15;0.26;0.41;0.15;0.41
+George Friend;eng ENG;DF,MF;Middlesbrough;28;1987;24;20;1,964;21.août;0;2;2;0;0;0;4;0;0.00;0.09;0.09;0.00;0.09
+Zeki Fryers;eng ENG;DF;Crystal Palace;23;1992;8;0;188;02.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Christian Fuchs;at AUT;DF,MF;Leicester City;30;1986;36;35;3,103;34.5;2;3;5;2;0;0;10;0;0.06;0.09;0.15;0.06;0.15
+Jay Fulton;sct SCO;MF;Swansea City;22;1994;11;9;690;07.juil;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Ramiro Funes Mori;ar ARG;DF;Everton;25;1991;23;16;1,543;17.janv;0;1;1;0;0;0;0;0;0.00;0.06;0.06;0.00;0.06
+Manolo Gabbiadini;it ITA;FW;Southampton;24;1991;11;10;724;8.0;4;0;4;4;0;1;1;0;0.50;0.00;0.50;0.50;0.50
+Brendan Galloway;zw ZIM;DF;West Brom;20;1996;3;3;247;02.juil;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Idrissa Gana Gueye;sn SEN;MF;Everton;26;1989;33;32;2,681;29.août;1;1;2;1;0;0;11;0;0.03;0.03;0.07;0.03;0.07
+Aleix García;es ESP;MF;Manchester City;19;1997;4;1;77;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Craig Gardner;eng ENG;MF;West Brom;29;1986;9;2;218;02.avr;0;1;1;0;0;0;1;0;0.00;0.41;0.41;0.00;0.41
+David de Gea;es ESP;GK;Manchester Utd;25;1990;35;35;3,15;35.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Rudy Gestede;bj BEN;FW;Middlesbrough;27;1988;16;4;533;05.sept;1;0;1;1;0;0;3;0;0.17;0.00;0.17;0.17;0.17
+Kieran Gibbs;eng ENG;DF,MF;Arsenal;26;1989;11;8;702;07.août;0;1;1;0;0;0;3;0;0.00;0.13;0.13;0.00;0.13
+Ben Gibson;eng ENG;DF;Middlesbrough;23;1993;38;38;3,42;38.0;1;1;2;1;0;0;4;0;0.03;0.03;0.05;0.03;0.05
+Darron Gibson;ie IRL;MF;Sunderland;28;1987;12;7;640;07.janv;0;0;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00
+Olivier Giroud;fr FRA;FW;Arsenal;29;1986;29;11;1,206;13.avr;12;3;15;12;0;0;2;0;0.90;0.22;01.déc;0.90;01.déc
+Shay Given;ie IRL;GK;Stoke City;40;1976;5;5;450;5.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Evandro Goebel;br BRA;MF;Hull City;29;1986;11;7;576;06.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Angel Gomes;eng ENG;FW,MF;Manchester Utd;15;2000;1;0;3;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Heurelho Gomes;br BRA;GK;Watford;35;1981;38;38;3,337;37.1;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Lynden Gooch;us USA;DF,FW;Sunderland;20;1995;11;4;366;04.janv;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Dan Gosling;eng ENG;DF,MF;Bournemouth;26;1990;27;14;1,366;15.févr;2;0;2;2;0;0;6;0;0.13;0.00;0.13;0.13;0.13
+Lewis Grabban;eng ENG;FW,MF;Bournemouth;28;1988;3;0;60;0.7;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Max Gradel;ci CIV;FW,MF;Bournemouth;28;1987;11;0;134;01.mai;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Lee Grant;eng ENG;GK;Stoke City;33;1983;28;28;2,52;28.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Andre Gray;jm JAM;FW;Burnley;25;1991;32;26;2,259;25.janv;9;3;12;7;2;2;2;0;0.36;0.12;0.48;0.28;0.40
+Demarai Gray;jm JAM;FW,MF;Leicester City;20;1996;30;9;1,049;11.juil;1;3;4;1;0;0;2;0;0.09;0.26;0.34;0.09;0.34
+Kamil Grosicki;pl POL;FW,MF;Hull City;28;1988;15;12;1,143;12.juil;0;3;3;0;0;0;1;0;0.00;0.24;0.24;0.00;0.24
+Marko Grujić;rs SRB;MF;Liverpool;20;1996;5;0;43;0.5;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Adlène Guedioura;dz ALG;MF;Watford;30;1985;12;9;721;8.0;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Adlène Guedioura;dz ALG;MF;Middlesbrough;30;1985;5;0;140;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+İlkay Gündoğan;de GER;MF;Manchester City;25;1990;10;9;704;07.août;3;1;4;3;0;0;0;0;0.38;0.13;0.51;0.38;0.51
+Brad Guzan;us USA;GK;Middlesbrough;31;1984;10;10;900;10.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Josh Harrop;eng ENG;MF;Manchester Utd;20;1995;1;1;90;1.0;1;0;1;1;0;0;0;0;1.00;0.00;1.00;1.00;1.00
+Eden Hazard;be BEL;FW,MF;Chelsea;25;1991;36;36;2,982;33.1;16;5;21;14;2;3;3;0;0.48;0.15;0.63;0.42;0.57
+Tom Heaton;eng ENG;GK;Burnley;30;1986;35;35;3,15;35.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Jordan Henderson;eng ENG;MF;Liverpool;26;1990;24;24;2,116;23.mai;1;4;5;1;0;0;8;0;0.04;0.17;0.21;0.04;0.21
+Jeff Hendrick;ie IRL;FW,MF;Burnley;24;1992;32;31;2,692;29.sept;2;1;3;2;0;0;6;1;0.07;0.03;0.10;0.07;0.10
+Wayne Hennessey;wls WAL;GK;Crystal Palace;29;1987;29;29;2,61;29.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Markus Henriksen;no NOR;DF,MF;Hull City;24;1992;15;6;638;07.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Abel Hernández;uy URU;FW;Hull City;25;1990;24;16;1,425;15.août;4;3;7;4;0;0;0;0;0.25;0.19;0.44;0.25;0.44
+Luis Hernández;es ESP;DF;Leicester City;27;1989;4;3;327;03.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Ander Herrera;es ESP;MF;Manchester Utd;26;1989;31;27;2,464;27.avr;1;5;6;1;0;0;7;1;0.04;0.18;0.22;0.04;0.22
+Son Heung-min;kr KOR;FW,MF;Tottenham;24;1992;34;23;2,062;22.sept;14;6;20;14;0;0;2;0;0.61;0.26;0.87;0.61;0.87
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Rob Holding;eng ENG;DF;Arsenal;20;1995;9;9;810;9.0;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+José Holebas;gr GRE;DF,MF;Watford;32;1984;33;33;2,905;32.3;2;4;6;2;0;0;14;0;0.06;0.12;0.19;0.06;0.19
+Mason Holgate;jm JAM;DF;Everton;19;1996;18;16;1,372;15.févr;0;1;1;0;0;0;2;0;0.00;0.07;0.07;0.00;0.07
+George Honeyman;eng ENG;FW,MF;Sunderland;21;1994;5;2;235;02.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Tom Huddlestone;eng ENG;MF;Hull City;29;1986;31;23;2,026;22.mai;1;0;1;0;1;1;5;1;0.04;0.00;0.04;0.00;0.00
+James Husband;eng ENG;DF;Middlesbrough;22;1994;1;1;58;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Robert Huth;de GER;DF;Leicester City;31;1984;33;33;2,926;32.5;2;1;3;2;0;0;9;0;0.06;0.03;0.09;0.06;0.09
+Pierre Højbjerg;dk DEN;MF;Southampton;20;1995;22;14;1,301;14.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Jordon Ibe;eng ENG;FW,MF;Bournemouth;20;1995;25;13;1,055;11.juil;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Didier Ibrahim Ndong;ga GAB;DF,MF;Sunderland;22;1994;31;27;2,52;28.0;1;0;1;1;0;0;5;0;0.04;0.00;0.04;0.04;0.04
+Zlatan Ibrahimović;se SWE;FW;Manchester Utd;34;1981;28;27;2,438;27.janv;17;5;22;15;2;3;7;0;0.63;0.18;0.81;0.55;0.74
+Odion Ighalo;ng NGA;FW;Watford;27;1989;18;14;1,291;14.mars;1;0;1;1;0;0;1;0;0.07;0.00;0.07;0.07;0.07
+Kelechi Iheanacho;ng NGA;FW,MF;Manchester City;19;1996;20;5;537;6.0;4;3;7;4;0;0;0;0;0.67;0.50;janv.17;0.67;janv.17
+Giannelli Imbula;cd COD;MF;Stoke City;23;1992;12;9;796;08.août;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Branislav Ivanović;rs SRB;DF;Chelsea;32;1984;13;6;589;06.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Alex Iwobi;ng NGA;FW,MF;Arsenal;20;1996;26;18;1,456;16.févr;3;4;7;3;0;0;1;0;0.19;0.25;0.43;0.19;0.43
+Phil Jagielka;eng ENG;DF,MF;Everton;33;1982;27;25;2,249;25.0;3;2;5;3;0;0;6;2;0.12;0.08;0.20;0.12;0.20
+Eldin Jakupović;ch SUI;GK;Hull City;31;1984;22;22;1,98;22.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Matty James;eng ENG;MF;Leicester City;25;1991;1;0;1;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Daryl Janmaat;nl NED;DF;Watford;27;1989;27;18;1,617;18.0;2;1;3;2;0;0;2;0;0.11;0.06;0.17;0.11;0.17
+Vincent Janssen;nl NED;FW;Tottenham;22;1994;27;7;845;09.avr;2;2;4;1;1;1;0;0;0.21;0.21;0.43;0.11;0.32
+Adnan Januzaj;be BEL;FW,MF;Sunderland;21;1995;25;18;1,629;18.janv;0;2;2;0;0;0;5;1;0.00;0.11;0.11;0.00;0.11
+Mile Jedinak;au AUS;MF;Crystal Palace;31;1984;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Carl Jenkinson;eng ENG;DF;Arsenal;24;1992;1;1;82;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Gabriel Jesus;br BRA;FW,MF;Manchester City;19;1997;10;8;650;07.févr;7;4;11;6;1;1;2;0;0.97;0.55;janv.52;0.83;janv.38
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Glen Johnson;eng ENG;DF;Stoke City;31;1984;23;21;1,957;21.juil;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Billy Jones;eng ENG;DF;Sunderland;29;1987;27;25;2,27;25.févr;1;0;1;1;0;0;8;0;0.04;0.00;0.04;0.04;0.04
+David Jones;eng ENG;MF;Burnley;31;1984;1;1;86;1.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Phil Jones;eng ENG;DF,MF;Manchester Utd;24;1992;18;18;1,584;17.juin;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Lukas Jutkiewicz;eng ENG;FW;Burnley;27;1989;2;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Christian Kabasele;be BEL;DF;Watford;25;1991;16;7;771;08.juin;2;0;2;2;0;0;1;0;0.23;0.00;0.23;0.23;0.23
+Younès Kaboul;fr FRA;DF;Watford;30;1986;22;22;1,82;20.févr;2;0;2;2;0;0;2;0;0.10;0.00;0.10;0.10;0.10
+Younès Kaboul;fr FRA;DF;Sunderland;30;1986;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Sullay Kaikai;sl SLE;FW,MF;Crystal Palace;20;1995;1;0;24;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Harry Kane;eng ENG;FW;Tottenham;23;1993;30;29;2,521;28.0;29;5;34;24;5;6;3;0;01.avr;0.18;janv.21;0.86;01.avr
+N'Golo Kanté;fr FRA;MF;Chelsea;25;1991;35;35;3,138;34.9;1;1;2;1;0;0;9;0;0.03;0.03;0.06;0.03;0.06
+Loris Karius;de GER;GK;Liverpool;23;1993;10;10;900;10.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Michael Keane;eng ENG;DF;Burnley;23;1993;35;35;3,15;35.0;2;1;3;2;0;0;4;0;0.06;0.03;0.09;0.06;0.09
+Will Keane;ie IRL;FW,MF;Hull City;23;1993;5;4;280;03.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Martin Kelly;eng ENG;DF,MF;Crystal Palace;26;1990;29;25;2,123;23.juin;0;2;2;0;0;0;4;0;0.00;0.08;0.08;0.00;0.08
+Kenedy;br BRA;FW,MF;Watford;20;1996;1;0;16;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Kenedy;br BRA;FW,MF;Chelsea;20;1996;1;1;74;0.8;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jonjoe Kenny;eng ENG;DF,FW;Everton;19;1997;1;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Wahbi Khazri;tn TUN;FW,MF;Sunderland;25;1991;21;7;849;09.avr;1;0;1;1;0;0;6;0;0.11;0.00;0.11;0.11;0.11
+Michael Kightly;eng ENG;FW,MF;Burnley;30;1986;5;1;104;01.févr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Andy King;wls WAL;MF;Leicester City;27;1988;23;15;1,446;16.janv;1;0;1;1;0;0;4;0;0.06;0.00;0.06;0.06;0.06
+Joshua King;no NOR;FW,MF;Bournemouth;24;1992;36;31;2,713;30.janv;16;2;18;14;2;3;1;0;0.53;0.07;0.60;0.46;0.53
+Stephen Kingsley;sct SCO;DF;Swansea City;22;1994;13;12;1,036;11.mai;0;1;1;0;0;0;0;0;0.00;0.09;0.09;0.00;0.09
+Jan Kirchhoff;de GER;DF,MF;Sunderland;25;1990;7;5;433;04.août;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Ragnar Klavan;ee EST;DF;Liverpool;30;1985;20;15;1,41;15.juil;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Aleksandar Kolarov;rs SRB;DF;Manchester City;30;1985;29;27;2,535;28.févr;1;2;3;1;0;0;6;0;0.04;0.07;0.11;0.04;0.11
+Vincent Kompany;be BEL;DF;Manchester City;30;1986;11;10;820;09.janv;3;0;3;3;0;0;5;0;0.33;0.00;0.33;0.33;0.33
+Arouna Koné;ci CIV;FW;Everton;32;1983;5;0;70;0.8;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Lamine Koné;ci CIV;DF;Sunderland;27;1989;30;29;2,545;28.mars;1;0;1;1;0;0;4;0;0.04;0.00;0.04;0.04;0.04
+Laurent Koscielny;fr FRA;DF;Arsenal;30;1985;33;33;2,822;31.4;2;0;2;2;0;0;4;1;0.06;0.00;0.06;0.06;0.06
+Cheikhou Kouyaté;sn SEN;DF,MF;West Ham;26;1989;31;31;2,723;30.mars;1;0;1;1;0;0;3;0;0.03;0.00;0.03;0.03;0.03
+Bojan Krkić;es ESP;FW,MF;Stoke City;25;1990;9;5;475;05.mars;3;0;3;1;2;3;1;0;0.57;0.00;0.57;0.19;0.19
+Adam Lallana;eng ENG;FW,MF;Liverpool;28;1988;31;27;2,336;26.0;8;6;14;8;0;0;3;0;0.31;0.23;0.54;0.31;0.54
+Rickie Lambert;eng ENG;FW;West Brom;34;1982;1;0;13;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Érik Lamela;ar ARG;FW,MF;Tottenham;24;1992;9;6;594;06.juin;1;3;4;1;0;1;1;0;0.15;0.45;0.61;0.15;0.61
+Manuel Lanzini;ar ARG;FW,MF;West Ham;23;1993;35;31;2,706;30.janv;8;2;10;6;2;2;9;0;0.27;0.07;0.33;0.20;0.27
+Sebastian Larsson;se SWE;MF;Sunderland;31;1985;21;17;1,469;16.mars;0;1;1;0;0;0;4;1;0.00;0.06;0.06;0.00;0.06
+Grant Leadbitter;eng ENG;MF;Middlesbrough;30;1986;13;7;710;07.sept;1;0;1;1;0;0;1;0;0.13;0.00;0.13;0.13;0.13
+Joe Ledley;wls WAL;MF;Crystal Palace;29;1987;18;13;1,16;12.sept;1;1;2;1;0;0;1;0;0.08;0.08;0.16;0.08;0.16
+Lucas Leiva;br BRA;MF;Liverpool;29;1987;24;12;1,112;12.avr;0;2;2;0;0;0;4;0;0.00;0.16;0.16;0.00;0.16
+Jonathan Leko;eng ENG;FW,MF;West Brom;17;1999;9;0;181;2.0;0;1;1;0;0;0;0;0;0.00;0.50;0.50;0.00;0.50
+Aaron Lennon;eng ENG;FW,MF;Everton;29;1987;11;6;509;05.juil;0;1;1;0;0;0;0;0;0.00;0.18;0.18;0.00;0.18
+Jeremain Lens;nl NED;FW,MF;Sunderland;28;1987;2;0;69;0.8;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Joleon Lescott;eng ENG;DF;Sunderland;33;1982;2;1;124;01.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Filip Lesniak;sk SVK;MF;Tottenham;20;1996;1;0;5;0.1;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jesse Lingard;eng ENG;FW,MF;Manchester Utd;23;1992;25;18;1,36;15.janv;1;1;2;1;0;0;3;0;0.07;0.07;0.13;0.07;0.13
+Jake Livermore;eng ENG;MF;West Brom;26;1989;16;15;1,301;14.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Jake Livermore;eng ENG;MF;Hull City;26;1989;21;20;1,67;18.juin;1;0;1;1;0;0;3;1;0.05;0.00;0.05;0.05;0.05
+Fernando Llorente;es ESP;FW;Swansea City;31;1985;33;28;2,442;27.janv;15;1;16;15;0;0;2;0;0.55;0.04;0.59;0.55;0.59
+Hugo Lloris;fr FRA;GK;Tottenham;29;1986;34;34;3,004;33.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Ruben Loftus-Cheek;eng ENG;MF;Chelsea;20;1996;6;0;35;0.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Kevin Long;ie IRL;DF;Burnley;25;1990;3;3;270;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Shane Long;ie IRL;FW;Southampton;29;1987;32;10;1,261;14.0;3;2;5;3;0;1;2;0;0.21;0.14;0.36;0.21;0.36
+Ademola Lookman;ng NGA;FW,MF;Everton;18;1997;8;3;289;03.févr;1;0;1;1;0;0;0;0;0.31;0.00;0.31;0.31;0.31
+Donald Love;sct SCO;DF,MF;Sunderland;21;1994;12;6;611;06.août;0;1;1;0;0;0;1;0;0.00;0.15;0.15;0.00;0.15
+Dejan Lovren;hr CRO;DF;Liverpool;27;1989;29;29;2,553;28.avr;2;1;3;2;0;0;6;0;0.07;0.04;0.11;0.07;0.11
+Matthew Lowton;eng ENG;DF;Burnley;27;1989;36;36;3,24;36.0;0;2;2;0;0;0;9;0;0.00;0.06;0.06;0.00;0.06
+David Luiz;br BRA;DF,MF;Chelsea;29;1987;33;33;2,954;32.8;1;0;1;1;0;0;6;0;0.03;0.00;0.03;0.03;0.03
+Romelu Lukaku;be BEL;FW;Everton;23;1993;37;36;3,266;36.3;25;6;31;24;1;1;3;0;0.69;0.17;0.85;0.66;0.83
+Harry Maguire;eng ENG;DF;Hull City;23;1993;29;25;2,307;25.juin;2;1;3;2;0;0;5;0;0.08;0.04;0.12;0.08;0.12
+Riyad Mahrez;dz ALG;FW,MF;Leicester City;25;1991;36;33;2,825;31.4;6;4;10;3;3;5;4;0;0.19;0.13;0.32;0.10;0.22
+Ainsley Maitland-Niles;eng ENG;DF,FW;Arsenal;18;1997;1;0;2;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Shaun Maloney;sct SCO;FW,MF;Hull City;33;1983;9;2;283;03.janv;1;2;3;1;0;0;0;0;0.32;0.64;0.95;0.32;0.95
+Steve Mandanda;fr FRA;GK;Crystal Palace;31;1985;9;9;810;9.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Sadio Mané;sn SEN;FW,MF;Liverpool;24;1992;27;26;2,235;24.août;13;5;18;13;0;0;4;0;0.52;0.20;0.72;0.52;0.72
+Vito Mannone;it ITA;GK;Sunderland;28;1988;9;9;810;9.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Javier Manquillo;es ESP;DF;Sunderland;22;1994;20;15;1,43;15.sept;1;0;1;1;0;0;2;0;0.06;0.00;0.06;0.06;0.06
+Adrian Mariappa;jm JAM;DF;Watford;29;1986;7;6;562;06.févr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Lazar Marković;rs SRB;FW,MF;Hull City;22;1994;12;12;1,005;11.févr;2;0;2;2;0;0;4;0;0.18;0.00;0.18;0.18;0.18
+Dean Marney;eng ENG;MF;Burnley;32;1984;21;21;1,764;19.juin;1;2;3;1;0;0;7;0;0.05;0.10;0.15;0.05;0.15
+David Marshall;sct SCO;GK;Hull City;31;1985;16;16;1,44;16.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Anthony Martial;fr FRA;FW,MF;Manchester Utd;20;1995;25;18;1,554;17.mars;4;5;9;4;0;0;2;0;0.23;0.29;0.52;0.23;0.52
+Cuco Martina;cw CUW;DF,MF;Southampton;26;1989;9;6;592;06.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Emiliano Martínez;ar ARG;GK;Arsenal;23;1992;2;2;180;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Bruno Martins Indi;nl NED;DF;Stoke City;24;1992;35;35;3,146;35.0;1;0;1;1;0;0;4;0;0.03;0.00;0.03;0.03;0.03
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Brandon Mason;eng ENG;DF,MF;Watford;18;1997;2;1;113;01.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Ryan Mason;eng ENG;MF;Hull City;25;1991;16;11;927;10.mars;1;1;2;1;0;0;4;0;0.10;0.10;0.19;0.10;0.19
+Arthur Masuaku;cd COD;DF,MF;West Ham;22;1993;13;11;972;10.août;0;1;1;0;0;0;1;0;0.00;0.09;0.09;0.00;0.09
+Juan Mata;es ESP;FW,MF;Manchester Utd;28;1988;25;19;1,614;17.sept;6;3;9;6;0;0;3;0;0.33;0.17;0.50;0.33;0.50
+Nemanja Matić;rs SRB;MF;Chelsea;27;1988;35;30;2,694;29.sept;1;7;8;1;0;0;4;0;0.03;0.23;0.27;0.03;0.27
+Joël Matip;cm CMR;DF,MF;Liverpool;24;1991;29;27;2,457;27.mars;1;0;1;1;0;0;3;0;0.04;0.00;0.04;0.04;0.04
+Alfie Mawson;eng ENG;DF;Swansea City;22;1994;27;27;2,43;27.0;4;0;4;4;0;0;1;0;0.15;0.00;0.15;0.15;0.15
+Dieumerci Mbokani;cd COD;FW;Hull City;30;1985;12;8;764;08.mai;0;1;1;0;0;0;0;0;0.00;0.12;0.12;0.00;0.12
+James McArthur;sct SCO;MF;Crystal Palace;28;1987;29;24;1,999;22.févr;5;3;8;5;0;0;5;0;0.23;0.14;0.36;0.23;0.36
+Gareth McAuley;nir NIR;DF;West Brom;36;1979;36;36;3,14;34.9;6;1;7;6;0;0;5;0;0.17;0.03;0.20;0.17;0.20
+Oliver McBurnie;sct SCO;FW;Swansea City;20;1996;5;0;82;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+James McCarthy;ie IRL;MF;Everton;25;1990;12;7;613;06.août;1;1;2;1;0;0;2;0;0.15;0.15;0.29;0.15;0.29
+James McClean;ie IRL;DF,FW;West Brom;27;1989;34;13;1,477;16.avr;1;2;3;1;0;0;9;0;0.06;0.12;0.18;0.06;0.18
+Paddy McNair;nir NIR;DF,MF;Sunderland;21;1995;9;5;353;03.sept;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Sam McQueen;eng ENG;MF;Southampton;21;1995;13;5;616;06.août;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Scott McTominay;sct SCO;MF;Manchester Utd;19;1996;2;1;97;01.janv;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Ben Mee;eng ENG;DF;Burnley;26;1989;34;34;3,015;33.5;1;0;1;1;0;0;5;0;0.03;0.00;0.03;0.03;0.03
+Memphis;nl NED;FW,MF;Manchester Utd;22;1994;4;0;24;0.3;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Nampalys Mendy;sn SEN;MF;Leicester City;24;1992;4;4;269;3.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Per Mertesacker;de GER;DF;Arsenal;31;1984;1;0;38;0.4;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+David Meyler;ie IRL;MF;Hull City;27;1989;20;9;962;10.juil;1;1;2;1;0;0;2;0;0.09;0.09;0.19;0.09;0.19
+Simon Mignolet;be BEL;GK;Liverpool;28;1988;28;28;2,52;28.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Luka Milivojević;rs SRB;MF;Crystal Palace;25;1991;14;14;1,224;13.juin;2;1;3;0;2;2;4;0;0.15;0.07;0.22;0.00;0.07
+James Milner;eng ENG;DF,MF;Liverpool;30;1986;36;36;3,154;35.0;7;3;10;0;7;8;5;0;0.20;0.09;0.29;0.00;0.09
+Tyrone Mings;eng ENG;DF;Bournemouth;23;1993;7;5;506;05.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Kevin Mirallas;be BEL;FW,MF;Everton;28;1987;35;23;2,074;23.0;4;7;11;4;0;0;2;0;0.17;0.30;0.48;0.17;0.48
+Demetri Mitchell;eng ENG;DF,MF;Manchester Utd;19;1997;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Henrikh Mkhitaryan;am ARM;FW,MF;Manchester Utd;27;1989;24;15;1,348;15.0;4;1;5;4;0;0;1;0;0.27;0.07;0.33;0.27;0.33
+Nacho Monreal;es ESP;DF;Arsenal;30;1986;36;35;3,153;35.0;0;2;2;0;0;0;5;0;0.00;0.06;0.06;0.00;0.06
+Jefferson Montero;ec ECU;FW,MF;Swansea City;26;1989;13;2;489;05.avr;0;1;1;0;0;0;0;0;0.00;0.18;0.18;0.00;0.18
+Alberto Moreno;es ESP;DF,MF;Liverpool;24;1992;12;2;305;03.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Wes Morgan;jm JAM;DF;Leicester City;32;1984;27;27;2,43;27.0;1;0;1;1;0;0;3;0;0.04;0.00;0.04;0.04;0.04
+James Morrison;sct SCO;FW,MF;West Brom;30;1986;31;17;1,74;19.mars;5;2;7;5;0;0;3;0;0.26;0.10;0.36;0.26;0.36
+Victor Moses;ng NGA;DF,FW;Chelsea;25;1990;34;29;2,483;27.juin;3;2;5;3;0;0;4;0;0.11;0.07;0.18;0.11;0.18
+Lys Mousset;fr FRA;FW,MF;Bournemouth;20;1996;11;3;270;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Marc Muniesa;es ESP;DF,MF;Stoke City;24;1992;10;7;650;07.févr;1;0;1;1;0;0;2;0;0.14;0.00;0.14;0.14;0.14
+Ahmed Musa;ng NGA;FW,MF;Leicester City;23;1992;21;7;761;08.mai;2;1;3;2;0;0;1;0;0.24;0.12;0.35;0.24;0.35
+Shkodran Mustafi;de GER;DF;Arsenal;24;1992;26;26;2,274;25.mars;2;2;4;2;0;0;11;0;0.08;0.08;0.16;0.08;0.16
+Jordon Mutch;eng ENG;MF;Crystal Palace;24;1991;4;0;53;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Alfred N'Diaye;sn SEN;DF,MF;Hull City;26;1990;15;15;1,273;14.janv;1;0;1;1;0;0;7;0;0.07;0.00;0.07;0.07;0.07
+Georges-Kévin N'Koudou;cm CMR;FW,MF;Tottenham;21;1995;8;0;54;0.6;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Luciano Narsingh;nl NED;FW,MF;Swansea City;25;1990;13;3;416;04.juin;0;2;2;0;0;0;0;0;0.00;0.43;0.43;0.00;0.43
+Samir Nasri;fr FRA;FW,MF;Manchester City;29;1987;1;0;16;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Kyle Naughton;eng ENG;DF;Swansea City;27;1988;31;31;2,714;30.2;1;0;1;1;0;0;5;0;0.03;0.00;0.03;0.03;0.03
+Jesús Navas;es ESP;DF,FW;Manchester City;30;1985;24;12;1,064;11.août;0;1;1;0;0;0;2;0;0.00;0.08;0.08;0.00;0.08
+Wilfred Ndidi;ng NGA;DF,MF;Leicester City;19;1996;17;17;1,521;16.sept;2;1;3;2;0;0;0;0;0.12;0.06;0.18;0.12;0.18
+Álvaro Negredo;es ESP;FW;Middlesbrough;30;1985;36;33;2,87;31.9;9;5;14;7;2;2;5;0;0.28;0.16;0.44;0.22;0.38
+Julien Ngoy;be BEL;FW,MF;Stoke City;18;1997;5;0;49;0.5;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+M'Baye Niang;sn SEN;FW,MF;Watford;21;1994;16;15;1,246;13.août;2;2;4;2;0;0;2;0;0.14;0.14;0.29;0.14;0.29
+Oumar Niasse;sn SEN;FW,MF;Hull City;26;1990;17;12;1,097;12.févr;4;1;5;4;0;0;3;1;0.33;0.08;0.41;0.33;0.41
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Mark Noble;eng ENG;MF;West Ham;29;1987;30;29;2,389;26.mai;3;0;3;2;1;2;10;0;0.11;0.00;0.11;0.08;0.08
+Nolito;es ESP;FW,MF;Manchester City;29;1986;19;9;778;08.juin;4;2;6;4;0;0;3;1;0.46;0.23;0.69;0.46;0.69
+Kristoffer Nordfeldt;se SWE;GK;Swansea City;27;1989;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Håvard Nordtveit;no NOR;DF,MF;West Ham;26;1990;16;11;957;10.juin;0;1;1;0;0;0;2;0;0.00;0.09;0.09;0.00;0.09
+Emilio Nsue;gq EQG;DF,FW;Middlesbrough;26;1989;4;4;320;03.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+David Nugent;eng ENG;FW;Middlesbrough;31;1985;4;0;43;0.5;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Allan Nyom;cm CMR;DF,MF;West Brom;28;1988;32;29;2,638;29.mars;0;1;1;0;0;0;8;0;0.00;0.03;0.03;0.00;0.03
+Aiden O'Neill;au AUS;MF;Burnley;18;1998;3;0;85;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+John O'Shea;ie IRL;DF,MF;Sunderland;35;1981;28;26;2,158;24.0;0;1;1;0;0;0;5;0;0.00;0.04;0.04;0.00;0.04
+Pedro Obiang;gq EQG;MF;West Ham;24;1992;22;21;1,763;19.juin;1;1;2;1;0;0;7;0;0.05;0.05;0.10;0.05;0.10
+Angelo Ogbonna;it ITA;DF;West Ham;28;1988;20;20;1,755;19.mai;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Stefano Okaka;it ITA;FW;Watford;26;1989;19;10;958;10.juin;4;1;5;4;0;0;5;0;0.38;0.09;0.47;0.38;0.47
+Shinji Okazaki;jp JPN;FW,MF;Leicester City;30;1986;30;21;1,565;17.avr;3;1;4;3;0;0;1;0;0.17;0.06;0.23;0.17;0.23
+Jonas Olsson;se SWE;DF;West Brom;33;1983;7;7;590;06.juin;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Martin Olsson;se SWE;DF,MF;Swansea City;28;1988;15;14;1,252;13.sept;2;0;2;2;0;0;2;0;0.14;0.00;0.14;0.14;0.14
+Josh Onomah;eng ENG;FW,MF;Tottenham;19;1997;5;0;22;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Divock Origi;be BEL;FW,MF;Liverpool;21;1995;34;14;1,468;16.mars;7;3;10;7;0;0;0;0;0.43;0.18;0.61;0.43;0.61
+Oscar;br BRA;FW,MF;Chelsea;24;1991;9;5;455;05.janv;0;1;1;0;0;0;1;0;0.00;0.20;0.20;0.00;0.20
+David Ospina;co COL;GK;Arsenal;27;1988;2;1;143;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Nicolás Otamendi;ar ARG;DF;Manchester City;28;1988;30;29;2,592;28.août;1;0;1;1;0;0;9;0;0.03;0.00;0.03;0.03;0.03
+Bryan Oviedo;cr CRC;DF,MF;Sunderland;26;1990;10;10;848;09.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Bryan Oviedo;cr CRC;DF,MF;Everton;26;1990;6;6;475;05.mars;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Alex Oxlade-Chamberlain;eng ENG;FW,MF;Arsenal;22;1993;29;16;1,564;17.avr;2;7;9;2;0;0;1;0;0.12;0.40;0.52;0.12;0.52
+Mesut Özil;de GER;MF;Arsenal;27;1988;33;32;2,841;31.6;8;10;18;8;0;0;2;0;0.25;0.32;0.57;0.25;0.57
+Costel Pantilimon;ro ROU;GK;Watford;29;1987;2;0;83;0.9;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Gabriel Paulista;br BRA;DF;Arsenal;25;1990;19;15;1,517;16.sept;0;0;0;0;0;0;6;0;0.00;0.00;0.00;0.00;0.00
+Dimitri Payet;fr FRA;FW,MF;West Ham;29;1987;18;17;1,511;16.août;2;6;8;2;0;0;2;0;0.12;0.36;0.48;0.12;0.48
+Pedro;es ESP;FW,MF;Chelsea;29;1987;35;26;2,14;23.août;9;9;18;9;0;0;6;0;0.38;0.38;0.76;0.38;0.76
+Matthew Pennington;eng ENG;DF;Everton;21;1994;3;2;180;2.0;1;0;1;1;0;0;0;0;0.50;0.00;0.50;0.50;0.50
+Dion Pereira;ag ATG;MF;Watford;17;1999;2;0;25;0.3;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Roberto Pereyra;ar ARG;DF,FW;Watford;25;1991;13;12;1,037;11.mai;2;2;4;2;0;0;2;1;0.17;0.17;0.35;0.17;0.35
+Lucas Pérez;es ESP;FW,MF;Arsenal;27;1988;11;2;272;3.0;1;0;1;1;0;0;0;0;0.33;0.00;0.33;0.33;0.33
+Matt Phillips;sct SCO;DF,FW;West Brom;25;1991;27;26;2,181;24.févr;4;8;12;4;0;0;2;0;0.17;0.33;0.50;0.17;0.50
+Jordan Pickford;eng ENG;GK;Sunderland;22;1994;29;29;2,61;29.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jérémy Pied;fr FRA;DF,FW;Southampton;27;1989;4;1;129;01.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Steven Pienaar;za RSA;MF;Sunderland;34;1982;15;10;802;08.sept;0;0;0;0;0;0;7;1;0.00;0.00;0.00;0.00;0.00
+Erik Pieters;nl NED;DF,MF;Stoke City;27;1988;36;35;3,151;35.0;0;1;1;0;0;0;5;0;0.00;0.03;0.03;0.00;0.03
+Paul Pogba;fr FRA;MF;Manchester Utd;23;1993;30;29;2,608;29.0;5;4;9;5;0;0;7;0;0.17;0.14;0.31;0.17;0.31
+Sebastian Prödl;at AUT;DF,MF;Watford;29;1987;33;32;2,769;30.août;1;1;2;1;0;0;12;1;0.03;0.03;0.07;0.03;0.07
+Marc Pugh;eng ENG;FW,MF;Bournemouth;29;1987;21;16;1,328;14.août;2;2;4;2;0;0;1;0;0.14;0.14;0.27;0.14;0.27
+Jason Puncheon;eng ENG;MF;Crystal Palace;30;1986;36;35;3,091;34.3;0;5;5;0;0;0;9;0;0.00;0.15;0.15;0.00;0.15
+Gastón Ramírez;uy URU;FW,MF;Middlesbrough;25;1990;24;20;1,54;17.janv;2;3;5;2;0;0;10;1;0.12;0.18;0.29;0.12;0.29
+Aaron Ramsey;wls WAL;MF;Arsenal;25;1990;23;13;1,236;13.juil;1;4;5;1;0;0;3;0;0.07;0.29;0.36;0.07;0.36
+Darren Randolph;ie IRL;GK;West Ham;29;1987;22;22;1,98;22.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Àngel Rangel;es ESP;DF;Swansea City;33;1982;18;8;831;09.févr;1;0;1;1;0;0;1;0;0.11;0.00;0.11;0.11;0.11
+Andrea Ranocchia;it ITA;DF;Hull City;28;1988;16;15;1,33;14.août;2;2;4;2;0;0;2;0;0.14;0.14;0.27;0.14;0.27
+Marcus Rashford;eng ENG;FW,MF;Manchester Utd;18;1997;32;16;1,71;19.0;5;1;6;5;0;0;3;0;0.26;0.05;0.32;0.26;0.32
+Nathan Redmond;eng ENG;FW,MF;Southampton;22;1994;37;32;2,899;32.2;7;1;8;7;0;0;2;1;0.22;0.03;0.25;0.22;0.25
+Harrison Reed;eng ENG;MF;Southampton;21;1995;3;1;64;0.7;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Winston Reid;nz NZL;DF;West Ham;28;1988;30;30;2,587;28.juil;2;1;3;2;0;0;10;1;0.07;0.03;0.10;0.07;0.10
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Loïc Rémy;fr FRA;FW;Crystal Palace;29;1987;5;1;134;01.mai;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jordan Rhodes;sct SCO;FW;Middlesbrough;26;1990;6;2;211;02.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Declan Rice;eng ENG;DF,MF;West Ham;17;1999;1;0;1;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Andrew Robertson;sct SCO;DF,MF;Hull City;22;1994;33;31;2,736;30.avr;1;2;3;1;0;0;5;0;0.03;0.07;0.10;0.03;0.10
+Paul Robinson;eng ENG;GK;Burnley;36;1979;3;3;270;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Joel Robles;es ESP;GK;Everton;26;1990;20;19;1,737;19.mars;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Hal Robson-Kanu;wls WAL;FW,MF;West Brom;27;1989;29;5;701;07.août;3;2;5;3;0;0;3;0;0.39;0.26;0.64;0.39;0.64
+Jay Rodriguez;eng ENG;FW,MF;Southampton;27;1989;24;9;892;09.sept;5;2;7;5;0;0;0;0;0.50;0.20;0.71;0.50;0.71
+Jack Rodwell;eng ENG;DF,MF;Sunderland;25;1991;20;17;1,492;16.juin;0;1;1;0;0;0;4;0;0.00;0.06;0.06;0.00;0.06
+Marcos Rojo;ar ARG;DF;Manchester Utd;26;1990;21;18;1,663;18.mai;1;0;1;1;0;0;5;0;0.05;0.00;0.05;0.05;0.05
+Sergio Romero;ar ARG;GK;Manchester Utd;29;1987;2;2;180;2.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Oriol Romeu;es ESP;MF;Southampton;24;1991;35;35;3,071;34.1;1;0;1;1;0;0;11;0;0.03;0.00;0.03;0.03;0.03
+Salomón Rondón;ve VEN;FW;West Brom;26;1989;38;32;2,891;32.1;8;2;10;8;0;0;2;0;0.25;0.06;0.31;0.25;0.31
+Marten de Roon;nl NED;DF,MF;Middlesbrough;25;1991;33;32;2,773;30.août;4;0;4;4;0;0;8;0;0.13;0.00;0.13;0.13;0.13
+Wayne Rooney;eng ENG;FW,MF;Manchester Utd;30;1985;25;15;1,539;17.janv;5;5;10;4;1;1;8;0;0.29;0.29;0.58;0.23;0.53
+Danny Rose;eng ENG;DF,MF;Tottenham;26;1990;18;18;1,53;17.0;2;2;4;2;0;0;8;0;0.12;0.12;0.24;0.12;0.24
+Wayne Routledge;eng ENG;FW,MF;Swansea City;31;1985;27;24;1,922;21.avr;3;1;4;3;0;0;1;0;0.14;0.05;0.19;0.14;0.19
+Bacary Sagna;fr FRA;DF;Manchester City;33;1983;17;14;1,346;15.0;0;1;1;0;0;0;2;0;0.00;0.07;0.07;0.00;0.07
+Diafra Sakho;sn SEN;FW;West Ham;26;1989;4;2;181;2.0;1;0;1;1;0;0;0;0;0.50;0.00;0.50;0.50;0.50
+Mamadou Sakho;fr FRA;DF;Crystal Palace;26;1990;8;8;686;07.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Bakary Sako;ml MLI;FW,MF;Crystal Palace;28;1988;7;0;142;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Alexis Sánchez;cl CHI;FW,MF;Arsenal;27;1988;38;36;3,217;35.7;24;10;34;22;2;3;6;0;0.67;0.28;0.95;0.62;0.90
+Leroy Sané;de GER;FW,MF;Manchester City;20;1996;26;20;1,781;19.août;5;2;7;5;0;0;4;0;0.25;0.10;0.35;0.25;0.35
+Jeffrey Schlupp;gh GHA;DF,FW;Crystal Palace;23;1992;15;11;998;11.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Jeffrey Schlupp;gh GHA;DF,FW;Leicester City;23;1992;4;1;141;01.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Kasper Schmeichel;dk DEN;GK;Leicester City;29;1986;30;30;2,666;29.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Morgan Schneiderlin;fr FRA;MF;Manchester Utd;26;1989;3;0;14;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Morgan Schneiderlin;fr FRA;MF;Everton;26;1989;14;12;1,059;11.août;1;0;1;1;0;0;2;0;0.08;0.00;0.08;0.08;0.08
+Xherdan Shaqiri;ch SUI;FW,MF;Stoke City;24;1991;21;21;1,698;18.sept;4;2;6;4;0;0;2;0;0.21;0.11;0.32;0.21;0.32
+Luke Shaw;eng ENG;DF,MF;Manchester Utd;21;1995;11;9;688;07.juin;0;1;1;0;0;0;1;0;0.00;0.13;0.13;0.00;0.13
+Ryan Shawcross;eng ENG;DF;Stoke City;28;1987;35;35;3,15;35.0;1;1;2;1;0;0;6;0;0.03;0.03;0.06;0.03;0.06
+Gylfi Sigurðsson;is ISL;FW,MF;Swansea City;26;1989;38;37;3,327;37.0;9;13;22;6;3;3;2;0;0.24;0.35;0.60;0.16;0.51
+David Silva;es ESP;FW,MF;Manchester City;30;1986;34;31;2,759;30.juil;4;7;11;4;0;0;6;0;0.13;0.23;0.36;0.13;0.36
+Danny Simpson;eng ENG;DF;Leicester City;29;1987;35;34;2,988;33.2;0;1;1;0;0;0;12;0;0.00;0.03;0.03;0.00;0.03
+Josh Sims;eng ENG;FW,MF;Southampton;19;1997;7;1;211;02.mars;0;1;1;0;0;0;0;0;0.00;0.43;0.43;0.00;0.43
+Jerome Sinclair;eng ENG;FW;Watford;19;1996;5;1;116;01.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Moussa Sissoko;fr FRA;FW,MF;Tottenham;26;1989;25;8;911;10.janv;0;2;2;0;0;0;3;0;0.00;0.20;0.20;0.00;0.20
+Islam Slimani;dz ALG;FW;Leicester City;28;1988;23;13;1,281;14.févr;7;4;11;6;1;1;1;0;0.49;0.28;0.77;0.42;0.70
+Chris Smalling;eng ENG;DF;Manchester Utd;26;1989;18;13;1,217;13.mai;1;0;1;1;0;0;0;0;0.07;0.00;0.07;0.07;0.07
+Adam Smith;eng ENG;DF,MF;Bournemouth;25;1991;36;34;3,101;34.5;1;5;6;1;0;0;6;0;0.03;0.15;0.17;0.03;0.17
+Brad Smith;au AUS;DF,MF;Bournemouth;22;1994;5;3;291;03.févr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Robert Snodgrass;sct SCO;FW,MF;West Ham;28;1987;15;8;838;09.mars;0;2;2;0;0;0;0;0;0.00;0.21;0.21;0.00;0.21
+Robert Snodgrass;sct SCO;FW,MF;Hull City;28;1987;20;19;1,71;19.0;7;2;9;5;2;2;2;0;0.37;0.11;0.47;0.26;0.37
+Cédric Soares;pt POR;DF,MF;Southampton;24;1991;30;30;2,515;27.sept;0;3;3;0;0;0;7;0;0.00;0.11;0.11;0.00;0.11
+Ramadan Sobhi;eg EGY;MF;Stoke City;19;1997;17;8;854;09.mai;0;1;1;0;0;0;2;0;0.00;0.11;0.11;0.00;0.11
+Pape Souaré;sn SEN;DF;Crystal Palace;26;1990;3;3;269;3.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Junior Stanislas;eng ENG;FW,MF;Bournemouth;26;1989;21;18;1,467;16.mars;7;5;12;5;2;2;1;0;0.43;0.31;0.74;0.31;0.61
+Maarten Stekelenburg;nl NED;GK;Everton;33;1982;19;19;1,683;18.juil;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Jack Stephens;eng ENG;DF;Southampton;22;1994;17;15;1,471;16.mars;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Raheem Sterling;eng ENG;FW,MF;Manchester City;21;1994;33;29;2,508;27.sept;7;8;15;7;0;0;7;0;0.25;0.29;0.54;0.25;0.54
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Kevin Stewart;jm JAM;DF,MF;Liverpool;22;1993;4;0;20;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+John Stones;eng ENG;DF;Manchester City;22;1994;27;23;2,014;22.avr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Cristhian Stuani;uy URU;FW,MF;Middlesbrough;29;1986;23;16;1,354;15.0;4;0;4;4;0;0;4;0;0.27;0.00;0.27;0.27;0.27
+Daniel Sturridge;eng ENG;FW,MF;Liverpool;26;1989;20;7;775;08.juin;3;1;4;3;0;0;1;0;0.35;0.12;0.46;0.35;0.46
+Isaac Success;ng NGA;FW,MF;Watford;20;1996;19;2;519;05.août;1;1;2;1;0;0;2;0;0.17;0.17;0.35;0.17;0.35
+Ki Sung-yueng;kr KOR;MF;Swansea City;27;1989;23;13;1,291;14.mars;0;1;1;0;0;0;3;0;0.00;0.07;0.07;0.00;0.07
+Andrew Surman;eng ENG;MF;Bournemouth;29;1986;22;21;1,801;20.0;0;1;1;0;0;0;3;1;0.00;0.05;0.05;0.00;0.05
+Dušan Tadić;rs SRB;FW,MF;Southampton;27;1988;33;30;2,411;26.août;3;5;8;2;1;2;4;0;0.11;0.19;0.30;0.07;0.26
+Matt Targett;eng ENG;DF,MF;Southampton;20;1995;5;5;373;04.janv;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+James Tarkowski;eng ENG;DF;Burnley;23;1992;19;4;568;06.mars;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Neil Taylor;wls WAL;DF,MF;Swansea City;27;1989;11;11;920;10.févr;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+John Terry;eng ENG;DF;Chelsea;35;1980;9;6;496;05.mai;1;0;1;1;0;0;1;0;0.18;0.00;0.18;0.18;0.18
+James Tomkins;eng ENG;DF,MF;Crystal Palace;27;1989;24;23;1,974;21.sept;3;0;3;3;0;0;4;0;0.14;0.00;0.14;0.14;0.14
+Gökhan Töre;tr TUR;FW,MF;West Ham;24;1992;5;3;240;02.juil;0;1;1;0;0;0;0;0;0.00;0.37;0.37;0.00;0.37
+Yaya Touré;ci CIV;MF;Manchester City;33;1983;25;22;1,941;21.juin;5;0;5;3;2;2;4;0;0.23;0.00;0.23;0.14;0.14
+Andros Townsend;eng ENG;FW,MF;Crystal Palace;25;1991;36;30;2,519;28.0;3;4;7;3;0;0;4;0;0.11;0.14;0.25;0.11;0.25
+Adama Traoré;es ESP;FW,MF;Middlesbrough;20;1996;27;16;1,541;17.janv;0;1;1;0;0;0;1;0;0.00;0.06;0.06;0.00;0.06
+Kieran Trippier;eng ENG;DF,MF;Tottenham;25;1990;12;6;568;06.mars;0;5;5;0;0;0;1;0;0.00;0.79;0.79;0.00;0.79
+Axel Tuanzebe;cd COD;DF;Manchester Utd;18;1997;4;4;303;03.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Josh Tymon;eng ENG;DF,MF;Hull City;17;1999;5;4;322;03.juin;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Leonardo Ulloa;ar ARG;FW;Leicester City;30;1986;16;3;447;5.0;1;0;1;1;0;0;0;0;0.20;0.00;0.20;0.20;0.20
+Víctor Valdés;es ESP;GK;Middlesbrough;34;1982;28;28;2,52;28.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Antonio Valencia;ec ECU;DF,MF;Manchester Utd;30;1985;28;27;2,483;27.juin;1;3;4;1;0;0;5;0;0.04;0.11;0.14;0.04;0.14
+Enner Valencia;ec ECU;FW,MF;West Ham;26;1989;3;3;211;02.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Enner Valencia;ec ECU;FW,MF;Everton;26;1989;21;5;716;8.0;3;1;4;3;0;0;1;0;0.38;0.13;0.50;0.38;0.50
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Virgil van Dijk;nl NED;DF;Southampton;25;1991;21;21;1,853;20.juin;1;0;1;1;0;0;5;2;0.05;0.00;0.05;0.05;0.05
+Jamie Vardy;eng ENG;FW;Leicester City;29;1987;35;33;2,802;31.janv;13;4;17;13;0;0;2;1;0.42;0.13;0.55;0.42;0.55
+Jan Vertonghen;be BEL;DF;Tottenham;29;1987;33;33;2,894;32.2;0;0;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00
+Sam Vokes;wls WAL;FW;Burnley;26;1989;37;21;2,064;22.sept;10;3;13;8;2;2;0;0;0.44;0.13;0.57;0.35;0.48
+Michel Vorm;nl NED;GK;Tottenham;32;1983;5;4;416;04.juin;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Matěj Vydra;cz CZE;FW,MF;Watford;24;1992;1;0;3;0.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Theo Walcott;eng ENG;FW,MF;Arsenal;27;1989;28;23;1,916;21.mars;10;2;12;10;0;1;1;0;0.47;0.09;0.56;0.47;0.56
+Kyle Walker;eng ENG;DF,MF;Tottenham;26;1990;33;31;2,701;30.0;0;5;5;0;0;0;8;0;0.00;0.17;0.17;0.00;0.17
+Jonathan Walters;ie IRL;FW,MF;Stoke City;32;1983;23;13;1,304;14.mai;4;2;6;3;1;1;1;0;0.28;0.14;0.41;0.21;0.35
+Victor Wanyama;ke KEN;MF;Tottenham;25;1991;36;35;3,012;33.5;4;1;5;4;0;0;10;0;0.12;0.03;0.15;0.12;0.15
+Joel Ward;eng ENG;DF,MF;Crystal Palace;26;1989;38;38;3,417;38.0;0;1;1;0;0;0;7;0;0.00;0.03;0.03;0.00;0.03
+Stephen Ward;ie IRL;DF,FW;Burnley;30;1985;37;37;3,23;35.9;1;1;2;1;0;0;5;0;0.03;0.03;0.06;0.03;0.06
+James Ward-Prowse;eng ENG;MF;Southampton;21;1994;30;22;1,883;20.sept;4;4;8;4;0;0;4;0;0.19;0.19;0.38;0.19;0.38
+Marcin Wasilewski;pl POL;DF;Leicester City;36;1980;1;1;90;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Duncan Watmore;eng ENG;FW,MF;Sunderland;22;1994;14;11;1,024;11.avr;0;2;2;0;0;0;1;0;0.00;0.18;0.18;0.00;0.18
+Ben Watson;eng ENG;MF;Watford;31;1985;4;0;54;0.6;0;0;0;0;0;0;0;1;0.00;0.00;0.00;0.00;0.00
+Danny Welbeck;eng ENG;FW,MF;Arsenal;25;1990;16;8;748;08.mars;2;2;4;2;0;0;0;0;0.24;0.24;0.48;0.24;0.48
+Ashley Westwood;eng ENG;MF;Burnley;26;1990;9;6;551;06.janv;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Glenn Whelan;ie IRL;MF;Stoke City;32;1984;30;26;2,275;25.mars;0;1;1;0;0;0;5;0;0.00;0.04;0.04;0.00;0.04
+Connor Wickham;eng ENG;FW,MF;Crystal Palace;23;1993;8;4;412;04.juin;2;0;2;2;0;0;1;0;0.44;0.00;0.44;0.44;0.44
+Georginio Wijnaldum;nl NED;FW,MF;Liverpool;25;1990;36;33;2,972;33.0;6;8;14;6;0;0;2;0;0.18;0.24;0.42;0.18;0.42
+Ashley Williams;wls WAL;DF;Everton;31;1984;36;35;3,16;35.1;1;2;3;1;0;0;7;1;0.03;0.06;0.09;0.03;0.09
+Willian;br BRA;FW,MF;Chelsea;27;1988;34;15;1,534;17.0;8;2;10;8;0;0;3;0;0.47;0.12;0.59;0.47;0.59
+Jack Wilshere;eng ENG;MF;Arsenal;24;1992;2;0;39;0.4;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Jack Wilshere;eng ENG;MF;Bournemouth;24;1992;27;22;1,91;21.févr;0;2;2;0;0;0;3;0;0.00;0.09;0.09;0.00;0.09
+Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;90s;Gls;Ast;G+A;G-PK;PK;PKatt;CrdY;CrdR;Gls;Ast;G+A;G-PK;G+A-PK
+Callum Wilson;eng ENG;FW;Bournemouth;24;1992;20;16;1,356;15.janv;6;0;6;3;3;3;0;0;0.40;0.00;0.40;0.20;0.20
+Marc Wilson;ie IRL;DF,MF;West Brom;28;1987;4;3;254;02.août;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Kevin Wimmer;at AUT;DF;Tottenham;23;1992;5;4;357;4.0;0;0;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00
+Harry Winks;eng ENG;MF;Tottenham;20;1996;21;3;493;05.mai;1;1;2;1;0;0;1;0;0.18;0.18;0.37;0.18;0.37
+Philipp Wollscheid;de GER;DF;Stoke City;27;1989;2;2;180;2.0;0;0;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00
+Ben Woodburn;wls WAL;FW,MF;Liverpool;16;1999;5;1;86;1.0;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Matt Worthington;eng ENG;DF,MF;Bournemouth;18;1997;1;0;17;0.2;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Granit Xhaka;ch SUI;MF;Arsenal;23;1992;32;28;2,485;27.juin;2;2;4;2;0;0;5;2;0.07;0.07;0.14;0.07;0.14
+Claudio Yacob;ar ARG;MF;West Brom;29;1987;33;27;2,418;26.sept;0;0;0;0;0;0;9;0;0.00;0.00;0.00;0.00;0.00
+Maya Yoshida;jp JPN;DF;Southampton;27;1988;23;23;2,07;23.0;1;0;1;1;0;0;2;0;0.04;0.00;0.04;0.04;0.04
+Ashley Young;eng ENG;DF,FW;Manchester Utd;31;1985;12;8;758;08.avr;0;1;1;0;0;0;2;0;0.00;0.12;0.12;0.00;0.12
+Pablo Zabaleta;ar ARG;DF,MF;Manchester City;31;1985;20;11;1,065;11.août;1;1;2;1;0;0;2;0;0.08;0.08;0.17;0.08;0.17
+Wilfried Zaha;ci CIV;FW,MF;Crystal Palace;23;1992;35;34;3,019;33.5;7;8;15;7;0;0;8;0;0.21;0.24;0.45;0.21;0.45
+Mauro Zárate;ar ARG;FW,MF;Watford;29;1987;3;3;203;02.mars;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Simone Zaza;it ITA;FW;West Ham;25;1991;8;5;459;05.janv;0;0;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00
+Ron-Robert Zieler;de GER;GK;Leicester City;27;1989;9;8;754;08.avr;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Kurt Zouma;fr FRA;DF;Chelsea;21;1994;9;3;250;02.août;0;0;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00
+Juan Zúñiga;co COL;DF,MF;Watford;30;1985;21;6;825;09.févr;1;0;1;1;0;0;1;0;0.11;0.00;0.11;0.11;0.11
