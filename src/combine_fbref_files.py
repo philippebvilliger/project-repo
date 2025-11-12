@@ -10,32 +10,31 @@ print("="*60)
 print("LOADING FBREF DATA FROM CSV FILES")
 print("="*60)
 
-# Find all CSV files in data/raw/ folder
-csv_files = glob.glob('data/raw/*.csv')
+# Find all CSV files in data/fbref/ folder
+csv_files = glob.glob('data/fbref/*.csv')
 
-# Filter to only FBref files (exclude any other CSVs)
-# FBref files should follow pattern: league_name_YYYY-YYYY.csv
+# Filter to only FBref files
 fbref_files = []
 for file_path in csv_files:
     filename = os.path.basename(file_path)
     # Check if it matches FBref naming pattern
-    if any(league in filename.lower() for league in ['premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1']):
+    if any(league in filename.lower() for league in ['bundesliga', 'laliga', 'ligue1', 'premier_league', 'seriea']):
         fbref_files.append(file_path)
 
 print(f"\n📊 Found {len(fbref_files)} FBref CSV files")
 
 if len(fbref_files) == 0:
-    print("\n⚠️  No FBref CSV files found in data/raw/")
+    print("\n⚠️  No FBref CSV files found in data/fbref/")
     print("Expected files like: premier_league_2023-2024.csv")
     exit(1)
 
 # Dictionary to standardize league names
 league_mapping = {
-    'premier_league': 'Premier-League',
-    'la_liga': 'La-Liga',
-    'serie_a': 'Serie-A',
     'bundesliga': 'Bundesliga',
-    'ligue_1': 'Ligue-1'
+    'laliga': 'La-Liga',
+    'ligue1': 'Ligue-1',
+    'premier_league': 'Premier-League',
+    'seriea': 'Serie-A'
 }
 
 # List to store all dataframes
@@ -60,8 +59,8 @@ for file_path in sorted(fbref_files):
     print(f"Loading {league} {season}...", end=" ")
     
     try:
-        # Load CSV with semicolon separator
-        df = pd.read_csv(file_path, sep=';', encoding='utf-8')
+        # Load CSV with COMMA separator (not semicolon)
+        df = pd.read_csv(file_path, sep=',', encoding='utf-8')
         
         # Check if empty
         if len(df) == 0:
@@ -129,8 +128,11 @@ if all_stats:
     print("\n📊 All columns:")
     print(fbref_stats.columns.tolist())
     
+    # Create processed folder if it doesn't exist
+    os.makedirs('data/processed', exist_ok=True)
+    
     # Save combined data
-    output_file = 'data/raw/fbref_stats_raw.csv'
+    output_file = 'data/processed/fbref_stats_raw.csv'
     fbref_stats.to_csv(output_file, index=False)
     
     print(f"\n✅ Combined data saved to: {output_file}")
@@ -151,12 +153,10 @@ if all_stats:
 else:
     print("\n❌ No data loaded!")
     print("   Check that:")
-    print("   1. CSV files are in data/raw/ folder")
+    print("   1. CSV files are in data/fbref/ folder")
     print("   2. Files are named correctly (e.g., premier_league_2023-2024.csv)")
     print("   3. Files contain valid FBref data")
 
 print("\n" + "="*60)
 print("✅ FBREF DATA LOADING COMPLETE!")
 print("="*60)
-
-
