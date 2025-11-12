@@ -1,4 +1,4 @@
-Player,Age,Nationality,Position,Market_Value,Previous_Club,Transfer_Fee,source_file,league,Club,Transfer_Fee ,csvPlayer
+Player,Age,Nationality,Position,Market_Value,Previous_Club,Transfer_Fee,source_file,league
 Álvaro Morata,27,Spain,Centre-Forward,36000000,Chelsea,35000000.0,La_Liga_2020.csv,La Liga,,,
 Óscar Rodríguez,22,Spain,Attacking Midfield,15000000,real Madrid,13500000.0,La_Liga_2020.csv,La Liga,,,
 Luis Suárez,22,Colombia,Centre-Forward,7500000,Watford,10000000.0,La_Liga_2020.csv,La Liga,,,
