@@ -11,9 +11,8 @@ print("="*60)
 
 # I have gone on transfermarkt.com and compiled the data for transfers in the top 5 European leagues
 # for seasons 2017-2018 to 2023-2024. I filtered for transfers involving attackers and midfielders and transfer fees of €5M+.
-# I then turned them into csv files for each respective league and season. I saved them in the data/raw/ folder.
-csv_files = glob('data/raw/**/*.csv', recursive=True)  # glob as we said allows us to import all csv files in the specified folder.
-# recursive=True allows us to search in all subdirectories
+# I then turned them into csv files for each respective league and season. I saved them in the data/transfermarkt/ folder.
+csv_files = glob('data/transfermarkt/*.csv')  # glob as we said allows us to import all csv files in the specified folder.
 
 print(f"\nFound {len(csv_files)} CSV files:")
 for file in csv_files:   # Loop through each file and print its name so user can see what's being loaded
@@ -23,7 +22,7 @@ for file in csv_files:   # Loop through each file and print its name so user can
 all_transfers = []  # we will be storing all transfers in this list, in order to have one big dataset.
 #This makes it easier to analyze and filter the data later on otherwise, we would have to analyze each csv file separately.
 
-for file in csv_files: # We want to loop through each csv file found in the data/raw/ folder and load them one by one.
+for file in csv_files: # We want to loop through each csv file found in the data/transfermarkt/ folder and load them one by one.
     try: # We use try in case there are any errors in loading a specific file.
         df = pd.read_csv(file) # We read the csv file and then turn it into a pandas dataframe for easier manipulation.
         
