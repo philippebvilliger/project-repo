@@ -12,7 +12,8 @@ print("="*60)
 # I have gone on transfermarkt.com and compiled the data for transfers in the top 5 European leagues
 # for seasons 2017-2018 to 2023-2024. I filtered for transfers involving attackers and midfielders and transfer fees of €5M+.
 # I then turned them into csv files for each respective league and season. I saved them in the data/raw/ folder.
-csv_files = glob('data/raw/*.csv')  # glob as we said allows us to import all csv files in the specified folder.
+csv_files = glob('data/raw/**/*.csv', recursive=True)  # glob as we said allows us to import all csv files in the specified folder.
+# recursive=True allows us to search in all subdirectories
 
 print(f"\nFound {len(csv_files)} CSV files:")
 for file in csv_files:   # Loop through each file and print its name so user can see what's being loaded
@@ -28,6 +29,8 @@ for file in csv_files: # We want to loop through each csv file found in the data
         
         # A dataframe df is like a table with rows and columns, similar to an Excel spreadsheet.
 
+        # Remove any completely empty columns that might have been created by trailing commas
+        df = df.dropna(axis=1, how='all')
         
         # Add source information
         filename = os.path.basename(file) # For each csv file, we extract its filename to keep track of where the data came from.
@@ -128,6 +131,11 @@ for i, (idx, transfer) in enumerate(top_transfers.iterrows(), 1): #iterrows() al
 
 # We first save the combined datafram into a new csv file for future use via pandas' to_csv() function.
 # This will be saved in the data/ folder.
+
+# Remove any completely empty columns before saving
+transfers = transfers.dropna(axis=1, how='all')
+transfers_filtered = transfers_filtered.dropna(axis=1, how='all')
+
 transfers.to_csv('data/all_transfers_combined.csv', index=False) #index=False means we don't want to save the row indices in the csv file.
 print(f"\n✅ All transfers saved to: data/all_transfers_combined.csv")
 
