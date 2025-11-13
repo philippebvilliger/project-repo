@@ -94,7 +94,7 @@ print(f"✅ After cleaning: {len(transfers)} transfers, {len(fbref)} FBref recor
 # ============================================
 print("\n🔗 PASS 1: Matching BEFORE season stats...")
 
-def find_best_match(name, choices, threshold=85):
+def find_best_match(name, choices, threshold=78):
     """Find best matching name using fuzzy string matching"""
     # Handle missing/invalid names
     if pd.isna(name) or not isinstance(name, str) or len(choices) == 0:
