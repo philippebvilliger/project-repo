@@ -56,23 +56,24 @@ for file_path in sorted(fbref_files): # sorted() to process files in order
         print(f"⚠️  Skipping {filename} - unexpected format")
         continue # continue skips to the next loop iteration
     
-    league_raw, season = parts 
-    league = league_mapping.get(league_raw.lower(), league_raw)
-    
+    league_raw, season = parts  # league_raw is the name of the league in the given file
+    league = league_mapping.get(league_raw.lower(), league_raw) # get() retrieves the value for a given key, here the key correspond the basename of the file
+    # in return it gives us the value i.e., the basename written correctly
+
     print(f"Loading {league} {season}...", end=" ")
     
-    try:
-        # Load CSV with COMMA separator (not semicolon)
-        df = pd.read_csv(file_path, sep=',', encoding='utf-8')
+    try: # we use a try-except statement in case there is a problem reading the csv file
+        # We load the csv file into a pandas dataframe
+        df = pd.read_csv(file_path, sep=',', encoding='utf-8') # encoding will be utf-8 and the separator will be commas
         
-        # Check if empty
+        # If the the dataframe has no rows we skip it
         if len(df) == 0:
             print(f"⚠️  Empty file!")
             continue
         
-        # Remove duplicate header rows (where Player column = 'Player')
+        # Header rows sometimes have duplicates so we remove duplicate header rows (where Player column = 'Player')
         if 'Player' in df.columns:
-            df = df[df['Player'] != 'Player']
+            df = df[df['Player'] != 'Player'] # so we remove duplicate header rows (where Player column = 'Player') by keeping only the different ones
         
         # Handle multi-level columns if present
         if isinstance(df.columns, pd.MultiIndex):
