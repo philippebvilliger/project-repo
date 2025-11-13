@@ -1,410 +1,240 @@
 import pandas as pd
 import numpy as np
-from difflib import SequenceMatcher
-import re
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
+from glob import glob
 
 # ============================================
-# MATCH TRANSFERS WITH FBREF PERFORMANCE DATA
-# ============================================
+print("="*60)
+print("MATCHING TRANSFERMARKT & FBREF DATA")
+print("TWO-PASS STRATEGY: BEFORE + AFTER")
+print("="*60)
 
-print("="*80)
-print("MATCHING TRANSFERS WITH PERFORMANCE DATA")
-print("="*80)
-
-# ============================================
-# STEP 1: LOAD DATA
-# ============================================
-
-print("\n" + "="*80)
-print("STEP 1: LOADING DATA")
-print("="*80)
-
-# Load transfers
+# Load Transfermarkt data
 print("\n📂 Loading Transfermarkt data...")
 transfers = pd.read_csv('data/transfers_filtered.csv')
 print(f"✅ Loaded {len(transfers)} transfers")
 
-# Load FBref stats
-print("\n📂 Loading FBref data...")
-fbref = pd.read_csv('data/processed/fbref_cleaned.csv')
-print(f"✅ Loaded {len(fbref)} player-season records")
+# ============================================
+print("\n📂 Loading ALL FBref data...")
+
+fbref_files = glob('data/fbref/*.csv')
+fbref_data = []
+
+for file in fbref_files:
+    try:
+        df = pd.read_csv(file)
+        
+        # Extract league and season from filename
+        filename = file.split('/')[-1].replace('.csv', '')
+        
+        if 'premier' in filename.lower():
+            df['fbref_league'] = 'Premier League'
+        elif 'laliga' in filename.lower():
+            df['fbref_league'] = 'La Liga'
+        elif 'serie' in filename.lower():
+            df['fbref_league'] = 'Serie A'
+        elif 'bundesliga' in filename.lower():
+            df['fbref_league'] = 'Bundesliga'
+        elif 'ligue' in filename.lower():
+            df['fbref_league'] = 'Ligue 1'
+        
+        # Extract season (e.g., "2022-2023" → start year 2022)
+        season_parts = filename.split('_')[-1].split('-')
+        if len(season_parts) == 2:
+            df['fbref_season'] = int(season_parts[0])
+        
+        fbref_data.append(df)
+        print(f"   ✓ Loaded {file}")
+    except Exception as e:
+        print(f"   ✗ Failed to load {file}: {e}")
+
+fbref = pd.concat(fbref_data, ignore_index=True)
+print(f"✅ Total FBref records: {len(fbref)}")
 
 # ============================================
-# STEP 2: PARSE TRANSFER YEAR FROM source_file
-# ============================================
+print("\n🔧 Preprocessing data...")
 
-print("\n" + "="*80)
-print("STEP 2: EXTRACTING TRANSFER YEARS")
-print("="*80)
+# Standardize player names
+transfers['player_clean'] = transfers['Player'].str.lower().str.strip()
+fbref['player_clean'] = fbref['Player'].str.lower().str.strip()
 
-def extract_year_from_filename(filename):
-    """Extract year from filename like 'Bundesliga_2023.csv' or 'premier_league_2023.csv'"""
-    if pd.isna(filename):
-        return None
-    # Extract 4-digit year from filename
-    match = re.search(r'(\d{4})', str(filename))
-    if match:
-        return int(match.group(1))
-    return None
+# Extract transfer year
+transfers['transfer_year'] = transfers['source_file'].str.extract(r'(\d{4})').astype(int)
 
-transfers['transfer_year'] = transfers['source_file'].apply(extract_year_from_filename)
-
-print(f"\n✅ Extracted transfer years")
-print(f"   Years range: {transfers['transfer_year'].min()} - {transfers['transfer_year'].max()}")
-print(f"   Missing years: {transfers['transfer_year'].isna().sum()}")
-
-# Remove transfers without year
-before_drop = len(transfers)
-transfers = transfers[transfers['transfer_year'].notna()].copy()
-after_drop = len(transfers)
-if before_drop != after_drop:
-    print(f"   Removed {before_drop - after_drop} transfers without year")
-
-# ============================================
-# STEP 3: NAME STANDARDIZATION
-# ============================================
-
-print("\n" + "="*80)
-print("STEP 3: STANDARDIZING PLAYER NAMES")
-print("="*80)
-
-def standardize_name(name):
-    """Standardize player names for matching"""
-    if pd.isna(name):
-        return ""
-    
-    name = str(name).lower().strip()
-    
-    # Remove accents and special characters
-    replacements = {
-        'á': 'a', 'à': 'a', 'ã': 'a', 'â': 'a', 'ä': 'a',
-        'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e',
-        'í': 'i', 'ì': 'i', 'î': 'i', 'ï': 'i',
-        'ó': 'o', 'ò': 'o', 'õ': 'o', 'ô': 'o', 'ö': 'o',
-        'ú': 'u', 'ù': 'u', 'û': 'u', 'ü': 'u',
-        'ñ': 'n', 'ç': 'c', 'ć': 'c', 'č': 'c',
-        'ş': 's', 'š': 's', 'ž': 'z', 'đ': 'd',
-        'ø': 'o', 'å': 'a', 'æ': 'ae'
-    }
-    
-    for old, new in replacements.items():
-        name = name.replace(old, new)
-    
-    # Remove common suffixes/prefixes
-    name = re.sub(r'\s+(jr|sr|ii|iii|iv)\.?$', '', name)
-    
-    # Remove extra spaces
-    name = re.sub(r'\s+', ' ', name)
-    
-    return name.strip()
-
-# Standardize names
-transfers['player_std'] = transfers['Player'].apply(standardize_name)
-fbref['player_std'] = fbref['Player'].apply(standardize_name)
-
-print(f"✅ Standardized names")
-print(f"   Sample transfer names: {transfers['player_std'].head(3).tolist()}")
-print(f"   Sample FBref names: {fbref['player_std'].head(3).tolist()}")
-
-# ============================================
-# STEP 4: LEAGUE STANDARDIZATION
-# ============================================
-
-print("\n" + "="*80)
-print("STEP 4: STANDARDIZING LEAGUE NAMES")
-print("="*80)
+# Calculate before and after seasons
+transfers['season_before'] = transfers['transfer_year'] - 1
+transfers['season_after'] = transfers['transfer_year']
 
 # Standardize league names
-league_mapping = {
-    'bundesliga': 'Bundesliga',
-    'la liga': 'La-Liga',
-    'serie a': 'Serie-A',
-    'premier league': 'Premier-League',
-    'ligue 1': 'Ligue-1'
-}
-
 def standardize_league(league):
-    """Standardize league names"""
-    if pd.isna(league):
-        return None
-    league_lower = str(league).lower().strip()
-    for key, value in league_mapping.items():
-        if key in league_lower:
-            return value
+    league = str(league)
+    if 'Liga' in league or 'La-Liga' in league or 'La Liga' in league:
+        return 'La Liga'
+    elif 'Premier' in league:
+        return 'Premier League'
+    elif 'Serie' in league:
+        return 'Serie A'
+    elif 'Bundesliga' in league:
+        return 'Bundesliga'
+    elif 'Ligue' in league:
+        return 'Ligue 1'
     return league
 
-transfers['league_std'] = transfers['league'].apply(standardize_league)
-fbref['league_std'] = fbref['league'].apply(standardize_league)
+transfers['league_clean'] = transfers['league'].apply(standardize_league)
 
-print(f"✅ Standardized leagues")
-print(f"   Transfer leagues: {transfers['league_std'].unique()}")
-print(f"   FBref leagues: {fbref['league_std'].unique()}")
+print("✅ Preprocessing complete")
 
-# ============================================
-# STEP 5: CREATE SEASON STRINGS
-# ============================================
+# Clean up any NaN values in player names
+transfers = transfers[transfers['player_clean'].notna()]
+fbref = fbref[fbref['player_clean'].notna()]
 
-print("\n" + "="*80)
-print("STEP 5: MAPPING TRANSFER YEARS TO SEASONS")
-print("="*80)
-
-def year_to_season(year):
-    """Convert transfer year to season format"""
-    # If transfer in 2023, the season before is 2022-2023, after is 2023-2024
-    season_before = f"{year-1}-{year}"
-    season_after = f"{year}-{year+1}"
-    return season_before, season_after
-
-# Add season columns to transfers
-transfers[['season_before', 'season_after']] = transfers['transfer_year'].apply(
-    lambda x: pd.Series(year_to_season(x))
-)
-
-print(f"✅ Created season mappings")
-print(f"\n   Sample mappings:")
-for i in range(min(3, len(transfers))):
-    print(f"   Transfer year {transfers.iloc[i]['transfer_year']} → "
-          f"Before: {transfers.iloc[i]['season_before']}, "
-          f"After: {transfers.iloc[i]['season_after']}")
+print(f"✅ After cleaning: {len(transfers)} transfers, {len(fbref)} FBref records")
 
 # ============================================
-# STEP 6: FUZZY NAME MATCHING FUNCTION
-# ============================================
+print("\n🔗 PASS 1: Matching BEFORE season stats...")
 
-def fuzzy_match_name(name1, name2, threshold=0.85):
-    """Check if two names are similar enough to be considered a match"""
-    return SequenceMatcher(None, name1, name2).ratio() >= threshold
+def find_best_match(name, choices, threshold=85):
+    """Find best matching name using fuzzy string matching"""
+    # Handle missing/invalid names
+    if pd.isna(name) or not isinstance(name, str) or len(choices) == 0:
+        return None, 0
+    
+    # Filter out any NaN values from choices
+    valid_choices = [c for c in choices if pd.notna(c) and isinstance(c, str)]
+    
+    if len(valid_choices) == 0:
+        return None, 0
+    
+    result = process.extractOne(name, valid_choices, scorer=fuzz.ratio)
+    if result and result[1] >= threshold:
+        return result[0], result[1]
+    return None, 0
 
-# ============================================
-# STEP 7: MATCH TRANSFERS WITH PERFORMANCE
-# ============================================
-
-print("\n" + "="*80)
-print("STEP 7: MATCHING TRANSFERS WITH PERFORMANCE DATA")
-print("="*80)
-
-matched_data = []
-unmatched_transfers = []
+before_matches = {}
 
 for idx, transfer in transfers.iterrows():
-    player_name = transfer['player_std']
-    league = transfer['league_std']
+    player_name = transfer['player_clean']
+    dest_league = transfer['league_clean']
     season_before = transfer['season_before']
+    
+    # Filter FBref for destination league and season before transfer
+    fbref_filtered = fbref[
+        (fbref['fbref_league'] == dest_league) & 
+        (fbref['fbref_season'] == season_before)
+    ]
+    
+    if len(fbref_filtered) > 0:
+        fbref_names = fbref_filtered['player_clean'].unique()
+        best_match, score = find_best_match(player_name, fbref_names)
+        
+        if best_match:
+            fbref_stats = fbref_filtered[fbref_filtered['player_clean'] == best_match].iloc[0]
+            before_matches[idx] = fbref_stats.to_dict()
+    
+    if (idx + 1) % 50 == 0:
+        print(f"   Processed {idx + 1}/{len(transfers)} transfers...")
+
+print(f"✅ BEFORE stats matched: {len(before_matches)}/{len(transfers)} ({len(before_matches)/len(transfers)*100:.1f}%)")
+
+# ============================================
+print("\n🔗 PASS 2: Matching AFTER season stats...")
+
+after_matches = {}
+
+for idx, transfer in transfers.iterrows():
+    player_name = transfer['player_clean']
+    dest_league = transfer['league_clean']
     season_after = transfer['season_after']
     
-    if (idx + 1) % 100 == 0:
-        print(f"   Processing transfer {idx + 1}/{len(transfers)}...")
+    # Filter FBref for destination league and season after transfer
+    fbref_filtered = fbref[
+        (fbref['fbref_league'] == dest_league) & 
+        (fbref['fbref_season'] == season_after)
+    ]
     
-    # Find player in FBref for season BEFORE transfer
-    mask_before = (
-        (fbref['player_std'] == player_name) &
-        (fbref['league_std'] == league) &
-        (fbref['season'] == season_before)
-    )
-    
-    stats_before = fbref[mask_before]
-    
-    # If exact match not found, try fuzzy matching
-    if len(stats_before) == 0:
-        mask_fuzzy = (
-            (fbref['league_std'] == league) &
-            (fbref['season'] == season_before)
-        )
-        potential_matches = fbref[mask_fuzzy]
+    if len(fbref_filtered) > 0:
+        fbref_names = fbref_filtered['player_clean'].unique()
+        best_match, score = find_best_match(player_name, fbref_names)
         
-        for _, potential in potential_matches.iterrows():
-            if fuzzy_match_name(player_name, potential['player_std']):
-                stats_before = pd.DataFrame([potential])
-                break
+        if best_match:
+            fbref_stats = fbref_filtered[fbref_filtered['player_clean'] == best_match].iloc[0]
+            after_matches[idx] = fbref_stats.to_dict()
     
-    # Find player in FBref for season AFTER transfer
-    mask_after = (
-        (fbref['player_std'] == player_name) &
-        (fbref['league_std'] == league) &
-        (fbref['season'] == season_after)
-    )
-    
-    stats_after = fbref[mask_after]
-    
-    # If exact match not found, try fuzzy matching
-    if len(stats_after) == 0:
-        mask_fuzzy = (
-            (fbref['league_std'] == league) &
-            (fbref['season'] == season_after)
-        )
-        potential_matches = fbref[mask_fuzzy]
+    if (idx + 1) % 50 == 0:
+        print(f"   Processed {idx + 1}/{len(transfers)} transfers...")
+
+print(f"✅ AFTER stats matched: {len(after_matches)}/{len(transfers)} ({len(after_matches)/len(transfers)*100:.1f}%)")
+
+# ============================================
+print("\n📊 Creating final datasets...")
+
+# Dataset 1: Players with BOTH before AND after stats (complete comparison)
+complete_matches = []
+for idx in before_matches.keys():
+    if idx in after_matches:
+        transfer = transfers.loc[idx]  # Changed from .iloc to .loc
+        before_stats = before_matches[idx]
+        after_stats = after_matches[idx]
         
-        for _, potential in potential_matches.iterrows():
-            if fuzzy_match_name(player_name, potential['player_std']):
-                stats_after = pd.DataFrame([potential])
-                break
-    
-    # Create matched record
-    if len(stats_before) > 0 or len(stats_after) > 0:
-        # Take first match if multiple
-        before_stats = stats_before.iloc[0] if len(stats_before) > 0 else None
-        after_stats = stats_after.iloc[0] if len(stats_after) > 0 else None
-        
-        match_record = {
-            # Transfer info
-            'player_name': transfer['Player'],
-            'age': transfer['Age'],
-            'position': transfer['Position'],
-            'nationality': transfer['Nationality'],
-            'transfer_fee': transfer['Transfer_Fee'],
-            'previous_club': transfer['Previous_Club'],
-            'market_value': transfer['Market_Value'],
-            'transfer_year': transfer['transfer_year'],
-            'league': league,
-            'season_before': season_before,
-            'season_after': season_after,
-            
-            # Before transfer stats
-            'before_squad': before_stats['Squad'] if before_stats is not None else None,
-            'before_mp': before_stats['MP'] if before_stats is not None else None,
-            'before_starts': before_stats['Starts'] if before_stats is not None else None,
-            'before_min': before_stats['Min'] if before_stats is not None else None,
-            'before_90s': before_stats['90s'] if before_stats is not None else None,
-            'before_gls': before_stats['Gls'] if before_stats is not None else None,
-            'before_ast': before_stats['Ast'] if before_stats is not None else None,
-            'before_g_pk': before_stats['G-PK'] if before_stats is not None else None,
-            'before_pk': before_stats['PK'] if before_stats is not None else None,
-            'before_crdy': before_stats['CrdY'] if before_stats is not None else None,
-            'before_crdr': before_stats['CrdR'] if before_stats is not None else None,
-            'before_gls_per_90': before_stats['Gls_per_90'] if before_stats is not None else None,
-            'before_ast_per_90': before_stats['Ast_per_90'] if before_stats is not None else None,
-            'before_ga_per_90': before_stats['GA_per_90'] if before_stats is not None else None,
-            
-            # After transfer stats
-            'after_squad': after_stats['Squad'] if after_stats is not None else None,
-            'after_mp': after_stats['MP'] if after_stats is not None else None,
-            'after_starts': after_stats['Starts'] if after_stats is not None else None,
-            'after_min': after_stats['Min'] if after_stats is not None else None,
-            'after_90s': after_stats['90s'] if after_stats is not None else None,
-            'after_gls': after_stats['Gls'] if after_stats is not None else None,
-            'after_ast': after_stats['Ast'] if after_stats is not None else None,
-            'after_g_pk': after_stats['G-PK'] if after_stats is not None else None,
-            'after_pk': after_stats['PK'] if after_stats is not None else None,
-            'after_crdy': after_stats['CrdY'] if after_stats is not None else None,
-            'after_crdr': after_stats['CrdR'] if after_stats is not None else None,
-            'after_gls_per_90': after_stats['Gls_per_90'] if after_stats is not None else None,
-            'after_ast_per_90': after_stats['Ast_per_90'] if after_stats is not None else None,
-            'after_ga_per_90': after_stats['GA_per_90'] if after_stats is not None else None,
-            
-            # Match quality indicators
-            'has_before_data': before_stats is not None,
-            'has_after_data': after_stats is not None,
-            'has_both_data': (before_stats is not None) and (after_stats is not None)
+        complete_record = {
+            **transfer.to_dict(),
+            **{f'before_{k}': v for k, v in before_stats.items()},
+            **{f'after_{k}': v for k, v in after_stats.items()}
         }
-        
-        matched_data.append(match_record)
-    else:
-        unmatched_transfers.append({
-            'player_name': transfer['Player'],
-            'league': league,
-            'transfer_year': transfer['transfer_year']
-        })
+        complete_matches.append(complete_record)
+
+print(f"✅ Complete matches (BEFORE + AFTER): {len(complete_matches)}")
+
+# Dataset 2: All matches (with whatever data available)
+all_matches = []
+for idx in transfers.index:  # Changed to iterate over index instead of iterrows
+    transfer = transfers.loc[idx]  # Changed from .iloc to .loc
+    record = transfer.to_dict()
+    record['has_before'] = idx in before_matches
+    record['has_after'] = idx in after_matches
+    
+    if idx in before_matches:
+        record.update({f'before_{k}': v for k, v in before_matches[idx].items()})
+    if idx in after_matches:
+        record.update({f'after_{k}': v for k, v in after_matches[idx].items()})
+    
+    all_matches.append(record)
 
 # ============================================
-# STEP 8: CREATE FINAL DATASET
-# ============================================
-
-print("\n" + "="*80)
-print("STEP 8: CREATING FINAL DATASET")
-print("="*80)
-
-matched_df = pd.DataFrame(matched_data)
-
-print(f"\n✅ Matching complete!")
+print("\n📈 Final statistics:")
 print(f"   Total transfers: {len(transfers)}")
-print(f"   Matched with some data: {len(matched_df)}")
-print(f"   Matched with BOTH before/after: {matched_df['has_both_data'].sum()}")
-print(f"   Matched with only BEFORE: {(matched_df['has_before_data'] & ~matched_df['has_after_data']).sum()}")
-print(f"   Matched with only AFTER: {(matched_df['has_after_data'] & ~matched_df['has_before_data']).sum()}")
-print(f"   Completely unmatched: {len(unmatched_transfers)}")
+print(f"   With BEFORE stats: {len(before_matches)} ({len(before_matches)/len(transfers)*100:.1f}%)")
+print(f"   With AFTER stats: {len(after_matches)} ({len(after_matches)/len(transfers)*100:.1f}%)")
+print(f"   With BOTH (complete): {len(complete_matches)} ({len(complete_matches)/len(transfers)*100:.1f}%)")
+
+print("\n📊 Complete matches by league:")
+complete_df = pd.DataFrame(complete_matches)
+if len(complete_df) > 0:
+    for league in complete_df['league_clean'].unique():
+        league_count = len(complete_df[complete_df['league_clean'] == league])
+        league_total = len(transfers[transfers['league_clean'] == league])
+        print(f"   {league}: {league_count}/{league_total} ({league_count/league_total*100:.1f}%)")
 
 # ============================================
-# STEP 9: CALCULATE PERFORMANCE CHANGES
-# ============================================
+print("\n💾 Saving results...")
 
-print("\n" + "="*80)
-print("STEP 9: CALCULATING PERFORMANCE CHANGES")
-print("="*80)
+# Save complete matches (BEFORE + AFTER)
+complete_df = pd.DataFrame(complete_matches)
+complete_df.to_csv('data/processed/transfers_matched_complete.csv', index=False)
+print(f"✅ Complete matches saved: data/processed/transfers_matched_complete.csv")
 
-# Only calculate for records with both before and after data
-complete_data = matched_df[matched_df['has_both_data']].copy()
+# Save all matches
+all_df = pd.DataFrame(all_matches)
+all_df.to_csv('data/processed/transfers_matched_all.csv', index=False)
+print(f"✅ All matches saved: data/processed/transfers_matched_all.csv")
 
-if len(complete_data) > 0:
-    # Calculate changes
-    complete_data['change_gls'] = complete_data['after_gls'] - complete_data['before_gls']
-    complete_data['change_ast'] = complete_data['after_ast'] - complete_data['before_ast']
-    complete_data['change_mp'] = complete_data['after_mp'] - complete_data['before_mp']
-    complete_data['change_gls_per_90'] = complete_data['after_gls_per_90'] - complete_data['before_gls_per_90']
-    complete_data['change_ast_per_90'] = complete_data['after_ast_per_90'] - complete_data['before_ast_per_90']
-    complete_data['change_ga_per_90'] = complete_data['after_ga_per_90'] - complete_data['before_ga_per_90']
-    
-    print(f"✅ Calculated performance changes for {len(complete_data)} transfers")
+# Save summary
+unmatched = transfers[~transfers.index.isin(before_matches.keys()) & ~transfers.index.isin(after_matches.keys())]
+unmatched.to_csv('data/processed/transfers_unmatched.csv', index=False)
+print(f"✅ Unmatched transfers saved: data/processed/transfers_unmatched.csv")
 
-# ============================================
-# STEP 10: SAVE RESULTS
-# ============================================
-
-print("\n" + "="*80)
-print("STEP 10: SAVING RESULTS")
-print("="*80)
-
-# Save all matched data
-matched_df.to_csv('data/processed/transfers_matched_all.csv', index=False)
-print(f"\n✅ Saved all matched data: data/processed/transfers_matched_all.csv")
-print(f"   Records: {len(matched_df)}")
-
-# Save complete data (with both before and after)
-if len(complete_data) > 0:
-    complete_data.to_csv('data/processed/transfers_matched_complete.csv', index=False)
-    print(f"\n✅ Saved complete data: data/processed/transfers_matched_complete.csv")
-    print(f"   Records: {len(complete_data)}")
-
-# Save unmatched transfers for review
-if len(unmatched_transfers) > 0:
-    unmatched_df = pd.DataFrame(unmatched_transfers)
-    unmatched_df.to_csv('data/processed/transfers_unmatched.csv', index=False)
-    print(f"\n✅ Saved unmatched transfers: data/processed/transfers_unmatched.csv")
-    print(f"   Records: {len(unmatched_df)}")
-
-# ============================================
-# STEP 11: SUMMARY STATISTICS
-# ============================================
-
-print("\n" + "="*80)
-print("SUMMARY STATISTICS")
-print("="*80)
-
-if len(complete_data) > 0:
-    print(f"\n📊 Performance Changes (Complete Data Only, n={len(complete_data)}):")
-    print(f"\n   Goals:")
-    print(f"      Mean change: {complete_data['change_gls'].mean():.2f}")
-    print(f"      Median change: {complete_data['change_gls'].median():.2f}")
-    print(f"      Improved: {(complete_data['change_gls'] > 0).sum()} ({(complete_data['change_gls'] > 0).sum()/len(complete_data)*100:.1f}%)")
-    print(f"      Declined: {(complete_data['change_gls'] < 0).sum()} ({(complete_data['change_gls'] < 0).sum()/len(complete_data)*100:.1f}%)")
-    
-    print(f"\n   Assists:")
-    print(f"      Mean change: {complete_data['change_ast'].mean():.2f}")
-    print(f"      Median change: {complete_data['change_ast'].median():.2f}")
-    print(f"      Improved: {(complete_data['change_ast'] > 0).sum()} ({(complete_data['change_ast'] > 0).sum()/len(complete_data)*100:.1f}%)")
-    print(f"      Declined: {(complete_data['change_ast'] < 0).sum()} ({(complete_data['change_ast'] < 0).sum()/len(complete_data)*100:.1f}%)")
-    
-    print(f"\n   Goals per 90:")
-    print(f"      Mean change: {complete_data['change_gls_per_90'].mean():.3f}")
-    print(f"      Median change: {complete_data['change_gls_per_90'].median():.3f}")
-
-# Breakdown by league
-print(f"\n📈 Matching success by league:")
-for league in matched_df['league'].unique():
-    league_data = matched_df[matched_df['league'] == league]
-    complete_pct = league_data['has_both_data'].sum() / len(league_data) * 100
-    print(f"   {league}: {league_data['has_both_data'].sum()}/{len(league_data)} complete ({complete_pct:.1f}%)")
-
-print("\n" + "="*80)
+print("\n" + "="*60)
 print("✅ MATCHING COMPLETE!")
-print("="*80)
-
+print("="*60)
+print(f"\nYour analysis-ready dataset: {len(complete_matches)} players with complete BEFORE/AFTER comparison")
