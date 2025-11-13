@@ -1,34 +1,37 @@
-import pandas as pd
-import os
-import glob
+import pandas as pd # pandas library for data manipulation
+import os  # os library for file path operations such as joining paths
+import glob # glob library for file pattern matching e.g., finding all CSV files in a directory
 
 # ============================================
-# COMBINE ALL FBREF CSV FILES
-# ============================================
+
 
 print("="*60)
 print("LOADING FBREF DATA FROM CSV FILES")
 print("="*60)
 
-# Find all CSV files in data/fbref/ folder
+# The glob() function is used to find all CSV files in the specified directory 
+# So here we find all csv files in the fbref folder corresponding to different leagues and seasons e.g., premier_league_2023-2024.csv
 csv_files = glob.glob('data/fbref/*.csv')
 
-# Filter to only FBref files
-fbref_files = []
-for file_path in csv_files:
-    filename = os.path.basename(file_path)
+
+fbref_files = [] # we make a list to store the paths of the fbref files
+for file_path in csv_files: # iterate through all found csv files
+    filename = os.path.basename(file_path) # extract the filename from the full path via basename() that removes the directory path
     # Check if it matches FBref naming pattern
     if any(league in filename.lower() for league in ['bundesliga', 'laliga', 'ligue1', 'premier_league', 'seriea']):
         fbref_files.append(file_path)
+        # any() returns True if any element of the iterable is true. 
+        # Here we check if any of the league names are in the filename 
+        # if it matches any of the league names, we add it to the fbref_files list
 
 print(f"\n📊 Found {len(fbref_files)} FBref CSV files")
 
 if len(fbref_files) == 0:
     print("\n⚠️  No FBref CSV files found in data/fbref/")
     print("Expected files like: premier_league_2023-2024.csv")
-    exit(1)
+    exit(1) # exit(1) indicates an error occurred so only if there are no fbref files found
 
-# Dictionary to standardize league names
+# We make a dictionary to map league codes to full league names as they have different naming conventions in filenames e.g., 'premier_league' to 'Premier-League'
 league_mapping = {
     'bundesliga': 'Bundesliga',
     'laliga': 'La-Liga',
@@ -37,23 +40,23 @@ league_mapping = {
     'seriea': 'Serie-A'
 }
 
-# List to store all dataframes
+# This list we will hold all the dataframes we load from each CSV file
 all_stats = []
 
 # Load each CSV file
-for file_path in sorted(fbref_files):
+for file_path in sorted(fbref_files): # sorted() to process files in order
     filename = os.path.basename(file_path)
-    filename_no_ext = filename.replace('.csv', '')
+    filename_no_ext = filename.replace('.csv', '') # we remove the .csv extension to extract league and season info
     
     # Extract league and season from filename
-    # Example: "premier_league_2023-2024" → ["premier_league", "2023-2024"]
-    parts = filename_no_ext.rsplit('_', 1)
+    # E.g., "premier_league_2023-2024" → ["premier_league", "2023-2024"]
+    parts = filename_no_ext.rsplit('_', 1) # .rsplit() splits a string into a list so we divide the name by the league and season 
     
-    if len(parts) != 2:
+    if len(parts) != 2: # if we end up with an unexpected format we skip it
         print(f"⚠️  Skipping {filename} - unexpected format")
-        continue
+        continue # continue skips to the next loop iteration
     
-    league_raw, season = parts
+    league_raw, season = parts 
     league = league_mapping.get(league_raw.lower(), league_raw)
     
     print(f"Loading {league} {season}...", end=" ")
