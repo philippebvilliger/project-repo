@@ -71,47 +71,46 @@ for file_path in sorted(fbref_files): # sorted() to process files in order
             print(f"⚠️  Empty file!")
             continue
         
-        # Header rows sometimes have duplicates so we remove duplicate header rows (where Player column = 'Player')
         if 'Player' in df.columns:
-            df = df[df['Player'] != 'Player'] # so we remove duplicate header rows (where Player column = 'Player') by keeping only the different ones
+            df = df[df['Player'] != 'Player'] # We remove duplicate header rows (where Player column = 'Player') by keeping only the different ones
         
-        # Handle multi-level columns if present
-        if isinstance(df.columns, pd.MultiIndex):
-            df.columns = ['_'.join(col).strip('_') for col in df.columns.values]
+        # Some csv files have multiple level headers e.g., a header and then underneath a more detailed under header.
+        if isinstance(df.columns, pd.MultiIndex): # we check whether the columns of this dataframe belongs to the class multiIndex from pandas library
+            df.columns = ['_'.join(col).strip('_') for col in df.columns.values] # if so, we get the values of the column index. For a multiindex that would be a list of tuples
+            # We loop over each tuple in that list and we join them by an underscore. This gives us the names of the dataframe's columns
         
-        # Add metadata columns
+        # We add the same value to each of these columns for a given dataframe as they remain the same for all players obviously
         df['season'] = str(season)
         df['league'] = str(league)
         
         # Append to list
-        all_stats.append(df)
+        all_stats.append(df) # once it's all done, we can add our newly adjusted dataframe to the global list
         
         print(f"✓ ({len(df)} players)")
         
-    except Exception as e:
+    except Exception as e: # in case we can't load the csv file
         print(f"✗ Error: {e}")
 
 # ============================================
-# COMBINE ALL DATA
-# ============================================
 
-if all_stats:
+# Once we have loaded and adjusted every csv file we can check whether it has been added to our list and if so, we can combine all the data.
+if all_stats: 
     print("\n" + "="*60)
     print("COMBINING ALL DATA")
     print("="*60)
     
     # Combine all dataframes
-    fbref_stats = pd.concat(all_stats, ignore_index=True)
+    fbref_stats = pd.concat(all_stats, ignore_index=True) # this pandas function joins together all dataframes into a single one
     
     print(f"\n✅ Total player-season records: {len(fbref_stats)}")
     
     # Data quality check
     print("\n🔍 Data Quality Check:")
-    print(f"   Season data type: {fbref_stats['season'].dtype}")
+    print(f"   Season data type: {fbref_stats['season'].dtype}") # this gives us the data type for each season and league in order to insure that they were loaded as strings not to be use as numeric data
     print(f"   League data type: {fbref_stats['league'].dtype}")
     
     # Show unique values
-    unique_seasons = sorted(fbref_stats['season'].unique())
+    unique_seasons = sorted(fbref_stats['season'].unique()) # This basically gives us a summary of all the different leagues and seasons in the dataframe
     unique_leagues = sorted(fbref_stats['league'].unique())
     
     print(f"\n   Unique seasons: {unique_seasons}")
@@ -119,23 +118,23 @@ if all_stats:
     print(f"\n   Unique leagues: {unique_leagues}")
     print(f"   Number of leagues: {len(unique_leagues)}")
     
-    # Show sample
+    # We want to make a sample but before we want to ascertain whether these sample columns are in our combined dataframe
     print("\n📋 Sample of combined data:")
     sample_cols = ['Player', 'Nation', 'Pos', 'Squad', 'Age', 'MP', 'Gls', 'Ast', 'season', 'league']
-    sample_cols_exist = [col for col in sample_cols if col in fbref_stats.columns]
+    sample_cols_exist = [col for col in sample_cols if col in fbref_stats.columns] 
     
-    if sample_cols_exist:
+    if sample_cols_exist: # For the columns that do exist we get a sample of the first 10 rows
         print(fbref_stats[sample_cols_exist].head(10))
     else:
         print(fbref_stats.head(10))
     
     print("\n📊 All columns:")
-    print(fbref_stats.columns.tolist())
+    print(fbref_stats.columns.tolist()) # this gives us a list of all the columns in our newly combined dataframe
     
-    # Create processed folder if it doesn't exist
+    # This creares a processed folder in our repo if it doesn't already exist
     os.makedirs('data/processed', exist_ok=True)
     
-    # Save combined data
+    # We save this combined dataframe in this newly created processed folder and call it fbref_stats_raw.csv
     output_file = 'data/processed/fbref_stats_raw.csv'
     fbref_stats.to_csv(output_file, index=False)
     
@@ -144,17 +143,17 @@ if all_stats:
     
     # Show breakdown by league
     print("\n📈 Records by league:")
-    league_counts = fbref_stats['league'].value_counts().sort_index()
-    for league, count in league_counts.items():
+    league_counts = fbref_stats['league'].value_counts().sort_index() # this line counts how many rows i.e., player records belong to each league
+    for league, count in league_counts.items(): # .items() lets you iterate over the (key, value) pairs of a Series:
         print(f"   {league}: {count} player-seasons")
     
     # Show breakdown by season
     print("\n📈 Records by season:")
-    season_counts = fbref_stats['season'].value_counts().sort_index()
+    season_counts = fbref_stats['season'].value_counts().sort_index() # the same principle for each season here
     for season, count in season_counts.items():
         print(f"   {season}: {count} player-seasons")
     
-else:
+else: # if there are no dataframes in the list all_stats
     print("\n❌ No data loaded!")
     print("   Check that:")
     print("   1. CSV files are in data/fbref/ folder")
