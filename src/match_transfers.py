@@ -215,19 +215,26 @@ for idx in before_matches.keys(): # this loops over all indices that have a "bef
 print(f"✅ Complete matches (BEFORE + AFTER): {len(complete_matches)}")
 
 # Dataset 2: All matches (with whatever data available)
-all_matches = []
-for idx in transfers.index:  # Changed to iterate over index instead of iterrows
-    transfer = transfers.loc[idx]  # Changed from .iloc to .loc
-    record = transfer.to_dict()
-    record['has_before'] = idx in before_matches
-    record['has_after'] = idx in after_matches
+# We do this in order to increase the amount of matches because some players might have been in foreign leagues before their transfer hence the absence of before-transfer stats
+# The data might exist but because of a spelling mismatch, there may not be a match hence the importance of this
+# Club names might have changed
+# Players might have switched positions
+# A player might have been transfered in january and consequently, their before season might be split into two teams
+# So there are several reasons why there weren't enough complete matches.
+
+all_matches = [] # So this list will contain one dictionary per transfer with whatever data available i.e., before stats if found and/or after stats if found
+for idx in transfers.index:  # We iterate over every index of the transfermarkt df i.e., every row of the transfers df
+    transfer = transfers.loc[idx]  # We select the row of the transfermarkt df at index idx
+    record = transfer.to_dict() # We convert this row into a dictionnary
+    record['has_before'] = idx in before_matches # We add a boolean key telling whether this player had before-season stats found. This will facilitate later filtering
+    record['has_after'] = idx in after_matches # Same for after-season stats
     
-    if idx in before_matches:
-        record.update({f'before_{k}': v for k, v in before_matches[idx].items()})
-    if idx in after_matches:
-        record.update({f'after_{k}': v for k, v in after_matches[idx].items()})
+    if idx in before_matches: # If the player did in fact have before-transfer stats, we add them to the record
+        record.update({f'before_{k}': v for k, v in before_matches[idx].items()}) # update() merges the dictionary into record so now this new dictionary will have keys that look like before_Gls, before_Ast ...
+    if idx in after_matches: # Same principle for after-transfer stats
+        record.update({f'after_{k}': v for k, v in after_matches[idx].items()}) # Now this new dictionary will have keys that look like after_Gls, after_Ast ...
     
-    all_matches.append(record)
+    all_matches.append(record) # We add each updated dictionnary to the list
 
 # ============================================
 print("\n📈 Final statistics:")
@@ -237,28 +244,31 @@ print(f"   With AFTER stats: {len(after_matches)} ({len(after_matches)/len(trans
 print(f"   With BOTH (complete): {len(complete_matches)} ({len(complete_matches)/len(transfers)*100:.1f}%)")
 
 print("\n📊 Complete matches by league:")
-complete_df = pd.DataFrame(complete_matches)
-if len(complete_df) > 0:
-    for league in complete_df['league_clean'].unique():
-        league_count = len(complete_df[complete_df['league_clean'] == league])
-        league_total = len(transfers[transfers['league_clean'] == league])
-        print(f"   {league}: {league_count}/{league_total} ({league_count/league_total*100:.1f}%)")
+complete_df = pd.DataFrame(complete_matches) # We make a df out of the list that contains both before and after-transfer season stats. So now, 1 row per fully matched player
+if len(complete_df) > 0: # if it's not empty
+    for league in complete_df['league_clean'].unique(): # Within this dictionary, we now loop over each league once
+        league_count = len(complete_df[complete_df['league_clean'] == league]) # This counts the number of complete matches for each league
+        league_total = len(transfers[transfers['league_clean'] == league]) # This counts the amount of total transfers in that league
+        print(f"   {league}: {league_count}/{league_total} ({league_count/league_total*100:.1f}%)") # Thanks to these 2 above, we now have something like Premier League: 60/120 (50.0%)
 
 # ============================================
 print("\n💾 Saving results...")
 
 # Save complete matches (BEFORE + AFTER)
-complete_df = pd.DataFrame(complete_matches)
-complete_df.to_csv('data/processed/transfers_matched_complete.csv', index=False)
+complete_df = pd.DataFrame(complete_matches) # We convert it again into a df because it was done only temporarily the last time
+complete_df.to_csv('data/processed/transfers_matched_complete.csv', index=False) # A csv extension only works on a df hence the importance of converting it into such
+# The file is now saved to the following path: 'data/processed/transfers_matched_complete.csv'
 print(f"✅ Complete matches saved: data/processed/transfers_matched_complete.csv")
 
-# Save all matches
+# Same principle for the all_matches df
 all_df = pd.DataFrame(all_matches)
 all_df.to_csv('data/processed/transfers_matched_all.csv', index=False)
 print(f"✅ All matches saved: data/processed/transfers_matched_all.csv")
 
-# Save summary
+# We make an unmatched csv file containing all transfers who simultaneously lack before transfer season stats and after transfer season stats for whatever reason
 unmatched = transfers[~transfers.index.isin(before_matches.keys()) & ~transfers.index.isin(after_matches.keys())]
+# ~ means not therefore, you keep only transfers where the transfer index is not in before_matches and where transfer index is not in after_matches. These are fully unmatched transfers
+# Rememeber transfers is already a df so we don't need to create a new one, we are just filtering the existing df. We are only keeping the rows with fully unmatched transfers
 unmatched.to_csv('data/processed/transfers_unmatched.csv', index=False)
 print(f"✅ Unmatched transfers saved: data/processed/transfers_unmatched.csv")
 
