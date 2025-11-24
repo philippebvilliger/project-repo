@@ -7,7 +7,7 @@ from sklearn.metrics import r2_score  # We import the r2 in order to be able to 
 # ============================================================
 
 def train_linear_regression(X_train, y_train, X_test, y_test):
-    # We define a train function for the linear regression 
+    # We define a function that trains the linear regression on the training data.
 
     model = LinearRegression()  
     # model will be the name of the object of the LinearRegression class
@@ -28,7 +28,7 @@ def train_linear_regression(X_train, y_train, X_test, y_test):
     # Remember that we use R² to measure predictive power.
     # This measures accuracy: 1.0 = perfect, 0 = bad, negative = very bad.
     # E.g., if R² = 1.0, then, the model explains 100% of the variation in the target.
-    # The r2_score function takes the real values of after_GA_per_90 from the dataset and the predicted values produced from the model as inputs
+    # The r2_score function compares the real values of after_GA_per_90 from the dataset with the predicted values produced from the model as inputs
 
     return model, train_score, test_score, y_pred_test
 
@@ -37,7 +37,7 @@ def train_linear_regression(X_train, y_train, X_test, y_test):
 
 
 def train_random_forest(X_train, y_train, X_test, y_test):
-    # We define a train function for the random forest ML Model
+    # We define a  function that trains the random forest Model on the training data.
 
     model = RandomForestRegressor(
         n_estimators=300,       # We select 300 trees here because it gives excellent performance with low risk of overfitting
@@ -53,6 +53,99 @@ def train_random_forest(X_train, y_train, X_test, y_test):
 
 
     model.fit(X_train, y_train)
-    # The model learns from the training data.
+    # fit() is the phase where the model builds its understanding of the data
+    # So the model analyzes X_train the input as well as y_train the real values
+    # It builds many different decision trees and combines their predictions to estimate after_GA_per_90
 
-   
+    y_pred_train = model.predict(X_train)
+    y_pred_test = model.predict(X_test)
+    # predict() takes input features x and generates the model's estimated output based on what it learned during training
+    # So here this concretely means that we will have one predicted value of after_GA_per_90 per player
+    # We do this for the training and testing datasets
+
+    train_score = r2_score(y_train, y_pred_train)
+    test_score = r2_score(y_test, y_pred_test)
+    # The r2_score function compares the real values of after_GA_per_90 from the dataset with the predicted values produced from the model as inputs
+
+    return model, train_score, test_score, y_pred_test
+
+
+# ============================================================
+
+
+def train_gradient_boosting(X_train, y_train, X_test, y_test):
+    # We define a train function for the gradient boosting ML Model
+
+
+    model = GradientBoostingRegressor(
+        n_estimators=300,        # We select 300 sequential tree corrections here. A good number to improve accuracy
+        learning_rate=0.05,      # This controls how much each new tree is allowed to correct the errors of the previous ones.
+                                 # We use 0.05 here because it's small which makes the model learn more slowly and carefully ultimately reducing overfitting
+        max_depth=3,             # This controls how complex each tree is. 3 is small and ideal as many small trees added together can learn relationships without overfitting
+        random_state=70          # 70 is an arbitrary random seed and it ensures the exact same random choices are made every time
+                                 # So this will always follow the same sequence of random choices
+    )
+    # model will be the name of the object of the GradientBoostingRegressor class
+    # Gradient Boosting builds small trees one after another and each tree corrects the errors of the previous one.
+    # This allows the model to become very accurate at predicting the target variable i.e., after_GA_per_90
+
+
+    model.fit(X_train, y_train)
+    # fit() is the phase where the model builds its understanding of the data
+    # So the model analyzes X_train the input as well as y_train the real values
+    #  It builds many small trees one after another, and each new tree corrects the errors made by the previous ones. 
+    # Eventually these sequential corrections allow the model to accurately predict the target i.e., after_GA_per_90
+
+    y_pred_train = model.predict(X_train)
+    y_pred_test = model.predict(X_test)
+    # predict() takes input features x and generates the model's estimated output based on what it learned during training
+    # So here this concretely means that we will have one predicted value of after_GA_per_90 per player
+    # We do this for the training and testing datasets
+
+    train_score = r2_score(y_train, y_pred_train)
+    test_score = r2_score(y_test, y_pred_test)
+    # # The r2_score function compares the real values of after_GA_per_90 from the dataset with the predicted values produced from the model as inputs
+
+    return model, train_score, test_score, y_pred_test
+
+
+# ============================================================
+
+def train_all_models(X_train, y_train, X_test, y_test):
+    # This function trains all 3 models i.e., Linear Regression, Random Forest and Gradient Boosting on the training data.
+
+    results = {}
+    # We create a dictionary named results because for each model, we want a single object that contains everything we need from the model
+    # i.e., the trained model itself(coefficients, internal settings ...), training R² score, testing R² score and the predictions on the test set
+
+    lr_model, lr_train, lr_test, lr_pred = train_linear_regression(
+        X_train, y_train, X_test, y_test
+    )
+    results["Linear Regression"] = {
+        "model": lr_model,
+        "train_r2": lr_train,
+        "test_r2": lr_test,
+        "predictions": lr_pred
+    }
+
+    rf_model, rf_train, rf_test, rf_pred = train_random_forest(
+        X_train, y_train, X_test, y_test
+    )
+    results["Random Forest"] = {
+        "model": rf_model,
+        "train_r2": rf_train,
+        "test_r2": rf_test,
+        "predictions": rf_pred
+    }
+
+    gb_model, gb_train, gb_test, gb_pred = train_gradient_boosting(
+        X_train, y_train, X_test, y_test
+    )
+    results["Gradient Boosting"] = {
+        "model": gb_model,
+        "train_r2": gb_train,
+        "test_r2": gb_test,
+        "predictions": gb_pred
+    }
+
+    return results
