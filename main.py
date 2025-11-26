@@ -31,8 +31,6 @@ y = df[TARGET_COLUMN]
 
 # ============================================================
 
-# We choose 80% for training and 20% for testing.
-# random_state ensures reproducibility.
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.20, random_state=42
 )
@@ -40,5 +38,58 @@ X_train, X_test, y_train, y_test = train_test_split(
 # As we know, X are the inputs and y is the target value i.e., the variable we want to predict.
 # test_size = 0.2 means that we want the training set to be 80% of the data we have while the testing set only 20%.
 # random_state=42 is an arbitrary random seed and it ensures the exact same random choices are made every time. It will always follow the same sequence of random choices.
+# This function returns the training inputs i.e., X_train this is 80% of the data of X
+# It will also return the testing inputs i.e., X_test which is 20% of the data of X
+# y_train which are the target values for each row of X_train i.e., after_GA_per_90
+# and finally, y_test which are the target values for each row of X_test i.e., after_GA_per_90
 
+# ============================================================
+
+print("Training Linear Regression")
+linear_model, linear_train_score, linear_test_score, linear_y_pred_test = train_linear_regression(X_train, y_train, X_test, y_test)
+# With the variables we have just obtained thanks to the train_test_split function, we can now input them into the train_linear_regression function that we imported from our modeling.py file.
+# This returns the ML model that was used so here LinearRegression(), the train_score i.e., the R² score for the training dataset,
+# test_score i.e., the R² score for the testing dataset and y_pred_test, the predicted after_GA_per_90 for each player
+
+print("Training Random Forest")
+rf_model, rf_train_score, rf_test_score, rf_y_pred_test = train_random_forest(X_train, y_train, X_test, y_test)
+# With the variables we have just obtained thanks to the train_test_split function, we can now input them into the train_random_forest function that we imported from our modeling.py file.
+# This returns the ML model that was used so here RandomForestRegressor(), the train_score i.e., the R² score for the training dataset,
+# test_score i.e., the R² score for the testing dataset and y_pred_test, the predicted after_GA_per_90 for each player
+
+print("Training Gradient Boosting")
+gb_model, gb_train_score, gb_test_score, gb_y_pred_test = train_gradient_boosting(X_train, y_train, X_test, y_test)
+# With the variables we have just obtained thanks to the train_test_split function, we can now input them into the train_gradient_boosting function that we imported from our modeling.py file.
+# This returns the ML model that was used so here GradientBoostingRegressor(), the train_score i.e., the R² score for the training dataset,
+# test_score i.e., the R² score for the testing dataset and y_pred_test, the predicted after_GA_per_90 for each player
+
+# ============================================================
+
+r2_linear = evaluate_model(linear_model, X_test, y_test)
+# We use the evaluate_model function that we import from our evaluation.py file
+# The first input is the model so here linear_model that we have just generated thanks to the train_linear_regression function
+# The second input contains the test features used by the model to make predictions and the third input contains the true after_GA_per_90 values for the test set.    
+# This will return the R² score i.e., how well this model explains the variation in after_GA_per_90
+print_evaluation_results("Linear Regression", r2_linear)
+# We import the print function from the evaluation.py file in order to neatly display the results obtained
+
+r2_rf = evaluate_model(rf_model, X_test, y_test)
+# We use the evaluate_model function that we import from our evaluation.py file
+# The first input is the model so here rf_model that we have just generated thanks to the train_random_forest function
+# The second input contains the test features used by the model to make predictions and the third input contains the true after_GA_per_90 values for the test set.    
+# This will return the R² score i.e., how well this model explains the variation in after_GA_per_90
+print_evaluation_results("Random Forest", r2_rf)
+# We import the print function from the evaluation.py file in order to neatly display the results obtained
+
+r2_gb = evaluate_model(gb_model, X_test, y_test)
+# We use the evaluate_model function that we import from our evaluation.py file
+# The first input is the model so here gb_model that we have just generated thanks to the train_gradient_boosting function
+# The second input contains the test features used by the model to make predictions and the third input contains the true after_GA_per_90 values for the test set.    
+# This will return the R² score i.e., how well this model explains the variation in after_GA_per_90
+print_evaluation_results("Gradient Boosting", r2_gb)
+# We import the print function from the evaluation.py file in order to neatly display the results obtained
+
+# ============================================================
+
+print("\nAll models have been trained and evaluated successfully!")
 
