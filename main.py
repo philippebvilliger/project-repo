@@ -13,14 +13,14 @@ from evaluation import evaluate_model, print_evaluation_results
 
 # ============================================================
 
-df = pd.read_csv("data/fbref/processed/transfers_matched_complete.csv")
+df = pd.read_csv("data/processed/transfers_matched_complete.csv")
 # We are now loading the final_dataset csv file i.e., the final merged dataset containing all matched players with their respective performance and transfer statistics
 # We load this merged dataset into a dataframe df
 # You can replace the file path with your own CSV file as long as it has the target variable i.e., after_GA_per_90 and a set of features such as minutes_played, goals, assists, xG, xA ...
 
 # ============================================================
 
-TARGET_COLUMN = "after_GA_per_90"
+TARGET_COLUMN = "after_G+A"
 # We call this target column because this is the column you want to predict
 
 X = df.drop(columns=[TARGET_COLUMN])

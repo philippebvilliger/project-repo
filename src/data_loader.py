@@ -14,7 +14,7 @@ def load_master_data(path="data/processed/transfers_matched_complete.csv"):
     df = pd.read_csv(path) # We read the combined file into a dataframe
 
     
-    df = df[df["after_GA_per_90"].notna()]
+    df = df[df["after_G+A"].notna()]
     # As mentioned, we only keep rows where the AFTER-season GA_per_90 exists
 
     return df # We now have the new dataframe with no missing data
@@ -37,7 +37,7 @@ def split_train_test(df): # We define a function that splits the dataset for tes
     # So we select test as the rows where the transfer year is 2023 and beyond
 
     
-    target = "after_GA_per_90"
+    target = "after_G+A"
     # target is the name given to the performance metric we seek to predict 
     # i.e, goals and assets per 90 minutes after the transfer
 
