@@ -18,6 +18,7 @@ df = pd.read_csv("data/processed/transfers_matched_complete.csv")
 # We load this merged dataset into a dataframe df
 # You can replace the file path with your own CSV file as long as it has the target variable i.e., after_GA_per_90 and a set of features such as minutes_played, goals, assists, xG, xA ...
 
+
 # ============================================================
 
 TARGET_COLUMN = "after_G+A"
@@ -25,6 +26,8 @@ TARGET_COLUMN = "after_G+A"
 
 X = df.drop(columns=[TARGET_COLUMN])
 # X will designate the created dataframe without the target column thus containing only the information used to make the predictions not the result in itself obviously
+X = X.select_dtypes(include=['number'])
+# We do this in order to keep solely the numeric columns
 y = df[TARGET_COLUMN]
 # This is the target column i.e., what we are trying to predict
 # By separating the inputs and the outputs, the ML model can now work properly
