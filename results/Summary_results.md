@@ -39,3 +39,7 @@ are so profitable.
 Nonetheless, the models still manage to capture meaningful patterns. They 
 successfully use major factors such as transfer fee, age, position, and 
 before-season performance to predict future performance.
+
+Conclusion, these findings show that while player performance cannot be perfectly predicted, 
+historical statistics do provide useful predictive power however, transfer fees alone are 
+not reliable predictors.
