@@ -1,1 +1,16 @@
+MODEL PERFORMANCE (R² on Test Set)
+===================================
+===================================
 
+Linear Regression:        0.1900
+Random Forest Regressor:  0.1725
+Gradient Boosting:        0.0807
+
+
+
+Among the three ML models the Linear Regression model is the most accurate. This model explains 19% of the variation in the next season goals and assits i.e., after_G+A.
+
+Falling closely behind, we find the Random Forest Regressor with an R² of approximately 17%.
+This means that this model explains about 17% of the variations in the next season goals and assits.
+
+Gradient Boosting comes in last place explaining only roughly 8% of the variations in the next season goals and assits.
