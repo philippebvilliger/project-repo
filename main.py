@@ -19,18 +19,25 @@ df = pd.read_csv("data/processed/transfers_matched_complete.csv")
 # You can replace the file path with your own CSV file as long as it has the target variable i.e., after_GA_per_90 and a set of features such as minutes_played, goals, assists, xG, xA ...
 
 
-# ============================================================
+#  Remove useless "Unnamed" columns created by FBref exports
+df = df.loc[:, ~df.columns.str.contains("Unnamed")]
 
-TARGET_COLUMN = "after_G+A"
-# We call this target column because this is the column you want to predict
+#  Remove FBREF header rows (these have NaN in before_G+A or after_G+A)
+df = df[(df["after_G+A"].notna()) & (df["before_G+A"].notna())]
 
-X = df.drop(columns=[TARGET_COLUMN])
-# X will designate the created dataframe without the target column thus containing only the information used to make the predictions not the result in itself obviously
-X = X.select_dtypes(include=['number'])
-# We do this in order to keep solely the numeric columns
-y = df[TARGET_COLUMN]
-# This is the target column i.e., what we are trying to predict
-# By separating the inputs and the outputs, the ML model can now work properly
+#  Identify BEFORE-season numeric columns to use as features
+before_cols = [c for c in df.columns if c.startswith("before_")]
+before_numeric = [c for c in before_cols if df[c].dtype != 'object']
+
+#  Drop rows missing numeric before-season stats (keeps only real players)
+df = df.dropna(subset=before_numeric)
+
+print("Shape after fixing:", df.shape)
+
+# Prepare X and y
+X = df[before_numeric]
+y = df["after_G+A"]
+
 
 # ============================================================
 

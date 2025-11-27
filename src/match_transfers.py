@@ -16,40 +16,25 @@ transfers = pd.read_csv('data/transfers_filtered.csv')
 print(f"✅ Loaded {len(transfers)} transfers")
 
 # ============================================
-print("\n📂 Loading ALL FBref data...")
+print("\n📂 Loading CLEANED FBref data...")
 
-fbref_files = glob('data/fbref/*.csv') # This finds all our fbref files that are in the fbref folder i.e., for each season and league
-fbref_data = [] # we create an empty list to store dataframes from each Fbref csv file
+fbref = pd.read_csv("data/processed/fbref_cleaned.csv")
 
-for file in fbref_files: # we loop over each fbref file
-    try: # We create a try-except statement in case we can't read the file
-        df = pd.read_csv(file)
-        
-        # This allows us to extract just the file name with the preceding path and we also remove the '.csv' extension
-        filename = file.split('/')[-1].replace('.csv', '')
-        
-        if 'premier' in filename.lower(): # so for each file it check which league it belongs to based on what's written in the name and add the name of the league to each row i.e., for each player record
-            df['fbref_league'] = 'Premier League'
-        elif 'laliga' in filename.lower():
-            df['fbref_league'] = 'La Liga'
-        elif 'serie' in filename.lower():
-            df['fbref_league'] = 'Serie A'
-        elif 'bundesliga' in filename.lower():
-            df['fbref_league'] = 'Bundesliga'
-        elif 'ligue' in filename.lower():
-            df['fbref_league'] = 'Ligue 1'
-        
-        # Extract season (e.g., "2022-2023" → start year 2022)
-        season_parts = filename.split('_')[-1].split('-')
-        if len(season_parts) == 2: # this ensures a valid season format as there should only be 2 elements in this list after separation
-            df['fbref_season'] = int(season_parts[0]) # stores the starting year of the season in a new column
-        
-        fbref_data.append(df) # Once all of that is done we can add it to our combined dataframe list
-        print(f"   ✓ Loaded {file}")
-    except Exception as e: # in case you can't load it.
-        print(f"   ✗ Failed to load {file}: {e}")
+# Standardize player names (important for fuzzy matching)
+fbref['player_clean'] = fbref['Player'].str.lower().str.strip()
 
-fbref = pd.concat(fbref_data, ignore_index=True) # Once you have looped over every single dataframe and added it to the combined df list, you can join them together via concat()
+# Extract season start year (2022-2023 → 2022)
+fbref['fbref_season'] = fbref['season'].str.split('-').str[0].astype(int)
+
+# Standardize league names to match Transfermarkt cleaning
+fbref['fbref_league'] = fbref['league'].replace({
+    'Premier-League': 'Premier League',
+    'La-Liga': 'La Liga',
+    'Serie-A': 'Serie A',
+    'Bundesliga': 'Bundesliga',
+    'Ligue-1': 'Ligue 1'
+})
+
 print(f"✅ Total FBref records: {len(fbref)}")
 
 # ============================================
