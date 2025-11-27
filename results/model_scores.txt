@@ -1,16 +1,49 @@
 MODEL PERFORMANCE (R² on Test Set)
 ===================================
-===================================
 
 Linear Regression:        0.1900
 Random Forest Regressor:  0.1725
 Gradient Boosting:        0.0807
 
 
+Among the three ML models, the Linear Regression model is the most accurate. 
+This model explains about 19% of the variation in next-season goals and assists 
+(i.e., after_G+A).
 
-Among the three ML models the Linear Regression model is the most accurate. This model explains 19% of the variation in the next season goals and assits i.e., after_G+A.
+Falling closely behind, we find the Random Forest Regressor with an R² of roughly 
+17%. This means that the model explains around 17% of the variation in next-season 
+performance.
 
-Falling closely behind, we find the Random Forest Regressor with an R² of approximately 17%.
-This means that this model explains about 17% of the variations in the next season goals and assits.
+Gradient Boosting comes in last place, explaining only about 8% of the variation 
+in next-season goals and assists.
 
-Gradient Boosting comes in last place explaining only roughly 8% of the variations in the next season goals and assits.
+Linear Regression achieves the highest R² because the relationships in this 
+dataset are mostly linear (e.g., a player who scored 10 goals with 5 assists is 
+expected to perform better the next season than a player who only scored 5 goals 
+and assisted 2). These relationships are also driven by a few strong features 
+such as before-season G+A, xG, and xAG which ultimately are the most 
+reliable indicators of future performance.
+
+Despite performing slightly worse, Random Forest still captures certain 
+non-linear relationships between variables such as age, transfer fee, and 
+position. However, the small sample size limits its ability to generalize.
+
+Gradient Boosting underperforms because it usually requires a much larger 
+dataset and a more balanced target distribution to be effective. With our sample 
+of fewer than 300 players, its boosting process becomes unstable. Several factors 
+also contribute to this underperformance, such as omitted variables that strongly 
+influence future player output (e.g., injuries, playing time, tactical role). 
+These missing factors introduce bias. Additionally, attacking performance is 
+very uneven in football: way more players score fewer than 5 G+A compared to those 
+who achieve 20+ G+A. This skewed distribution makes it harder for 
+the model to learn patterns for high-performing players.
+
+Overall, these results reflect the reality of football statistics. Predicting 
+future performance is extremely complex and often unpredictable. Many variables 
+can influence a player’s next season, anything from injuries to tactical changes 
+to personal factors. This unpredictability partly explains why betting companies 
+are so profitable.
+
+Nonetheless, the models still manage to capture meaningful patterns. They 
+successfully use major factors such as transfer fee, age, position, and 
+before-season performance to predict future performance.
