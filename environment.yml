@@ -1,1 +1,13 @@
+name: football-transfer-project
+channels:
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - joblib
+  - jupyter
 
