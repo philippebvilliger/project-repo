@@ -10,7 +10,7 @@ current_file_path = os.path.abspath(__file__)
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(current_file_path))
 # os.path.dirname() gives us the folder of our current file i.e., src
-# os.path.dirname(src) will give us the folder of src i.e., project-repo. So this is the PROJECT_ROOT
+# os.path.dirname(src) will give us the folder of src i.e., project-repo. 
 
 sys.path.append(PROJECT_ROOT)
 # This function adds a folder to the possible import locations. So after you've added a folder there, any script can import modules from that folder.
@@ -23,7 +23,7 @@ DATA_PATH = os.path.join(PROJECT_ROOT, "data", "processed", "transfers_matched_c
 # we get project-repo/data/processed/transfers_matched_complete.csv
 
 RESULTS_DIR = os.path.join(PROJECT_ROOT, "results")
-# We call RESULTS_DIR the path to the results results folder i.e., project-repo/results
+# We call RESULTS_DIR the path to the results folder i.e., project-repo/results
 
 os.makedirs(RESULTS_DIR, exist_ok=True)
 # In order to prevent an error where we'd get No directory, we use makedirs() which creates the directory in case it doesn't exist
@@ -78,7 +78,7 @@ y = df["after_G+A"]
 
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.20, random_state=42
+    X, y, test_size=0.20, random_state=50
 )
 # We use the train_test_split() function to split the dataset into training and test sets
 # As we know, X are the inputs and y is the target value i.e., the variable we want to predict.
