@@ -105,7 +105,7 @@ feature_names = X.columns
 
 sorted_idx = coefficients.argsort()[::-1]
 # argsort()[::-1] this first sorts the positions in ascending order and then reverses it 
-# as we want the highest value i.e., most important feature to be at the top of the plot
+# as we want the highest value i.e., largest coefficient to be at the top of the plot
 
 top_features = feature_names[sorted_idx][:15]
 top_coeffs = coefficients[sorted_idx][:15]
