@@ -130,21 +130,38 @@ def plot_pred_vs_actual(y_true, y_pred, model_name, output_name):
     # The output_name will be the name of the newly saved plot
 
     plt.figure(figsize=(8, 6))
+    # We create a blank canvas of width 8 and height 6
+
 
     plt.scatter(y_true, y_pred, alpha=0.6)
+    # In order to have each point represent a player we select y_true, 
+    # the true target values as the x-axis and the y_pred, the predicted values for a given model as the y-axis.
+    # alphas is just to determine how opaque each individual point is so, 0.6 makes them slightly see-through.
 
     plt.plot([y_true.min(), y_true.max()], [y_true.min(), y_true.max()], "r--")
+    # plt.plot() is used to draw the perfect prediction line. This line shows what predictions
+    # would look like if the model were perfect, i.e., y = x.
+    # The first interval sets the minimum and maximum values on the x-axis.
+    # The second interval sets the corresponding minimum and maximum values on the y-axis 
+    # which creates the diagonal y = x line and makes it span the full range of our actual values.
 
     plt.title(f"Predicted vs Actual ({model_name})")
     plt.xlabel("Actual after_G+A")
     plt.ylabel("Predicted after_G+A")
+    # Hree we are simply adding the title and axes labels
 
     plt.tight_layout()
+    # This basically tells matplotlib to make everything fit nicely so that nothing is squished
+
 
     full_output_path = os.path.join(RESULTS_DIR, output_name)
+    # This line creates the full path where the plot will be saved i.e., project-repo/results/output_name
     plt.savefig(full_output_path, dpi=300)
+    # This saves our newly created plot to the output path we just determined.
+    # dpi meaning dots per inch is the resolution of the plot
 
     print(f"Saved: {full_output_path}")
+    # Message displayed if all goes well
 
 
 # ============================================================
@@ -153,3 +170,4 @@ def plot_pred_vs_actual(y_true, y_pred, model_name, output_name):
 plot_pred_vs_actual(y_test, lr_pred, "Linear Regression", "LR_pred_vs_actual.png")
 plot_pred_vs_actual(y_test, rf_pred, "Random Forest", "RF_pred_vs_actual.png")
 plot_pred_vs_actual(y_test, gb_pred, "Gradient Boosting", "GB_pred_vs_actual.png")
+# for each ML model, we execute the plot_pred_vs_actual() function with the appropriate inputs
