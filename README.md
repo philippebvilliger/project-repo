@@ -16,6 +16,7 @@ python main.py
 
 Expected output:  R² comparison between the three models
 
+```markdown
 ## Project Structure
 
 project-repo/
@@ -34,6 +35,7 @@ project-repo/
 ├── README.md                        # Setup and usage instructions  
 ├── PROPOSAL.md                      # Initial project proposal  
 └── project_report.pdf               # Final report
+```
 
 ## Results
 
