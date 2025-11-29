@@ -19,22 +19,21 @@ Expected output:  R² comparison between the three models
 ## Project Structure
 
 project-repo/
-
-├── main.py                       # Main entry point
-├── modeling.py                   # Model training 
-├── evaluation.py                 # Evaluation metrics
-├── src/                          # Additional scripts (plots and data filtering/merging)  
-│  
-├── data/                         
-│   └── processed/                
+├── main.py                          # Main entry point  
+├── modeling.py                      # Model training  
+├── evaluation.py                    # Evaluation metrics  
+├── src/                             # Additional scripts (plots and data filtering/merging)
+│
+├── data/
+│   └── processed/
 │       └── transfers_matched_complete.csv   # Final merged dataset with performance statistics and transfer fees
 │
-├── results/  # Output plots and metrics
+├── results/                         # Output plots and metrics
 │
-├── environment.yml               # Dependencies  
-├── README.md                     # Setup and usage instructions 
-├── PROPOSAL.md                   # Initial project proposal  
-└── project_report.pdf            # Final report  
+├── environment.yml                  # Dependencies  
+├── README.md                        # Setup and usage instructions  
+├── PROPOSAL.md                      # Initial project proposal  
+└── project_report.pdf               # Final report
 
 ## Results
 
