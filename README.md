@@ -16,9 +16,9 @@ python main.py
 
 Expected output:  R² comparison between the three models
 
-```markdown
 ## Project Structure
 
+```markdown
 project-repo/
 ├── main.py                          # Main entry point  
 ├── modeling.py                      # Model training  
