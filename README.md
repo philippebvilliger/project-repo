@@ -19,6 +19,7 @@ Expected output:  R² comparison between the three models
 ## Project Structure
 
 project-repo/
+
 ├── main.py                       # Main entry point
 ├── modeling.py                   # Model training 
 ├── evaluation.py                 # Evaluation metrics
