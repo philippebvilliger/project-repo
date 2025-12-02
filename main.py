@@ -18,56 +18,54 @@ df = pd.read_csv("data/processed/transfers_matched_complete.csv")
 # We load this merged dataset into a dataframe df
 # You can replace the file path with your own CSV file as long as it has the target variable i.e., after_GA_per_90 and a set of features such as minutes_played, goals, assists, xG, xA ...
 
-#  Remove useless "Unnamed" columns created by FBref exports
 df = df.loc[:, ~df.columns.str.contains("Unnamed")]
+# We remove useless "Unnamed" columns created by FBref exports
 
-#  Remove FBREF header rows (these have NaN in before_G+A or after_G+A)
 df = df[(df["after_G+A"].notna()) & (df["before_G+A"].notna())]
+# Remove FBref header rows (these have NaN in before_G+A or after_G+A)
 
-#  Identify BEFORE-season numeric columns to use as features
+
 before_cols = [c for c in df.columns if c.startswith("before_")]
 before_numeric = [c for c in before_cols if df[c].dtype != 'object']
+# Identify before-season numeric columns to use as features
 
-#  Drop rows missing numeric before-season stats (keeps only real players)
 df = df.dropna(subset=before_numeric)
+#  Drop rows missing numeric before-season stats 
 
 print("Shape after fixing:", df.shape)
 
 # ============================================================
-# NEW STEP → One-hot encode the player's position BEFORE the transfer
-# This converts before_Pos into numeric dummy variables
-position_dummies = pd.get_dummies(df["before_Pos"], prefix="pos", dummy_na=False)
 
-# ============================================================
-# NEW STEP → Add transfer-related features as described in the proposal
-# These features are important predictors of post-transfer performance
+position_dummies = pd.get_dummies(df["before_Pos"], prefix="pos", dummy_na=False)
+# We convert before_Pos into a numeric dummy. This is necessary as ML models cannot use string data.
+# This creates a column per position e.g., Right Winger, Left Winger ... each containing 0 or 1.
 
 transfer_features = [
-    "Age",            # Age of the player at the time of transfer
+    "Age",            # Age of the player at  time of transfer
     "Market_Value",   # Player’s market valuation from Transfermarkt
-    "Transfer_Fee"    # How much the club paid — key variable
+    "Transfer_Fee"    # How much the club paid 
 ]
+# These features are important predictors of post-transfer performance
+# These are already numeric normally
 
-# Ensure all these columns are present and numeric
+
 df[transfer_features] = df[transfer_features].apply(pd.to_numeric, errors="coerce")
+# Ensure all these columns are present and numeric 
 
-# ============================================================
-# NEW STEP → One-hot encode league (La Liga, Premier League, etc.)
 league_dummies = pd.get_dummies(df["league_clean"], prefix="league", dummy_na=False)
+# We convert league_clean into a numeric dummy
+# This creates a column per league e.g., La_Liga, Ligue_1 ...  each containing 0 or 1.
 
-# ============================================================
-# Prepare X and y
-# We now build the feature matrix X with three components:
-# 1. before-season numeric statistics
-# 2. transfer-related variables (Transfer_Fee, Market_Value, Age)
-# 3. one-hot encoded player positions and league
 
-X = pd.concat([
+X = pd.concat([              # concat() makes a big df out of several df i.e., a matrix
     df[before_numeric],      # before-season performance features
     df[transfer_features],   # transfer features
-    position_dummies,        # one-hot encoded position
-    league_dummies           # one-hot encoded league
-], axis=1)
+    position_dummies,        # before_Pos numeric dummy
+    league_dummies           # league_clean numeric dummy
+], axis=1)                   # axis = 1 places the df side by side which is what we want
+# Now that we have all numeric variables, we can set up our inputs
+# We now build the feature matrix with three components: before-season numeric statistics, transfer-related variables (i.e.,Transfer_Fee, Market_Value, Age) and both numeric dummies.
+# A matrix is necessary as we have several feature inputs logically
 
 y = df["after_G+A"]
 # This is the target column i.e., what we are trying to predict
