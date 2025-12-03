@@ -85,8 +85,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 # random_state=50 is an arbitrary random seed and it ensures the exact same random choices are made every time. It will always follow the same sequence of random choices.
 # This function returns the training inputs i.e., X_train this is 80% of the data of X
 # It will also return the testing inputs i.e., X_test which is 20% of the data of X
-# y_train which are the target values for each row of X_train i.e., after_GA_per_90
-# and finally, y_test which are the target values for each row of X_test i.e., after_GA_per_90
+# y_train which are the target values for each row of X_train i.e., after_G+A
+# and finally, y_test which are the target values for each row of X_test i.e., after_G+A
 
 # ============================================================
 
