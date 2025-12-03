@@ -77,12 +77,12 @@ y = df["after_G+A"]
 # ============================================================
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.20, random_state=42
+    X, y, test_size=0.20, random_state=50
 )
 # train_test_split is a function that splits your dataset into two parts a training set and a testing set.
 # As we know, X are the inputs and y is the target value i.e., the variable we want to predict.
 # test_size = 0.2 means that we want the training set to be 80% of the data we have while the testing set only 20%.
-# random_state=42 is an arbitrary random seed and it ensures the exact same random choices are made every time. It will always follow the same sequence of random choices.
+# random_state=50 is an arbitrary random seed and it ensures the exact same random choices are made every time. It will always follow the same sequence of random choices.
 # This function returns the training inputs i.e., X_train this is 80% of the data of X
 # It will also return the testing inputs i.e., X_test which is 20% of the data of X
 # y_train which are the target values for each row of X_train i.e., after_GA_per_90
