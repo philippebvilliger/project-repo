@@ -39,6 +39,7 @@ print("Shape after fixing:", df.shape)
 position_dummies = pd.get_dummies(df["before_Pos"], prefix="pos", dummy_na=False)
 # We convert before_Pos into a numeric dummy. This is necessary as ML models cannot use string data.
 # This creates a column per position e.g., Right Winger, Left Winger ... each containing 0 or 1.
+# Each position is than either 1 if the player plays in that position or 0, if he doesn't.
 
 transfer_features = [
     "Age",            # Age of the player at  time of transfer
@@ -55,6 +56,8 @@ df[transfer_features] = df[transfer_features].apply(pd.to_numeric, errors="coerc
 league_dummies = pd.get_dummies(df["league_clean"], prefix="league", dummy_na=False)
 # We convert league_clean into a numeric dummy
 # This creates a column per league e.g., La_Liga, Ligue_1 ...  each containing 0 or 1.
+# Each league is than either 1 if the player is in that league or 0, if he isn’t.
+
 
 
 X = pd.concat([              # concat() makes a big df out of several df i.e., a matrix
