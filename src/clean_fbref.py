@@ -9,18 +9,18 @@ print("="*60)
 
 # Load the raw combined FBref data
 input_file = 'data/processed/fbref_stats_raw.csv'  # path to the raw FBref data that has all raw stats combined
-print(f"\n📂 Loading data from: {input_file}")
+print(f"\n Loading data from: {input_file}")
 
 try:
     df = pd.read_csv(input_file)  # read the CSV file into a pandas DataFrame
-    print(f"✅ Loaded {len(df)} records")
+    print(f"Loaded {len(df)} records")
 except FileNotFoundError: # exception handling if file not found
-    print(f"❌ Error: File not found at {input_file}")
+    print(f" Error: File not found at {input_file}")
     print("   Make sure you ran combine_fbref_files.py first!") # you must have executed this scipt first in order to have the combined raw data
     exit(1)
 
-print(f"\n📊 Original columns: {len(df.columns)}")
-print(f"   Sample columns: {df.columns.tolist()[:10]}") # displays the first 10 columns as a sample
+print(f"\n Original columns: {len(df.columns)}")
+print(f" Sample columns: {df.columns.tolist()[:10]}") # displays the first 10 columns as a sample
 
 # ============================================
 
@@ -33,7 +33,7 @@ unnamed_cols = [col for col in df.columns if 'Unnamed' in col] # we create a lis
 print(f"   Found {len(unnamed_cols)} Unnamed columns")
 
 df = df.drop(columns=unnamed_cols) # we delete these columns from the dataframe
-print(f"✅ Removed Unnamed columns. Now have {len(df.columns)} columns")
+print(f" Removed Unnamed columns. Now have {len(df.columns)} columns")
 
 # ============================================
 
@@ -104,7 +104,7 @@ if rename_dict: # if it's not empty
     df_clean = df_clean.rename(columns=rename_dict) # If in the new cleaned dataframe there are columns with .1, .2 suffixes we rename them back to original names
     # remember that we only kept the first occurrence of these columns earlier so could be Gls.1 but we renamed it back to Gls
 
-print(f"✅ Selected essential columns. Now have {len(df_clean.columns)} columns")
+print(f" Selected essential columns. Now have {len(df_clean.columns)} columns")
 
 # ============================================
 
@@ -157,7 +157,7 @@ df_clean = df_clean[df_clean['Age'].notna()]  # df_clean[] only keeps rows where
 # Convert Age to integer
 df_clean['Age'] = df_clean['Age'].astype(int)
 
-print("✅ Converted numeric columns and cleaned values")
+print(" Converted numeric columns and cleaned values")
 
 # ============================================
 
@@ -175,7 +175,7 @@ df_clean['Player'] = df_clean['Player'].str.replace(r'\s+', ' ', regex=True)
 # regex =True tells pandas that we're using a regex pattern
 # so here we're replacing multiple spaces with a single space i.e., ' '
 
-print("✅ Standardized player names")
+print(" Standardized player names")
 
 # ============================================
 
@@ -221,7 +221,7 @@ if 'G+A' in df_clean.columns and '90s' in df_clean.columns:
                                       df_clean['G+A'] / df_clean['90s'], 
                                       0)
 
-print("✅ Created per-90 statistics")
+print(" Created per-90 statistics")
 
 # ============================================
 
@@ -230,30 +230,30 @@ print("\n" + "="*60)
 print("CLEANING SUMMARY")
 print("="*60)
 
-print(f"\n✅ Final dataset: {len(df_clean)} player-season records") # how many rows in the cleaned dataframe
-print(f"✅ Columns: {len(df_clean.columns)}") # how many columns in the cleaned dataframe
+print(f"\n Final dataset: {len(df_clean)} player-season records") # how many rows in the cleaned dataframe
+print(f" Columns: {len(df_clean.columns)}") # how many columns in the cleaned dataframe
 
 # Show breakdown by league
-print("\n📈 Records by league:")
+print("\n^ Records by league:")
 league_counts = df_clean['league'].value_counts().sort_index() # counts how many times each league appears in the 'league' column and sorts them alphabetically
 for league, count in league_counts.items():
     print(f"   {league}: {count} player-seasons")
 
 # Show breakdown by season
-print("\n📈 Records by season:")
+print("\n Records by season:")
 season_counts = df_clean['season'].value_counts().sort_index() # same principle for seasons
 for season, count in season_counts.items():
     print(f"   {season}: {count} player-seasons")
 
 # This just shows a sample of the cleaned data with selected columns
-print("\n📋 Sample of cleaned data:")
+print("\n Sample of cleaned data:")
 sample_cols = ['Player', 'Pos', 'Squad', 'Age', 'MP', 'Gls', 'Ast', 'season', 'league']
 sample_cols_exist = [col for col in sample_cols if col in df_clean.columns]
 print(df_clean[sample_cols_exist].head(10))
 
 
 # Show column list
-print("\n📊 Final columns:")
+print("\n Final columns:")
 print(df_clean.columns.tolist()) # tolist() converts the Index object returned by df_clean.columns into a regular Python list
 
 # ============================================
@@ -264,10 +264,10 @@ output_file = 'data/processed/fbref_cleaned.csv' # All this cleaned data is save
 df_clean.to_csv(output_file, index=False) # to_csv() saves the dataframe to a CSV file 
 # index=False means we don't want to save the row indices to the CSV file
 
-print(f"\n✅ Cleaned data saved to: {output_file}")
-print(f"   File size: {len(df_clean)} records × {len(df_clean.columns)} columns")
+print(f"\n Cleaned data saved to: {output_file}")
+print(f"File size: {len(df_clean)} records × {len(df_clean.columns)} columns")
 
 print("\n" + "="*60)
-print("✅ CLEANING COMPLETE!")
+print(" CLEANING COMPLETE!")
 print("="*60)
 
