@@ -24,10 +24,10 @@ for file_path in csv_files: # iterate through all found csv files
         # Here we check if any of the league names are in the filename 
         # if it matches any of the league names, we add it to the fbref_files list
 
-print(f"\n📊 Found {len(fbref_files)} FBref CSV files")
+print(f"\n Found {len(fbref_files)} FBref CSV files")
 
 if len(fbref_files) == 0:
-    print("\n⚠️  No FBref CSV files found in data/fbref/")
+    print("\n  No FBref CSV files found in data/fbref/")
     print("Expected files like: premier_league_2023-2024.csv")
     exit(1) # exit(1) indicates an error occurred so only if there are no fbref files found
 
@@ -53,7 +53,7 @@ for file_path in sorted(fbref_files): # sorted() to process files in order
     parts = filename_no_ext.rsplit('_', 1) # .rsplit() splits a string into a list so we divide the name by the league and season 
     
     if len(parts) != 2: # if we end up with an unexpected format we skip it
-        print(f"⚠️  Skipping {filename} - unexpected format")
+        print(f"  Skipping {filename} - unexpected format")
         continue # continue skips to the next loop iteration
     
     league_raw, season = parts  # league_raw is the name of the league in the given file
@@ -68,7 +68,7 @@ for file_path in sorted(fbref_files): # sorted() to process files in order
         
         # If the the dataframe has no rows we skip it
         if len(df) == 0:
-            print(f"⚠️  Empty file!")
+            print(f"  Empty file!")
             continue
         
         if 'Player' in df.columns:
@@ -102,10 +102,10 @@ if all_stats:
     # Combine all dataframes
     fbref_stats = pd.concat(all_stats, ignore_index=True) # this pandas function joins together all dataframes into a single one
     
-    print(f"\n✅ Total player-season records: {len(fbref_stats)}")
+    print(f"\n Total player-season records: {len(fbref_stats)}")
     
     # Data quality check
-    print("\n🔍 Data Quality Check:")
+    print("\n Data Quality Check:")
     print(f"   Season data type: {fbref_stats['season'].dtype}") # this gives us the data type for each season and league in order to insure that they were loaded as strings not to be use as numeric data
     print(f"   League data type: {fbref_stats['league'].dtype}")
     
@@ -119,7 +119,7 @@ if all_stats:
     print(f"   Number of leagues: {len(unique_leagues)}")
     
     # We want to make a sample but before we want to ascertain whether these sample columns are in our combined dataframe
-    print("\n📋 Sample of combined data:")
+    print("\n Sample of combined data:")
     sample_cols = ['Player', 'Nation', 'Pos', 'Squad', 'Age', 'MP', 'Gls', 'Ast', 'season', 'league']
     sample_cols_exist = [col for col in sample_cols if col in fbref_stats.columns] 
     
@@ -128,7 +128,7 @@ if all_stats:
     else:
         print(fbref_stats.head(10))
     
-    print("\n📊 All columns:")
+    print("\n All columns:")
     print(fbref_stats.columns.tolist()) # this gives us a list of all the columns in our newly combined dataframe
     
     # This creares a processed folder in our repo if it doesn't already exist
@@ -138,28 +138,28 @@ if all_stats:
     output_file = 'data/processed/fbref_stats_raw.csv'
     fbref_stats.to_csv(output_file, index=False)
     
-    print(f"\n✅ Combined data saved to: {output_file}")
+    print(f"\n Combined data saved to: {output_file}")
     print(f"   Total records: {len(fbref_stats)}")
     
     # Show breakdown by league
-    print("\n📈 Records by league:")
+    print("\n Records by league:")
     league_counts = fbref_stats['league'].value_counts().sort_index() # this line counts how many rows i.e., player records belong to each league
     for league, count in league_counts.items(): # .items() lets you iterate over the (key, value) pairs of a Series:
         print(f"   {league}: {count} player-seasons")
     
     # Show breakdown by season
-    print("\n📈 Records by season:")
+    print("\n Records by season:")
     season_counts = fbref_stats['season'].value_counts().sort_index() # the same principle for each season here
     for season, count in season_counts.items():
         print(f"   {season}: {count} player-seasons")
     
 else: # if there are no dataframes in the list all_stats
-    print("\n❌ No data loaded!")
+    print("\n No data loaded!")
     print("   Check that:")
     print("   1. CSV files are in data/fbref/ folder")
     print("   2. Files are named correctly (e.g., premier_league_2023-2024.csv)")
     print("   3. Files contain valid FBref data")
 
 print("\n" + "="*60)
-print("✅ FBREF DATA LOADING COMPLETE!")
+print(" FBREF DATA LOADING COMPLETE!")
 print("="*60)
