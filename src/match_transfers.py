@@ -11,12 +11,12 @@ print("TWO-PASS STRATEGY: BEFORE + AFTER")
 print("="*60)
 
 # We start off by loading and reding the filtered combined transfermarkt file
-print("\n📂 Loading Transfermarkt data...")
+print("\n Loading Transfermarkt data...")
 transfers = pd.read_csv('data/transfers_filtered.csv')
-print(f"✅ Loaded {len(transfers)} transfers")
+print(f" Loaded {len(transfers)} transfers")
 
 # ============================================
-print("\n📂 Loading CLEANED FBref data...")
+print("\n Loading CLEANED FBref data...")
 
 fbref = pd.read_csv("data/processed/fbref_cleaned.csv")
 
@@ -35,11 +35,11 @@ fbref['fbref_league'] = fbref['league'].replace({
     'Ligue-1': 'Ligue 1'
 })
 
-print(f"✅ Total FBref records: {len(fbref)}")
+print(f" Total FBref records: {len(fbref)}")
 
 # ============================================
 
-print("\n🔧 Preprocessing data...")
+print("\n Preprocessing data...")
 
 # We now have our combined files with all information relevant to transfers from transfermarkt and all information relevant to football stats from fbref
 
@@ -75,16 +75,16 @@ def standardize_league(league):
 transfers['league_clean'] = transfers['league'].apply(standardize_league) # this simply applies this newly created function to the values of 'league' in the combined transfer files as they weren't initially the same as in fbref
 #apply() takes a function and applies it to each value in the column
 
-print("✅ Preprocessing complete")
+print(" Preprocessing complete")
 
 # This allows us to remove rows player_clean has a missing value i.e., NaN
 transfers = transfers[transfers['player_clean'].notna()] # notna() returns false if there is a missing value and will hence be omitted from the updated combined file
 fbref = fbref[fbref['player_clean'].notna()] # same for fbref
 
-print(f"✅ After cleaning: {len(transfers)} transfers, {len(fbref)} FBref records")
+print(f" After cleaning: {len(transfers)} transfers, {len(fbref)} FBref records")
 
 # ============================================
-print("\n🔗 PASS 1: Matching BEFORE season stats...")
+print("\n PASS 1: Matching BEFORE season stats...")
 
 def find_best_match(name, choices, threshold=78): # we define this function where name is the player you want to march from transfermarkt and choices is the list of names to match against from fbref
     # threshold = 78 means that a match will occur only if it's 78% similar we reason as such because same names can be written differently e.g., C. Ronaldo and Cristiano Ronaldo
@@ -140,10 +140,10 @@ for idx, transfer in transfers.iterrows(): # .iterrows() is a method that allows
     if (idx + 1) % 50 == 0:  # Prints a progress message every 50 rows
         print(f"   Processed {idx + 1}/{len(transfers)} transfers...")
 
-print(f"✅ BEFORE stats matched: {len(before_matches)}/{len(transfers)} ({len(before_matches)/len(transfers)*100:.1f}%)")
+print(f" BEFORE stats matched: {len(before_matches)}/{len(transfers)} ({len(before_matches)/len(transfers)*100:.1f}%)")
 
 # ============================================
-print("\n🔗 PASS 2: Matching AFTER season stats...")
+print("\n PASS 2: Matching AFTER season stats...")
 
 after_matches = {} # We now create a dictionnary for the after transfer stats as we want to see the shift in performance following the transfer.
 
@@ -173,10 +173,10 @@ for idx, transfer in transfers.iterrows():
     if (idx + 1) % 50 == 0:
         print(f"   Processed {idx + 1}/{len(transfers)} transfers...") # Prints a progress message every 50 rows
 
-print(f"✅ AFTER stats matched: {len(after_matches)}/{len(transfers)} ({len(after_matches)/len(transfers)*100:.1f}%)")
+print(f" AFTER stats matched: {len(after_matches)}/{len(transfers)} ({len(after_matches)/len(transfers)*100:.1f}%)")
 
 # ============================================
-print("\n📊 Creating final datasets...")
+print("\n Creating final datasets...")
 
 # Dataset 1: Players with BOTH before AND after stats (complete comparison)
 complete_matches = [] # This a list that will store dictionnaries containing Transfermarkt data for the player, FBref stats before the transfer and FBref stats after the transfer
@@ -197,7 +197,7 @@ for idx in before_matches.keys(): # this loops over all indices that have a "bef
         complete_matches.append(complete_record) # Now each player who had a before match and an after match now has a dictionnary with all his stats being transfer related as well as before and after season performance
         # We now add each of these dictionnaries to the list
 
-print(f"✅ Complete matches (BEFORE + AFTER): {len(complete_matches)}")
+print(f" Complete matches (BEFORE + AFTER): {len(complete_matches)}")
 
 # Dataset 2: All matches (with whatever data available)
 # We do this in order to increase the amount of matches because some players might have been in foreign leagues before their transfer hence the absence of before-transfer stats
@@ -222,13 +222,13 @@ for idx in transfers.index:  # We iterate over every index of the transfermarkt 
     all_matches.append(record) # We add each updated dictionnary to the list
 
 # ============================================
-print("\n📈 Final statistics:")
+print("\n Final statistics:")
 print(f"   Total transfers: {len(transfers)}")
 print(f"   With BEFORE stats: {len(before_matches)} ({len(before_matches)/len(transfers)*100:.1f}%)")
 print(f"   With AFTER stats: {len(after_matches)} ({len(after_matches)/len(transfers)*100:.1f}%)")
 print(f"   With BOTH (complete): {len(complete_matches)} ({len(complete_matches)/len(transfers)*100:.1f}%)")
 
-print("\n📊 Complete matches by league:")
+print("\n Complete matches by league:")
 complete_df = pd.DataFrame(complete_matches) # We make a df out of the list that contains both before and after-transfer season stats. So now, 1 row per fully matched player
 if len(complete_df) > 0: # if it's not empty
     for league in complete_df['league_clean'].unique(): # Within this dictionary, we now loop over each league once
@@ -237,27 +237,27 @@ if len(complete_df) > 0: # if it's not empty
         print(f"   {league}: {league_count}/{league_total} ({league_count/league_total*100:.1f}%)") # Thanks to these 2 above, we now have something like Premier League: 60/120 (50.0%)
 
 # ============================================
-print("\n💾 Saving results...")
+print("\n Saving results...")
 
 # Save complete matches (BEFORE + AFTER)
 complete_df = pd.DataFrame(complete_matches) # We convert it again into a df because it was done only temporarily the last time
 complete_df.to_csv('data/processed/transfers_matched_complete.csv', index=False) # A csv extension only works on a df hence the importance of converting it into such
 # The file is now saved to the following path: 'data/processed/transfers_matched_complete.csv'
-print(f"✅ Complete matches saved: data/processed/transfers_matched_complete.csv")
+print(f" Complete matches saved: data/processed/transfers_matched_complete.csv")
 
 # Same principle for the all_matches df
 all_df = pd.DataFrame(all_matches)
 all_df.to_csv('data/processed/transfers_matched_all.csv', index=False)
-print(f"✅ All matches saved: data/processed/transfers_matched_all.csv")
+print(f" All matches saved: data/processed/transfers_matched_all.csv")
 
 # We make an unmatched csv file containing all transfers who simultaneously lack before transfer season stats and after transfer season stats for whatever reason
 unmatched = transfers[~transfers.index.isin(before_matches.keys()) & ~transfers.index.isin(after_matches.keys())]
 # ~ means not therefore, you keep only transfers where the transfer index is not in before_matches and where transfer index is not in after_matches. These are fully unmatched transfers
 # Rememeber transfers is already a df so we don't need to create a new one, we are just filtering the existing df. We are only keeping the rows with fully unmatched transfers
 unmatched.to_csv('data/processed/transfers_unmatched.csv', index=False)
-print(f"✅ Unmatched transfers saved: data/processed/transfers_unmatched.csv")
+print(f" Unmatched transfers saved: data/processed/transfers_unmatched.csv")
 
 print("\n" + "="*60)
-print("✅ MATCHING COMPLETE!")
+print(" MATCHING COMPLETE!")
 print("="*60)
 print(f"\nYour analysis-ready dataset: {len(complete_matches)} players with complete BEFORE/AFTER comparison")
