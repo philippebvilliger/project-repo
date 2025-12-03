@@ -62,14 +62,14 @@ for file in csv_files: # We want to loop through each csv file found in the data
 if all_transfers: # If the list is not empty, i.e., at least one file was loaded successfully.
     transfers = pd.concat(all_transfers, ignore_index=True) #pd.contact allows us to stack multiple dataframes on top of each other.
     #ignore_index=True means we want to create new row indices for the combined dataframe.
-    print(f"\n✅ Total transfers loaded: {len(transfers)}") #inform the user of the total number of transfers loaded.
+    print(f"\n Total transfers loaded: {len(transfers)}") #inform the user of the total number of transfers loaded.
 else: # If the list is empty, i.e., no files were loaded successfully.
-    print("\n❌ No data loaded!")
+    print("\n No data loaded!")
     exit() # Exit the script as there's no data to work with.
 
 # ============================================
 
-print("\n🔍 Applying filters...")
+print("\n Applying filters...")
 
 # Although the csv files were pre-filtered, we apply additional filters here to ensure data quality.
 transfers_filtered = transfers[ # We go to the final dataframe transfers and apply filters to create a new dataframe transfers_filtered.
@@ -77,39 +77,39 @@ transfers_filtered = transfers[ # We go to the final dataframe transfers and app
     (transfers['Position'].str.contains('Midfield|Attack|Forward|Winger|Striker', na=False, case=False)) # Only attackers and midfielders
 ]
 
-print(f"✅ After filtering: {len(transfers_filtered)} transfers") # Inform the user how many transfers remain after filtering.
+print(f" After filtering: {len(transfers_filtered)} transfers") # Inform the user how many transfers remain after filtering.
 print(f"   Criteria: €5M+ fee, attackers/midfielders only")
 
 # ============================================
 
 # The purpose of this section is to give the user a quick overview of the data collected. Solely for informational purposes.
 print("\n" + "="*60) 
-print("📊 SUMMARY STATISTICS")
+print(" SUMMARY STATISTICS")
 print("="*60)
 
 print(f"\nTotal transfers collected: {len(transfers)}")
 print(f"After filtering: {len(transfers_filtered)}")
 
-print("\n📈 Transfers by league:")
+print("\n Transfers by league:")
 print(transfers_filtered['league'].value_counts().to_string()) 
 # We go to our filtered dataframe transfers_filtered, select the 'league' column
 # value_counts() is to count how many transfers are in each league. to_string() is to make it look nice when printed.
 
-print("\n📈 Transfers by position:")
+print("\n Transfers by position:")
 print(transfers_filtered['Position'].value_counts().head(10).to_string())
 # We do the same for the postions. head(10) is to only show the top 10 most common positions.
 
 # mean() gives us the mean for our dataframe.
-print(f"\n💰 Average transfer fee: €{transfers_filtered['Transfer_Fee'].mean():,.0f}") 
-print(f"💰 Median transfer fee: €{transfers_filtered['Transfer_Fee'].median():,.0f}")
-print(f"💰 Highest transfer fee: €{transfers_filtered['Transfer_Fee'].max():,.0f}")
+print(f"\n Average transfer fee: €{transfers_filtered['Transfer_Fee'].mean():,.0f}") 
+print(f" Median transfer fee: €{transfers_filtered['Transfer_Fee'].median():,.0f}")
+print(f" Highest transfer fee: €{transfers_filtered['Transfer_Fee'].max():,.0f}")
 
 
 # ============================================
 
 
 print("\n" + "="*60)
-print("📋 SAMPLE OF TOP TRANSFERS")
+print(" SAMPLE OF TOP TRANSFERS")
 print("="*60)
 
 # Show top 20 by transfer fee as the user can find that interesting. These can be considered "outliers" in the dataset.
@@ -136,14 +136,14 @@ transfers = transfers.dropna(axis=1, how='all')
 transfers_filtered = transfers_filtered.dropna(axis=1, how='all')
 
 transfers.to_csv('data/all_transfers_combined.csv', index=False) #index=False means we don't want to save the row indices in the csv file.
-print(f"\n✅ All transfers saved to: data/all_transfers_combined.csv")
+print(f"\n All transfers saved to: data/all_transfers_combined.csv")
 
 #We then do the same for the filtered dataframe in case there are filtered out transfers that were neglected in the initial csv files.
 transfers_filtered.to_csv('data/transfers_filtered.csv', index=False)
-print(f"✅ Filtered transfers saved to: data/transfers_filtered.csv")
+print(f" Filtered transfers saved to: data/transfers_filtered.csv")
 
 print("\n" + "="*60)
-print("✅ DATA COLLECTION COMPLETE!")
+print(" DATA COLLECTION COMPLETE!")
 print("="*60)
 print(f"\nYou have {len(transfers_filtered)} transfers ready for analysis!")
 # This gives the full amount of transfers ready for analysis after filtering.
